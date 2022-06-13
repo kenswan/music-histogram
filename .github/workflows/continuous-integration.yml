@@ -1,0 +1,71 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  DOTNET_VERSION: "6.0.x"
+
+jobs:
+  client:
+    runs-on: ubuntu-latest
+    env:
+      source-directory: ./src/Client
+      source-project: BlazorMusic.Client.csproj
+      test-directory: ./test/Client
+      test-project: BlazorMusic.Client.Test.csproj
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Install Dependencies
+        run: |
+          dotnet restore ${{ env.source-directory }}/${{ env.source-project }}
+          dotnet restore ${{ env.test-directory }}/${{ env.test-project }}
+          
+      - name: Build
+        working-directory: ${{ env.source-directory }}
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Test
+        working-directory: ${{ env.test-directory }}
+        run: dotnet test --no-restore --verbosity normal
+
+  server:
+    runs-on: ubuntu-latest
+    env:
+      source-directory: ./src/Server
+      source-project: BlazorMusic.Server.csproj
+      test-directory: ./test/Server
+      test-project: BlazorMusic.Server.Test.csproj
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Install Dependencies
+        run: |
+          dotnet restore ${{ env.source-directory }}/${{ env.source-project }}
+          dotnet restore ${{ env.test-directory }}/${{ env.test-project }}
+          
+      - name: Build
+        working-directory: ${{ env.source-directory }}
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Test
+        working-directory: ${{ env.test-directory }}
+        run: dotnet test --no-restore --verbosity normal
