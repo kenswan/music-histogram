@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMusic.Client", "src\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMusic.Shared", "src\Shared\BlazorMusic.Shared.csproj", "{825EF487-2320-4ABA-AAC5-ADE7BE00CC91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMusic.Client.Test", "test\Client\BlazorMusic.Client.Test.csproj", "{30F6B0F0-1EAA-4F78-A93C-201461702A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMusic.Client.Test", "test\Client\BlazorMusic.Client.Test.csproj", "{30F6B0F0-1EAA-4F78-A93C-201461702A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMusic.Server.Test", "test\Server\BlazorMusic.Server.Test.csproj", "{34303A54-EDF6-494D-8150-716B167FA940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMusic.Server.Test", "test\Server\BlazorMusic.Server.Test.csproj", "{34303A54-EDF6-494D-8150-716B167FA940}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDA1561D-976D-405D-BDFD-F9DE05BF3E8A}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		Directory.Build.targets = Directory.Build.targets
+		Packages.props = Packages.props
 	EndProjectSection
 EndProject
 Global
