@@ -24,6 +24,8 @@ public class MusicDataProvider : IMusicDataProvider
     {
         logger.LogDebug("Get Artist - keyword: {Keyword}; limit:{limit}; offset: {Offset}", keyword, limit, offset);
 
-        throw new NotImplementedException();
+        var url = string.Format(musicDataOptions.SearchArtistUrl, keyword, limit, offset);
+
+        return restClient.GetAsync<ArtistSearchResponse>(url);
     }
 }

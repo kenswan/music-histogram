@@ -3,5 +3,6 @@
 public class MusicDataOptions
 {
     public string SearchArtistUrl { get; set; }
-    public string SearchArtistLimit { get; set; }
+    public int SearchArtistLimit { get; set; }
+    public string NextPageUrl { get; set; }
 }
