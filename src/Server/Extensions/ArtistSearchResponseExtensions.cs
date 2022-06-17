@@ -13,8 +13,10 @@ public static class ArtistSearchResponseExtensions
                 Id = response.Id,
                 Name = response.Name,
                 Description = response.Description,
-                Country = response.Country,
-                Tags = response.Tags.Select(tag => tag.Name)
+                Country = response?.Country,
+                Type = response?.Type,
+                Rank = response.Score,
+                Tags = response.Tags?.Select(tag => tag.Name)
             });
     }
 }

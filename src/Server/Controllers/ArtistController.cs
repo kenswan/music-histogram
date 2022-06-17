@@ -20,7 +20,7 @@ public class ArtistController : ControllerBase
 
     [HttpGet]
     [Produces(typeof(ArtistCollection))]
-    public async Task<ActionResult<ArtistCollection>> SearchArtist([FromQuery][Required] string search, [FromQuery] int page = 0)
+    public async Task<ActionResult<ArtistCollection>> SearchArtist([FromQuery][Required] string search, [FromQuery] int page = 1)
     {
         logger.LogInformation("Request Artist Search Keyword: {Search}", search);
 
