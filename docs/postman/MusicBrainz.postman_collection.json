@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "0508d968-0b9f-4fdb-994f-062a30fb919a",
+		"name": "Music Brainz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17930785"
+	},
+	"item": [
+		{
+			"name": "Search By Artist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://musicbrainz.org/ws/2/artist?query=Duke Ellington",
+					"protocol": "https",
+					"host": [
+						"musicbrainz",
+						"org"
+					],
+					"path": [
+						"ws",
+						"2",
+						"artist"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "Duke Ellington"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Release By Artist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://musicbrainz.org/ws/2/release?artist=3af06bc4-68ad-4cae-bb7a-7eeeb45e411f&type=album|ep|single&inc=release-groups+recordings",
+					"protocol": "https",
+					"host": [
+						"musicbrainz",
+						"org"
+					],
+					"path": [
+						"ws",
+						"2",
+						"release"
+					],
+					"query": [
+						{
+							"key": "artist",
+							"value": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f"
+						},
+						{
+							"key": "type",
+							"value": "album|ep|single"
+						},
+						{
+							"key": "inc",
+							"value": "release-groups+recordings"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

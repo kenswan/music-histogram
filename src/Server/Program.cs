@@ -1,8 +1,23 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using BlazorFocused;
+using BlazorMusic.Server.Models;
+using BlazorMusic.Server.Providers;
+using BlazorMusic.Server.Services;
+
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddSwaggerGen();
+
+// Add BlazorFocused REST client with appsettings.json configuration
+builder.Services.AddRestClient();
+
+builder.Services
+    .AddOptions<MusicDataOptions>()
+    .BindConfiguration(nameof(MusicDataOptions));
+
+builder.Services.AddTransient<IArtistService, ArtistService>();
+builder.Services.AddTransient<IMusicDataProvider, MusicDataProvider>();
 
 var app = builder.Build();
 
