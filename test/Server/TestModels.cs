@@ -30,7 +30,7 @@ internal static class TestModels
         new Faker<MusicDataOptions>()
         .RuleFor(options => options.SearchArtistUrl, _ => GenerateRandomRelativeUrl() + "?zero={0}&one={1}&two={2}")
         .RuleFor(options => options.SearchArtistLimit, _ => RandomCount)
-        .RuleFor(options => options.NextPageUrl, _ => GenerateRandomRelativeUrl())
+        .RuleFor(options => options.NextPageUrl, _ => GenerateRandomRelativeUrl() + "?zero={0}&one={1}")
         .Generate();
 
     public static string GenerateRandomRelativeUrl() =>
