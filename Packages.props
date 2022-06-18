@@ -4,6 +4,7 @@
     <PackageReference Update="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.5" />
     <PackageReference Update="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.5" PrivateAssets="all" />
     <PackageReference Update="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.5" />
+    <PackageReference Update="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
     <PackageReference Update="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 

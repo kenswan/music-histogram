@@ -1,0 +1,31 @@
+﻿@using BlazorFocused
+@using BlazorMusic.Client.Actions
+@using BlazorMusic.Client.Models
+@using BlazorMusic.Shared
+
+@inject IStore<ArtistStore> store
+
+<h3>ArtistDetails</h3>
+
+@if (!string.IsNullOrEmpty(selectedArtist))
+{
+    <p>Artist ID Selected: @selectedArtist</p>
+}
+else
+{
+    <div class="">No artist has been selected</div>
+}
+
+@code {
+    private string selectedArtist = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        store.Subscribe(store =>
+        {
+            selectedArtist = store.CurrentArtist;
+
+            StateHasChanged();
+        });
+    }
+}

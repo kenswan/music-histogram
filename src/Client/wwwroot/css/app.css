@@ -62,3 +62,11 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+/* Style Additions */
+
+#artistSearchResults
+{
+    margin-top: 1em;
+}
