@@ -1,0 +1,2541 @@
+{
+  "created": "2022-06-19T06:08:28.736Z",
+  "count": 861,
+  "offset": 0,
+  "artists": [
+    {
+      "id": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 100,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Ellington",
+      "sort-name": "Ellington, Duke",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+        "type": "Subdivision",
+        "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+        "name": "Washington, D.C.",
+        "sort-name": "Washington, D.C.",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "New York",
+        "sort-name": "New York",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "US composer, pianist & jazz bandleader",
+      "ipis": ["00043281895", "00009211814"],
+      "isnis": ["0000000109110810"],
+      "life-span": {
+        "begin": "1899-04-29",
+        "end": "1974-05-24",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Elliington, Duke",
+          "name": "Duke Elliington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Elligton, Duke",
+          "name": "Elligton, Duke",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington, Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Duke Ellington",
+          "locale": "en",
+          "type": "Artist name",
+          "primary": true,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellinton, Duke",
+          "name": "Duke Ellinton",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellingtton, Duke",
+          "name": "Duke Ellingtton",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Elinton, Duke",
+          "name": "Duke Elinton",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington, D",
+          "name": "D Ellington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke, Ellington",
+          "name": "Duke, Ellington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington, Edward Kennedy",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Edward Kennedy Ellington",
+          "locale": "en",
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington, Edward",
+          "name": "Edward Ellington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Elligton, Duke",
+          "name": "Duke Elligton",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington, D.",
+          "name": "D. Ellington",
+          "locale": "en",
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke, The",
+          "name": "The Duke",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Эллингтон, Д.",
+          "name": "Д. Эллингтон",
+          "locale": "ru",
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Elington, Duke",
+          "name": "Duke Elington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington",
+          "name": "Ellington",
+          "locale": "en",
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        { "count": 1, "name": "2008 universal fire victim" },
+        { "count": 1, "name": "newport" },
+        { "count": 1, "name": "swing" },
+        { "count": 2, "name": "jazz" },
+        { "count": 1, "name": "duke box" },
+        { "count": -1, "name": "death by lung cancer" },
+        { "count": -1, "name": "death by pneumonia" },
+        { "count": 1, "name": "big band" }
+      ]
+    },
+    {
+      "id": "18bb9c95-5cd1-4aaf-8069-1a216ac7dde4",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 77,
+      "name": "The Duke Ellington Orchestra",
+      "sort-name": "Ellington, Duke, Orchestra, The",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "led by Mercer Ellington",
+      "life-span": {
+        "begin": "1974-05-24",
+        "end": "1996-02-08",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Duke Ellington Orchestra",
+          "name": "Duke Ellington Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "c01557ad-d41e-4316-a285-605769e2ab3b",
+      "type": "Orchestra",
+      "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+      "score": 76,
+      "name": "Duke Ellington and His Orchestra",
+      "sort-name": "Ellington, Duke and His Orchestra",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "isnis": ["0000000108160904"],
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Duke Ellington & His Famous Orchestra",
+          "name": "Duke Ellington & His Famous Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Ellington and His World Famous Orchestra",
+          "name": "Duke Ellington and His World Famous Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Elington and His Orchestra",
+          "name": "Duke Elington and His Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Ellington & Orchestra",
+          "name": "Duke Ellington & Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Ellington's Famous Orchestra",
+          "name": "Duke Ellington's Famous Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Ellington and his Famous Orchestra",
+          "name": "Duke Ellington and his Famous Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington, Duke and His Famous Orchestra",
+          "name": "Duke Ellington and His Famous Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke's Big 4",
+          "name": "Duke's Big 4",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Ellington and Orchestra",
+          "name": "Duke Ellington and Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Ellington Orchestra",
+          "name": "Duke Ellington Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Ellington and His Orchestra",
+          "name": "Duke Ellington and His Orchestra",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "e77bb098-1a00-4ada-95fe-c7037233a7d0",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 75,
+      "name": "The Duke Ellington Trio",
+      "sort-name": "Ellington, Duke, Trio, The",
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Duke Ellington Trio",
+          "name": "Duke Ellington Trio",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "e5e3f498-6a63-46b1-82a7-909d3e525fc9",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 75,
+      "name": "Duke Ellington’s Spacemen",
+      "sort-name": "Duke Ellington’s Spacemen",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "d578d8aa-9651-4ba0-a22d-99cf1eb2ab90",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 75,
+      "name": "Duke Ellington Octet",
+      "sort-name": "Ellington, Duke, Octet",
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Woodyard, Duke Ellington, Gilbert \"Bibi\" Rovère, Harry Carney, Johnny Hodges, Lawrence Brown, Paul Gonsalves, Rolf Ericson, Sam",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Duke Ellington, Gilbert \"Bibi\" Rovère, Harry Carney, Johnny Hodges, Lawrence Brown, Paul Gonsalves, Rolf Ericson, Sam Woodyard",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "48ae6c65-c76d-4a77-a4da-7e177a0f6dc3",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 75,
+      "name": "Duke Ellington’s Washingtonians",
+      "sort-name": "Ellington, Duke, Washingtonians",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "729aaeec-f929-4769-afdf-6b52f31908c6",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 75,
+      "name": "Duke Ellington Quartet",
+      "sort-name": "Ellington, Duke, Quartet",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "d3f17d91-8220-4799-81e9-36a662a396eb",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 75,
+      "name": "Duke Ellington Quintet",
+      "sort-name": "Ellington, Duke, Quintet",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "33e7a414-8a17-4097-93f4-17b97f918ca2",
+      "score": 75,
+      "name": "Duke Ellington Group",
+      "sort-name": "Ellington, Duke Group",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "b8dfdb4a-61c9-444b-93e4-fc81aa1e532b",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 65,
+      "name": "The Duke Ellington Sextet",
+      "sort-name": "Ellington, Duke, Sextet, The",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "57e03021-b902-4168-8ece-4bf18a7cfe74",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 65,
+      "name": "Duke Ellington’s Hot Five",
+      "sort-name": "Ellington, Duke, Hot Five",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "3563785a-49a6-47de-98e1-e9a523ae3e4b",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 65,
+      "name": "Duke Ellington’s Jazz Ensemble",
+      "sort-name": "Ellington, Duke, Jazz Ensemble",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "3c7f2407-306b-44d1-9d62-cc8f3b6b678e",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 59,
+      "name": "Duke Ellington & His Washingtonians",
+      "sort-name": "Ellington, Duke & Washingtonians",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "8403077f-9097-40ec-b449-57887fce490d",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 58,
+      "name": "Duke Ellington and His Rhythm",
+      "sort-name": "Ellington, Duke, and His Rhythm",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "2dd1c04f-865c-4c5a-8ff7-f49655a294c8",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 58,
+      "name": "Duke Ellington & His Band",
+      "sort-name": "Ellington, Duke, & His Band",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "112e8a3e-9de2-4508-8ec0-d79a54e0c30a",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 58,
+      "name": "Duke Ellington Alumni All Stars",
+      "sort-name": "Duke Ellington Alumni All Stars",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "7987f9b1-9a4a-4d17-a441-2ea1a84da10c",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 58,
+      "name": "The Duke Ellington Legacy Band",
+      "sort-name": "Duke Ellington Legacy Band, The",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "led by Edward K. Ellington II",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "4a4eff71-42c6-4afc-828d-ea6f9dcd1721",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 52,
+      "name": "Duke Ellington & the Jungle Band",
+      "sort-name": "Ellington, Duke; Jungle Band, the",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "ed7e4ec7-41c4-4ec1-8e91-7960298509d9",
+      "score": 52,
+      "name": "Duke Ellington School of the Arts",
+      "sort-name": "Duke Ellington School of the Arts",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "a133361e-bfc9-4a1b-b2ca-4b7f9d9394f4",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 52,
+      "name": "Duke Ellington and His Memphis Men",
+      "sort-name": "Ellington, Duke and Men, His Memphis",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "025c4a15-6232-42f4-9aba-25d6192d7b76",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 50,
+      "name": "Duke Ellington and His Cotton Club Orchestra",
+      "sort-name": "Ellington, Duke, and His Cotton Club Orchestra",
+      "area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "New York",
+        "sort-name": "New York",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "7e037c94-d999-4611-a8fd-56e8770f2e3c",
+        "type": "District",
+        "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+        "name": "Harlem",
+        "sort-name": "Harlem",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "8e9ea1bf-6559-4a58-b0a4-6d904febb30e",
+        "type": "District",
+        "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+        "name": "Theater District",
+        "sort-name": "Theater District",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1927", "end": "1938", "ended": true }
+    },
+    {
+      "id": "7c5e7f11-9011-48b9-a434-7c4986350d22",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 49,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Edward Kennedy Ellington, II",
+      "sort-name": "Ellington, Edward Kennedy, II",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "grandson of Duke Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "db22b878-309e-45c0-bd7d-7c7624f156ee",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 49,
+      "name": "Duke Ellington and His Kentucky Club Orchestra",
+      "sort-name": "Ellington, Duke, and His Kentucky Club Orchestra",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "31221429-f03a-40e2-80ca-c71aa9aed7ac",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 43,
+      "name": "Parsons",
+      "sort-name": "Parsons",
+      "disambiguation": "Collaborated with Duke Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "f1b42092-604e-4307-90f1-7f567c217552",
+      "score": 43,
+      "name": "Phyllis Claire",
+      "sort-name": "Claire, Phyllis",
+      "disambiguation": "collaborator with Duke Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "becde587-4e57-49a7-81d9-f1aeef8c32b8",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 39,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Jimmy Johnson",
+      "sort-name": "Johnson, Jimmy",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "drummer in Duke Ellington's Orchestra",
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Johnson, Jimhmi",
+          "name": "Jimhmi Johnson",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "7616d36d-8bee-44fc-be58-f654e5831228",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 38,
+      "name": "Duke Windsor Proms Band",
+      "sort-name": "Duke Windsor Proms Band",
+      "disambiguation": "Duke Ellington Proms tribute band lead by Grant Windsor",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "89d41e6e-c7be-4e3d-8739-d24818b7941a",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 38,
+      "name": "The Washingtonians",
+      "sort-name": "Washingtonians, The",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "band before Duke Ellington became bandleader",
+      "life-span": { "begin": "1923", "end": "1929", "ended": true }
+    },
+    {
+      "id": "3c55b399-03f1-431b-832f-bee6c2c25dcc",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 35,
+      "name": "Ellington",
+      "sort-name": "Ellington",
+      "area": {
+        "id": "782d4fa5-dfbf-4558-87bf-c41043f5a2a1",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Brisbane",
+        "sort-name": "Brisbane",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Australian indie pop band",
+      "life-span": { "begin": "2007", "ended": null }
+    },
+    {
+      "id": "3e3a15e4-790e-4daf-9b55-268fb6d1dd49",
+      "score": 35,
+      "name": "Ellington",
+      "sort-name": "Ellington",
+      "disambiguation": "feat. artist on \"Stage to the Floor\"",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "55cc9d94-ffc3-4fe4-a7ff-0734dbae05f8",
+      "score": 35,
+      "name": "Ellington",
+      "sort-name": "Ellington",
+      "disambiguation": "feat. artist on \"Disco Girl\" with Alan Pride",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "210d12b3-6687-48dd-add3-ab20d834ec07",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 34,
+      "name": "Duke Skellington",
+      "sort-name": "Duke Skellington",
+      "area": {
+        "id": "f65f6373-5044-416b-985f-1ea5a1f4e436",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Pomona",
+        "sort-name": "Pomona",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Electro/Swing producer",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "0056b13a-e79b-4e9b-b975-0d7d19e842d1",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 33,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke",
+      "sort-name": "Duke",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "UK dance artist, tracks \"So in Love With You\" \"Make Believeland\"",
+      "life-span": { "ended": null },
+      "tags": [
+        { "count": 1, "name": "dance" },
+        { "count": 1, "name": "soul" },
+        { "count": 1, "name": "house" },
+        { "count": 1, "name": "pop" }
+      ]
+    },
+    {
+      "id": "c7e8cdc7-d810-4ade-97c0-d0510b176f05",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 32,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Tommy Goodman",
+      "sort-name": "Goodman, Tommy",
+      "gender": "male",
+      "disambiguation": "Pianist, arranger for Benny Goodman and Duke Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "b8787a56-b070-45df-9b93-ae98bce8a177",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 32,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Marc Ellington",
+      "sort-name": "Ellington, Marc",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "9ccdfe3c-2de8-443c-8902-a3b6514df9f5",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Stoneham",
+        "sort-name": "Stoneham",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "383d2fab-7bd0-45d5-addc-1567aa4da376",
+        "type": "Subdivision",
+        "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+        "name": "Aberdeenshire",
+        "sort-name": "Aberdeenshire",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "American-born Scottish folk singer",
+      "ipis": ["00059747531"],
+      "isnis": ["0000000466405158"],
+      "life-span": {
+        "begin": "1945-12-16",
+        "end": "2021-02-17",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Ellington, Marc Floyd",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Marc Floyd Ellington",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        { "count": 1, "name": "folk rock" },
+        { "count": 1, "name": "singer-songwriter" }
+      ]
+    },
+    {
+      "id": "a86ce05d-ba80-4e65-8091-12835bad02d3",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 31,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Mercer Ellington",
+      "sort-name": "Ellington, Mercer",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+        "type": "Subdivision",
+        "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+        "name": "Washington, D.C.",
+        "sort-name": "Washington, D.C.",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "e0e3c82a-aea8-48d3-beda-9e587db0b969",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Copenhagen",
+        "sort-name": "Copenhagen",
+        "life-span": { "ended": null }
+      },
+      "ipis": ["00009212125"],
+      "isnis": ["0000000059312624"],
+      "life-span": {
+        "begin": "1919-03-11",
+        "end": "1996-02-08",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Mercer Kennedy Ellington",
+          "name": "Mercer Kennedy Ellington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "M Ellington",
+          "name": "M Ellington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Mercher Ellington",
+          "name": "Mercher Ellington",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Ellington, Mercer Kennedy",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Mercer Kennedy Ellington",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [{ "count": 1, "name": "jazz" }]
+    },
+    {
+      "id": "fd180bc2-7b01-4b07-9597-451e7383f1b4",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 31,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "George Duke",
+      "sort-name": "Duke, George",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "50c37a4b-4acd-467f-a9fa-4033565fb245",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "San Rafael",
+        "sort-name": "San Rafael",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Los Angeles",
+        "sort-name": "Los Angeles",
+        "life-span": { "ended": null }
+      },
+      "ipis": ["00054845268"],
+      "isnis": ["0000000108012194"],
+      "life-span": {
+        "begin": "1946-01-12",
+        "end": "2013-08-05",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Dawilli Gonga",
+          "name": "Dawilli Gonga",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Georges Duke",
+          "name": "Georges Duke",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke George",
+          "name": "Duke George",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        { "count": 1, "name": "jazz" },
+        { "count": 2, "name": "jazz-funk" },
+        { "count": 0, "name": "disco" },
+        { "count": 1, "name": "jazz fusion" },
+        { "count": 1, "name": "funk" },
+        { "count": 1, "name": "smooth jazz" },
+        { "count": 1, "name": "rock" },
+        { "count": 2, "name": "soul jazz" }
+      ]
+    },
+    {
+      "id": "1738665b-dd80-4dbc-b85f-a20803736afe",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 31,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "country": "DE",
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Germany",
+        "sort-name": "Germany",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "German power metal band",
+      "life-span": { "begin": "1998", "ended": null }
+    },
+    {
+      "id": "b303f369-4c6b-4381-b59e-99dfb1bf5633",
+      "score": 31,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "country": "BR",
+      "area": {
+        "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Brazil",
+        "sort-name": "Brazil",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Brazilian soca artist",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "c59d9609-4537-41da-913b-7bb9948e5276",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 31,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke",
+      "sort-name": "Duke",
+      "gender": "male",
+      "area": {
+        "id": "df552b4e-3e6b-4830-a53e-897d340c957b",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Dar es Salaam",
+        "sort-name": "Dar es Salaam",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Ugandan DJ and producer",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "512f0121-bec1-4ace-aef7-5e013821104d",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "country": "KR",
+      "area": {
+        "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "South Korea",
+        "sort-name": "South Korea",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "듀크, korean duo",
+      "life-span": { "begin": "2000", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "듀크",
+          "name": "듀크",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "9b3f72a0-1e01-4fd3-80bd-c79eaf1530f2",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 30,
+      "name": "D.U.K.E.",
+      "sort-name": "D.U.K.E.",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "ed6e6e54-38cb-4448-860d-db4abcb57e5a",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "US electro, track \"In Bed With her\"",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "0ec8e0e1-9af8-4bd6-b915-a5e31c2c0584",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke",
+      "sort-name": "Duke",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Houston rapper",
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Bridges, Christopher",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Christopher Bridges",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "6ed17261-e0d2-4651-9e27-c8a9b2ca5729",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "disambiguation": "from Sweden",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "364f53d5-8b63-492e-b405-60083deaa450",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "disambiguation": "unknown indie alt/rock artist, track \"Save Yourself\"",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "af3b1221-6d42-4081-b67d-9601cc5932b8",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "disambiguation": "Duke (of Darkroom Familia)",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "cbb97e1b-2f72-4d9d-84a9-afa89d91250d",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke",
+      "sort-name": "Duke",
+      "gender": "male",
+      "disambiguation": "DJ Duke",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "fba05ead-3432-444b-89e1-97c4c18d10de",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "DuKe",
+      "sort-name": "DuKe",
+      "gender": "male",
+      "disambiguation": "R’n’B singer Kévin Daupin",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "be91fee2-a2d1-4017-a659-2372a5370aaa",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "disambiguation": "probably us hiphop",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "eb593198-3e85-412d-8790-bbd343bddf67",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "disambiguation": "canadian hip hop",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "a3a15bd7-3a6e-44f1-b83e-d31ef701ce00",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "disambiguation": "artist from St. Louis, MO; appears on 105.7 The Point compilation",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "9d9a4ef6-cda7-4170-b93f-c713ffe93d5c",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke",
+      "sort-name": "Duke",
+      "gender": "male",
+      "area": {
+        "id": "16fe6dbc-b7aa-4935-a150-5d90660af8a5",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Brighton",
+        "sort-name": "Brighton",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "British rapper/MC",
+      "life-span": { "begin": "2018-06-18", "ended": null }
+    },
+    {
+      "id": "70a8cabb-5ae9-4b12-8d4d-0dba755aee2b",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "country": "IT",
+      "area": {
+        "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Italy",
+        "sort-name": "Italy",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Italy",
+        "sort-name": "Italy",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Genesis tribute band",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "fdfdfbc7-47bb-4560-9c66-6b95633ccd1b",
+      "score": 30,
+      "name": "Duke",
+      "sort-name": "Duke",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "art direction/design",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "664721c5-c3aa-407b-9d6a-0922190abc05",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Ray Ellington",
+      "sort-name": "Ellington, Ray",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "0de84ee0-0899-4e45-bfd3-2c7ca5e91111",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Kennington",
+        "sort-name": "Kennington",
+        "life-span": { "ended": null }
+      },
+      "isnis": ["0000000059451966"],
+      "life-span": {
+        "begin": "1915-03-17",
+        "end": "1985-02-27",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Henry Pitts Brown",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Henry Pitts Brown",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [{ "count": 1, "name": "jazz" }]
+    },
+    {
+      "id": "00b358b7-22a1-46cd-b1ca-2c22502f0b50",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Lance Ellington",
+      "sort-name": "Ellington, Lance",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Strictly Come Dancing",
+      "life-span": { "begin": "1957-06-22", "ended": null }
+    },
+    {
+      "id": "1e4c534e-aeed-4278-8115-227094d96aa1",
+      "score": 30,
+      "name": "Trace Ellington",
+      "sort-name": "Trace Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "69725fd7-648a-46cd-ad42-41f12f4e9b02",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "name": "Lance Ellington",
+      "sort-name": "Ellington, Lance",
+      "disambiguation": "Production music composer",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "d8b8a886-ce89-4b53-973d-4dedb65f363c",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Dee Ellington",
+      "sort-name": "Ellington, Dee",
+      "gender": "female",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "48d85fe2-9ae3-475b-9ea7-263b50f7968c",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Jelly Ellington",
+      "sort-name": "Ellington, Jelly",
+      "gender": "male",
+      "begin-area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1989-12-04", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Jonathan Ellington",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Jonathan Ellington",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        { "count": 1, "name": "jelly" },
+        { "count": 1, "name": "jelly ellington" },
+        { "count": 1, "name": "rock" },
+        { "count": 1, "name": "guitarist" },
+        { "count": 1, "name": "atx" },
+        { "count": 1, "name": "austin" },
+        { "count": 1, "name": "blues-rock" },
+        { "count": 1, "name": "blues" }
+      ]
+    },
+    {
+      "id": "6934e720-b6f6-4499-9a11-4377048a87be",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Lil Duke",
+      "sort-name": "Duke, Lil",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Atlanta",
+        "sort-name": "Atlanta",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Atlanta, GA rapper, aka Duke aka MPA Duke",
+      "life-span": { "begin": "1996-06-28", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Lil Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Lil Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "MPA Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "MPA Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "YSL Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "YSL Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [{ "count": 1, "name": "hip hop" }]
+    },
+    {
+      "id": "981f9991-34c7-4b02-85d4-b58dd080e744",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Juke Ellington",
+      "sort-name": "Ellington, Juke",
+      "gender": "male",
+      "country": "BE",
+      "area": {
+        "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Belgium",
+        "sort-name": "Belgium",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "f2232a37-df5c-41df-9b93-5c603ae220ac",
+        "type": "Municipality",
+        "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20",
+        "name": "Saint-Ghislain",
+        "sort-name": "Saint-Ghislain",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Belgian DJ & producer",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "aa7817ce-4fa5-472b-abbf-d5c5183d12f6",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Marie Ellington",
+      "sort-name": "Ellington, Marie",
+      "gender": "female",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1922-08-01", "end": "2012-07-10", "ended": true }
+    },
+    {
+      "id": "1e146d4f-66a0-473c-885e-f103092e0c7e",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "name": "Mark Ellington",
+      "sort-name": "Ellington, Mark",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "a5508915-3783-45b7-adc3-68ed3ea5a1a4",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Rob Ellington",
+      "sort-name": "Ellington, Rob",
+      "gender": "male",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "cdee6614-b0ea-4fd3-8ae7-03b7a88689e5",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Steve Ellington",
+      "sort-name": "Ellington, Steve",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Atlanta",
+        "sort-name": "Atlanta",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "2054b43f-446c-45fd-b53e-f8bf23656dd1",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Montgomery",
+        "sort-name": "Montgomery",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "jazz drummer",
+      "isnis": ["0000000055136213"],
+      "life-span": {
+        "begin": "1941-07-26",
+        "end": "2013-03-22",
+        "ended": true
+      },
+      "tags": [{ "count": 1, "name": "jazz" }]
+    },
+    {
+      "id": "329b4e2f-b2b9-4fbf-ba47-4e3676f84bf0",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Ellington Jordan",
+      "sort-name": "Jordan, Ellington",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "ipis": ["00053146796"],
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "b97afbca-763e-4e38-bea5-cdf9a38f73a7",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "name": "Joseph Ellington",
+      "sort-name": "Ellington, Joseph",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "05ff413f-0957-492f-8f97-72f757c4dce8",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "name": "Bill Ellington",
+      "sort-name": "Ellington, Bill",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "5f584baa-4c0a-4ba3-b839-9ec33c251bf3",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Jaz Ellington",
+      "sort-name": "Jaz Ellington",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "a5118c02-9a3a-44ee-920c-d584bec6e224",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "name": "Elvis Ellington",
+      "sort-name": "Ellington, Elvis",
+      "country": "DE",
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Germany",
+        "sort-name": "Germany",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "645436d1-b2c0-4f82-9e0b-61a354957452",
+      "score": 30,
+      "name": "J. Ellington",
+      "sort-name": "J. Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "bc38dfe0-cce0-408d-ad88-f794032fe93d",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "name": "Ellington Campbell",
+      "sort-name": "Campbell, Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "5bd386fa-f20d-45e2-9ea3-5f2c6e78ef1c",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Ben Ellington",
+      "sort-name": "Ellington, Ben",
+      "gender": "male",
+      "area": {
+        "id": "226c4dca-ef2a-4d4b-ba25-4118d116557a",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Birmingham",
+        "sort-name": "Birmingham",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "d663e73c-dbb8-4c52-bc0a-bec46058a671",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Ascot",
+        "sort-name": "Ascot",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1996-11-11", "ended": null }
+    },
+    {
+      "id": "06e49e0f-e1ab-453d-b155-b729d97e4f3c",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Harvey Ellington",
+      "sort-name": "Ellington, Harvey",
+      "gender": "male",
+      "area": {
+        "id": "f123361d-2763-460a-be67-9029cc174077",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Gastonia",
+        "sort-name": "Gastonia",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "65fb6069-b10d-4de0-bd81-9ae93577a15f",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Richard Ellington",
+      "sort-name": "Ellington, Richard",
+      "gender": "male",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "19fb971d-d50a-4c7b-a83d-41ccdcb5ab6b",
+      "score": 30,
+      "name": "Count Ellington",
+      "sort-name": "Count Ellington",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "1bb55918-4154-4279-8b64-d08e8c410cfc",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Judy Ellington",
+      "sort-name": "Ellington, Judy",
+      "gender": "female",
+      "disambiguation": "jazz singer",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "809e3019-603a-4e9a-98bd-2f9dc19c7f86",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Lance Ellington",
+      "sort-name": "Ellington, Lance",
+      "gender": "male",
+      "disambiguation": "trombonist",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "75bf9841-a766-4ee3-97eb-80d143cfa9b8",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Darius Ellington",
+      "sort-name": "Ellington, Darius",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "ipis": ["00472052965"],
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Ellington Forde, Darius",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Darius Ellington Forde",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "79ddeccc-b967-4618-b2fb-e3aee1f400fb",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Ruth Ellington",
+      "sort-name": "Ellington, Ruth",
+      "gender": "female",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "d86807db-d3d4-42ac-b974-aee047b3ce2f",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Bruno Ellington",
+      "sort-name": "Ellington, Bruno",
+      "gender": "male",
+      "life-span": { "ended": null }
+    },
+    {
+      "id": "ea3c3917-8964-48b9-b4cb-ecf714b95c7d",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 30,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Robillard",
+      "sort-name": "Robillard, Duke",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1948-10-04", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Dike Robillard",
+          "name": "Dike Robillard",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        { "count": 1, "name": "jazz" },
+        { "count": 1, "name": "blues" }
+      ]
+    },
+    {
+      "id": "ca39728a-a244-4bde-91a5-168cdc3dda34",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 29,
+      "name": "Band of the Duke of Wellington’s Regiment",
+      "sort-name": "Band of the Duke of Wellington’s Regiment",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "The Duke of Wellington's Regiment",
+          "name": "The Duke of Wellington's Regiment",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke of Wellington’s Regimental Band, The",
+          "name": "The Duke of Wellington’s Regimental Band",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke of Wellington's Regimental Band",
+          "name": "Duke of Wellington's Regimental Band",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "6060d1bb-94f8-4863-89b9-425487f2f6b2",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 29,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Dumont",
+      "sort-name": "Dumont, Duke",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "40868657-ef80-4b66-88ba-263ecac1b9a1",
+        "type": "Subdivision",
+        "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+        "name": "Harrow",
+        "sort-name": "Harrow",
+        "life-span": { "ended": null }
+      },
+      "ipis": ["00651424661"],
+      "life-span": { "begin": "1982-08-27", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Dyment, Adam George",
+          "name": "Adam George Dyment",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Dave Dumont",
+          "name": "Dave Dumont",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke of Dumont",
+          "name": "Duke of Dumont",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        { "count": 1, "name": "balearic beat" },
+        { "count": 1, "name": "tech house" },
+        { "count": 1, "name": "deep house" }
+      ]
+    },
+    {
+      "id": "ea39ae7d-5498-4f26-992b-7cf3390253ed",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 29,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Pearson",
+      "sort-name": "Pearson, Duke",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Atlanta",
+        "sort-name": "Atlanta",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Atlanta",
+        "sort-name": "Atlanta",
+        "life-span": { "ended": null }
+      },
+      "ipis": ["00023727103"],
+      "isnis": ["000000005515186X"],
+      "life-span": {
+        "begin": "1932-08-17",
+        "end": "1980-08-04",
+        "ended": true
+      },
+      "tags": [
+        { "count": 1, "name": "soul jazz" },
+        { "count": 1, "name": "jazz" },
+        { "count": 1, "name": "hard bop" }
+      ]
+    },
+    {
+      "id": "ef8d7a94-64a3-4362-b81f-b5999fb246de",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 29,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Derek Duke",
+      "sort-name": "Duke, Derek",
+      "gender": "male",
+      "ipis": ["00351121510"],
+      "life-span": { "ended": null },
+      "tags": [
+        { "count": 1, "name": "soundtrack" },
+        { "count": 1, "name": "composer" },
+        { "count": 1, "name": "score" },
+        { "count": 1, "name": "video game" },
+        { "count": 1, "name": "game" },
+        { "count": 1, "name": "vgm" }
+      ]
+    },
+    {
+      "id": "b7ff7d70-0a1c-43a2-ac00-5b4ef3007adb",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 29,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Special",
+      "sort-name": "Special, Duke",
+      "gender": "male",
+      "area": {
+        "id": "b3cb9848-1440-4c2b-b258-f849f8a9d50a",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Belfast",
+        "sort-name": "Belfast",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "533290c1-18d5-4c3d-bda9-2142e6e533cc",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Lisburn",
+        "sort-name": "Lisburn",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1971-01-04", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Wilson, Peter",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Peter Wilson",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [{ "count": 1, "name": "rock and indie" }]
+    },
+    {
+      "id": "5adec5a5-7985-4b50-a21a-0fe59bf9b7c5",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 29,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "name": "Linda Kerby",
+      "sort-name": "Kerby, Linda",
+      "gender": "female",
+      "country": "BE",
+      "area": {
+        "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Belgium",
+        "sort-name": "Belgium",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "7b6383fb-468f-4a2b-916f-b4cbbfb5253e",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Portsmouth",
+        "sort-name": "Portsmouth",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "English/Belgian 1950/60s singer Linda Ellington",
+      "life-span": { "begin": "1934-06-18", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Ellington, Linda",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Linda Ellington",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "b9a420c6-6fb6-4e3e-aeb5-66b78836a661",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 28,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Düke",
+      "sort-name": "Düke",
+      "gender": "male",
+      "begin-area": {
+        "id": "bf132644-e3ee-3bfc-9323-7f82824e4945",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Cameroon",
+        "sort-name": "Cameroon",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "producer/artist",
+      "life-span": { "begin": "1998-11-27", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Pagna, Duke Elington",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Duke Elington Pagna",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "2376921c-2363-448a-b954-d1de60b6d54d",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 28,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "DJ Duke",
+      "sort-name": "Duke, DJ",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "90s US-based house DJ Ken Duke, key track \"Blow Your Whistle\"",
+      "isnis": ["0000000094222907"],
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Duke",
+          "name": "Duke",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "18288a13-0259-4a44-a9dc-558229fbfdd2",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 28,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Jordan",
+      "sort-name": "Jordan, Duke",
+      "gender": "male",
+      "country": "DK",
+      "area": {
+        "id": "4757b525-2a60-324a-b060-578765d2c993",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Denmark",
+        "sort-name": "Denmark",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+        "type": "District",
+        "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+        "name": "Brooklyn",
+        "sort-name": "Brooklyn",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "e0e3c82a-aea8-48d3-beda-9e587db0b969",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Copenhagen",
+        "sort-name": "Copenhagen",
+        "life-span": { "ended": null }
+      },
+      "isnis": ["0000000078397141"],
+      "life-span": {
+        "begin": "1922-04-01",
+        "end": "2006-08-08",
+        "ended": true
+      },
+      "tags": [
+        { "count": 1, "name": "cool jazz" },
+        { "count": 1, "name": "bebop" },
+        { "count": 2, "name": "jazz" },
+        { "count": 2, "name": "hard bop" }
+      ]
+    },
+    {
+      "id": "b3983f9e-4635-469b-b392-d8f5db9b6daf",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 28,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Garwood",
+      "sort-name": "Garwood, Duke",
+      "gender": "male",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1969", "ended": null },
+      "tags": [
+        { "count": 1, "name": "indie rock" },
+        { "count": 1, "name": "electric blues" },
+        { "count": 1, "name": "acoustic blues" },
+        { "count": 1, "name": "singer-songwriter" },
+        { "count": 1, "name": "indie folk" },
+        { "count": 1, "name": "experimental rock" }
+      ]
+    },
+    {
+      "id": "920cba51-f409-4d96-88c1-4769aaa915fd",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 28,
+      "name": "デューク・エイセス",
+      "sort-name": "Duke Aces",
+      "country": "JP",
+      "area": {
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Japan",
+        "sort-name": "Japan",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1951", "end": "2017", "ended": true },
+      "aliases": [
+        {
+          "sort-name": "デュークエイセス",
+          "name": "デュークエイセス",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke Aces",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Duke Aces",
+          "locale": "en",
+          "type": "Artist name",
+          "primary": true,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "デューク・エイセス",
+          "name": "デューク・エイセス",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "98d2a4f2-e6fa-4ad1-bbfb-68215508d303",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 28,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Matt Duke",
+      "sort-name": "Duke, Matt",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "life-span": { "begin": "1985-01-20", "ended": null },
+      "tags": [
+        { "count": 1, "name": "singer-songwriter" },
+        { "count": 1, "name": "alternative rock" },
+        { "count": 1, "name": "acoustic" }
+      ]
+    },
+    {
+      "id": "82b64c7d-ae34-47d4-8dc2-9047c0d83812",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 28,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Mighty Duke",
+      "sort-name": "Mighty Duke",
+      "gender": "male",
+      "begin-area": {
+        "id": "cf404fcc-be66-4dec-a5ae-d99c86d856ae",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Point Fortin",
+        "sort-name": "Point Fortin",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "Trinidad calypso singer Kelvin Pope",
+      "life-span": { "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Natural Duke, The",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "The Natural Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Mighty Duke, The",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "The Mighty Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Mighty Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Mighty Duke",
+          "locale": null,
+          "type": "Artist name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "1eac2b4a-ec7c-4a10-9eaa-b3fb145b052b",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 28,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Duke Erikson",
+      "sort-name": "Erikson, Duke",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "3905d6d6-8548-49c4-96bd-bf861004dc8d",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Lyons",
+        "sort-name": "Lyons",
+        "life-span": { "ended": null }
+      },
+      "disambiguation": "member of Garbage",
+      "ipis": ["00079032571"],
+      "isnis": ["0000000407003589"],
+      "life-span": { "begin": "1951-01-15", "ended": null },
+      "aliases": [
+        {
+          "sort-name": "Erikson, Duke",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Duke Erikson",
+          "locale": "en",
+          "type": "Artist name",
+          "primary": true,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Erikson, Douglas Elwin",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Douglas Elwin Erikson",
+          "locale": "en",
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "794e6b10-e8e2-4fb1-9013-6a07564b5394",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 27,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Vernon Duke",
+      "sort-name": "Duke, Vernon",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": { "ended": null }
+      },
+      "begin-area": {
+        "id": "027a222e-fab6-4f79-bcba-597008d62758",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Parafjanava",
+        "sort-name": "Parafjanava",
+        "life-span": { "ended": null }
+      },
+      "end-area": {
+        "id": "dbacf2e3-7e3e-4cee-8804-999b109285fa",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Santa Monica",
+        "sort-name": "Santa Monica",
+        "life-span": { "ended": null }
+      },
+      "isnis": ["0000000081307426"],
+      "life-span": {
+        "begin": "1903-10-27",
+        "end": "1969-01-16",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Duke",
+          "name": "Duke",
+          "locale": "en",
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Dukelsky, Vladimir Aleksandrovich",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Vladimir Aleksandrovich Dukelsky",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    }
+  ]
+}
