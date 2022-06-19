@@ -22,7 +22,16 @@ public class ArtistService : IArtistService
         this.logger = logger;
     }
 
-    public async Task<ArtistCollection> SearchArtists(string keyword, int page)
+    public async Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId)
+    {
+        logger.LogDebug("Retrieving releases for artist {Id}", artistId);
+
+        var artistReleaseResponse = await musicDataProvider.GetArtistReleasesByIdAsync(artistId);
+
+        return artistReleaseResponse.ToReleases();
+    }
+
+    public async Task<ArtistCollection> SearchArtistsAsync(string keyword, int page)
     {
         logger.LogDebug("Search artist {Keyword} on page {Page}", keyword, page);
 

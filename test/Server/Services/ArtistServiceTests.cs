@@ -1,5 +1,4 @@
-﻿using BlazorMusic.Server.Extensions;
-using BlazorMusic.Server.Models;
+﻿using BlazorMusic.Server.Models;
 using BlazorMusic.Server.Providers;
 using BlazorMusic.Shared;
 using FluentAssertions;
@@ -27,6 +26,10 @@ public class ArtistServiceTests
             NullLogger<ArtistService>.Instance);
     }
 
+    public record ArtistComparison(string Id, string Name, string Description, string Country, string Type);
+
+    public record ReleaseComparison(string Id, string Title, string Media, int TrackCount, int ActualCount);
+
     [Theory]
     [InlineData(100, 1, 0)] // page 1
     [InlineData(100, 2, 101)] // page 2
@@ -36,14 +39,17 @@ public class ArtistServiceTests
     {
         var searchKeyword = TestModels.RandomString;
         var searchResults = TestModels.GenerateArtistSearchResponse();
-        IEnumerable<Artist> expectedArtists = searchResults.ToArtists();
+        var expectedArtists = searchResults.Artists.Select(artist => GetArtistComparison(artist));
+
         musicDataOptions.SearchArtistLimit = limit;
 
         musicDataProviderMock.Setup(provider =>
             provider.GetArtistsByKeywordAsync(searchKeyword, limit, expectedOffset))
                 .ReturnsAsync(searchResults);
 
-        var actualSearchResults = await artistService.SearchArtists(searchKeyword, page);
+        var actualSearchResults = await artistService.SearchArtistsAsync(searchKeyword, page);
+
+        var actualArtists = actualSearchResults.Artists.Select(artist => GetArtistComparison(artist));
 
         actualSearchResults.Artists.Should().BeEquivalentTo(expectedArtists);
     }
@@ -67,7 +73,7 @@ public class ArtistServiceTests
             provider.GetArtistsByKeywordAsync(searchKeyword, limit, It.IsAny<int>())) // offset is tested above
                 .ReturnsAsync(searchResults);
 
-        var actualSearchResults = await artistService.SearchArtists(searchKeyword, page);
+        var actualSearchResults = await artistService.SearchArtistsAsync(searchKeyword, page);
 
         Assert.Equal(expectedNextPageUrl, actualSearchResults.Next);
     }
@@ -76,6 +82,60 @@ public class ArtistServiceTests
     public async Task ShouldThrowIfPageIsLessThanOne()
     {
         await Assert.ThrowsAsync<ArgumentException>(() =>
-            artistService.SearchArtists(TestModels.RandomString, 0));
+            artistService.SearchArtistsAsync(TestModels.RandomString, 0));
     }
+
+    [Fact]
+    public async Task ShouldRetrieveArtistReleases()
+    {
+        var artistId = TestModels.RandomIdentifier;
+        var artistReleaseResponse = TestModels.GenerateArtistReleaseResponse();
+
+        IEnumerable<ReleaseComparison> expectedReleases =
+            artistReleaseResponse.Releases.Select(release => GetReleaseComparison(release));
+
+        musicDataProviderMock.Setup(provider =>
+            provider.GetArtistReleasesByIdAsync(artistId))
+                .ReturnsAsync(artistReleaseResponse);
+
+        var actualArtistReleases = await artistService.RetrieveAristReleasesAsync(artistId);
+
+        var actualReleases = actualArtistReleases.Select(release => GetReleaseComparison(release));
+
+        actualReleases.Should().BeEquivalentTo(expectedReleases);
+    }
+
+    private static ReleaseComparison GetReleaseComparison(ReleaseResponse releaseResponse) =>
+        new(
+            Id: releaseResponse.Id,
+            Title: releaseResponse.ReleaseGroup.Title,
+            Media: releaseResponse.ReleaseGroup.Type,
+            TrackCount: releaseResponse.Media.First().TrackCount,
+            ActualCount: releaseResponse.Media.First().Tracks.Count()
+        );
+
+    private static ReleaseComparison GetReleaseComparison(ArtistRelease artistRelease) =>
+        new(
+            Id: artistRelease.Id,
+            Title: artistRelease.Title,
+            Media: artistRelease.MediaType,
+            TrackCount: artistRelease.TrackCount,
+            ActualCount: artistRelease.Tracks.Count()
+        );
+
+    private static ArtistComparison GetArtistComparison(ArtistResponse artistResponse) =>
+        new(
+        Id: artistResponse.Id,
+        Name: artistResponse.Name,
+        Description: artistResponse.Description,
+        Country: artistResponse.Country,
+        Type: artistResponse.Type);
+
+    private static ArtistComparison GetArtistComparison(Artist artist) =>
+        new(
+        Id: artist.Id,
+        Name: artist.Name,
+        Description: artist.Description,
+        Country: artist.Country,
+        Type: artist.Type);
 }

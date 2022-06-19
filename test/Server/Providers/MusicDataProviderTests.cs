@@ -35,12 +35,31 @@ public class MusicDataProviderTests
         var expectedUrl = string.Format(relativeUrl, keyword, limit, offset);
         var expectedSearchResults = TestModels.GenerateArtistSearchResponse();
 
-        restClientMock.Setup(client => client.GetAsync<ArtistSearchResponse>(expectedUrl))
-            .ReturnsAsync(expectedSearchResults);
+        restClientMock.Setup(client =>
+            client.GetAsync<ArtistSearchResponse>(expectedUrl))
+                .ReturnsAsync(expectedSearchResults);
 
         var actualSearchResults =
             await musicDataProvider.GetArtistsByKeywordAsync(keyword, limit, offset);
 
         actualSearchResults.Should().BeEquivalentTo(expectedSearchResults);
+    }
+
+    [Fact]
+    public async Task ShouldGetArtistsReleases()
+    {
+        var artistId = TestModels.RandomString;
+        var relativeUrl = musicDataOptions.ArtistReleaseUrl;
+        var expectedUrl = string.Format(relativeUrl, artistId);
+        var expectedArtistReleaseResponse = TestModels.GenerateArtistReleaseResponse();
+
+        restClientMock.Setup(client =>
+            client.GetAsync<ArtistReleaseResponse>(expectedUrl))
+                .ReturnsAsync(expectedArtistReleaseResponse);
+
+        var actualActistReleaseResponse =
+            await musicDataProvider.GetArtistReleasesByIdAsync(artistId);
+
+        actualActistReleaseResponse.Should().BeEquivalentTo(expectedArtistReleaseResponse);
     }
 }
