@@ -6,6 +6,8 @@ public class ArtistRelease
 
     public string Country { get; set; }
 
+    public int Year { get; set; }
+
     public string MediaType { get; set; }
 
     public string Format { get; set; }
