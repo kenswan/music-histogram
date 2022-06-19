@@ -8,6 +8,8 @@ public class ReleaseResponse
 
     public string Country { get; set; }
 
+    public string Date { get; set; }
+
     [JsonPropertyName("release-group")]
     public ReleaseGroupResponse ReleaseGroup { get; set; }
 

@@ -13,7 +13,7 @@ internal static partial class TestModels
         new Faker<ReleaseResponse>()
         .RuleFor(release => release.Id, _ => RandomIdentifier)
         .RuleFor(release => release.Country, fake => fake.Address.Country())
-        .RuleFor(release => release.Media, _ => GenerateMediaResponse())
+        .RuleFor(release => release.Media, _ => GenerateMediaResponses())
         .RuleFor(release => release.ReleaseGroup, _ => GenerateReleaseGroupResponse())
         .Generate(RandomCount);
 
@@ -24,7 +24,7 @@ internal static partial class TestModels
         .RuleFor(group => group.Type, fake => fake.PickRandom<string>("Album", "EP", "Single"))
         .Generate();
 
-    public static IEnumerable<MediaResponse> GenerateMediaResponse() =>
+    public static IEnumerable<MediaResponse> GenerateMediaResponses() =>
         new Faker<MediaResponse>()
         .RuleFor(media => media.TrackCount, _ => RandomCount)
         .RuleFor(media => media.Format, fake => fake.PickRandom<string>("CD", "Vinyl", "Digital"))
