@@ -15,8 +15,15 @@
     [Parameter]
     public int[] ReleaseCount { get; set; }
 
+    private bool InUse = false;
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
+        if (!firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("resetCanvas");
+        }
+
         var config = new
         {
             Type = "bar",
@@ -34,7 +41,7 @@
                                 BeginAtZero=true
                             } 
                         }
-                }
+                    }
                 }
             },
             Data = new
@@ -42,7 +49,7 @@
                 Datasets = new[]
                 {
                     new { Label= "# of Releases", Data = ReleaseCount, BackgroundColor = "Blue"}
-            },
+        },
                 Labels = Years
             }
         };

@@ -1,0 +1,28 @@
+﻿@using BlazorFocused
+@using BlazorMusic.Client.Actions
+@using BlazorMusic.Client.Models
+@using BlazorMusic.Client.Reducers
+@using BlazorMusic.Shared
+
+@inject IStore<ArtistStore> store
+
+<HistogramChart Id="artistMusicHistogram"
+    Years="@years"
+    ReleaseCount="@releases" />
+
+@code {
+
+    private int[] years = new int[] { };
+    private int[] releases = new int[] { };
+
+    protected override void OnInitialized()
+    {
+        store.Reduce<HistogramDataReducer, HistorgramData>(reduced =>
+        {
+            years = reduced.Years ?? new int[] { };
+            releases = reduced.Releases ?? new int[] { }; ;
+
+            StateHasChanged();
+        });
+    }
+}

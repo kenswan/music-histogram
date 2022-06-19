@@ -1,6 +1,7 @@
 ﻿@using BlazorFocused
 @using BlazorMusic.Client.Actions
 @using BlazorMusic.Client.Models
+@using BlazorMusic.Client.Reducers
 @using BlazorMusic.Shared
 
 @inject IStore<ArtistStore> store
@@ -30,9 +31,7 @@
             <ArtistReleases />
             break;
         case "Histogram":
-            <HistogramChart Id="artistMusicHistogram" 
-                Years="@(new[] { 2019, 2020, 2021, 2022 })"
-                ReleaseCount="@(new[] { 3, 2, 5, 0 })" />
+            <ArtistHistogram />
             break;
         default:
             break;
