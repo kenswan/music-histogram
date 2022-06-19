@@ -18,6 +18,7 @@
   <ItemGroup Label="External Source Packages">
     <PackageReference Update="BlazorFocused" Version="2.1.0" />
     <PackageReference Update="BlazorFocused.Client" Version="2.1.0" />
+    <PackageReference Update="BlazorFocused.Tools" Version="2.1.0" />
   </ItemGroup>
   
   <ItemGroup Label="External Testing Packages">

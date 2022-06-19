@@ -5,27 +5,65 @@
 
 @inject IStore<ArtistStore> store
 
-<h3>ArtistDetails</h3>
-
-@if (!string.IsNullOrEmpty(selectedArtist))
+@if (artist is not null)
 {
-    <p>Artist ID Selected: @selectedArtist</p>
+    <h1>@artist.Name</h1>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link @IsCurrentTab("Overview")" href="#" @onclick="@(() => ChangeTab("Overview"))">Overview</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link @IsCurrentTab("Releases")" href="#" @onclick="@(() => ChangeTab("Releases"))">Releases</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link @IsCurrentTab("Histogram")" href="#" @onclick="@(() => ChangeTab("Histogram"))">Histogram</a>
+        </li>
+    </ul>
+    if (currentTab == "Overview")
+    {
+        <table cellpadding="5">
+            <tr><td align="right">Category:</td><td>@artist.Type</td></tr>
+            <tr><td align="right">Desctiption:</td><td>@artist.Description</td></tr>
+            <tr><td align="right">Country:</td><td>@artist.Country</td></tr>
+            <tr><td align="right">Search Rank:</td><td>@artist.Rank</td></tr>
+            <tr><td align="right">Tags:</td><td> @ShowArtistTags()</td></tr>
+        </table>
+    }
 }
 else
 {
+    <h3>ArtistDetails</h3>
+
     <div class="">No artist has been selected</div>
 }
 
 @code {
-    private string selectedArtist = string.Empty;
+    private Artist artist = null;
+    private string currentTab = "Overview";
 
     protected override void OnInitialized()
     {
         store.Subscribe(store =>
         {
-            selectedArtist = store.CurrentArtist;
+            artist = store.CurrentArtist;
 
             StateHasChanged();
         });
     }
+
+    private string IsCurrentTab(string tabName) =>
+        currentTab == tabName ? "active" : string.Empty;
+
+    private void ChangeTab(string tabName)
+    {
+        currentTab = tabName;
+
+        StateHasChanged();
+    }
+
+    private string ShowArtistTags() =>
+        artist.Tags is not null ?
+            string.Join(", ", artist.Tags) : "N/A";
+    
 }

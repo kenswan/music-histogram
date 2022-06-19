@@ -26,8 +26,9 @@ public class SelectArtistAction : StoreActionAsync<ArtistStore, string>
     {
         logger.LogInformation("Selected Artist Id: {Input}", input);
 
-        State.CurrentArtist = input;
-        // TODO: Search for artist info
+        State.CurrentArtist = State.Artists.Where(artist => artist.Id == input).FirstOrDefault();
+
+        // TODO: Search for artist releases
 
         return new ValueTask<ArtistStore>(State);
     }

@@ -6,7 +6,7 @@ public class ArtistStore
 {
     public string CurrentSearchTerm = string.Empty;
 
-    public string CurrentArtist { get; set; } = string.Empty;
+    public Artist CurrentArtist { get; set; }
 
     public IEnumerable<Artist> Artists { get; set; }
 }
