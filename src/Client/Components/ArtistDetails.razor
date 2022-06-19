@@ -24,15 +24,10 @@
     @switch(currentTab)
     {
         case "Overview":
-            <table cellpadding="5">
-                <tr><td align="right">Category:</td><td>@artist.Type</td></tr>
-                <tr><td align="right">Desctiption:</td><td>@artist.Description</td></tr>
-                <tr><td align="right">Country:</td><td>@artist.Country</td></tr>
-                <tr><td align="right">Search Rank:</td><td>@artist.Rank</td></tr>
-                <tr><td align="right">Tags:</td><td> @ShowArtistTags()</td></tr>
-            </table>
+            <ArtistOverview />
             break;
         case "Releases":
+            <ArtistReleases />
             break;
         case "Histogram":
             <HistogramChart Id="artistMusicHistogram" 
@@ -73,8 +68,4 @@ else
 
         StateHasChanged();
     }
-
-    private string ShowArtistTags() =>
-        artist.Tags is not null ?
-            string.Join(", ", artist.Tags) : "N/A";
 }

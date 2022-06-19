@@ -1,0 +1,59 @@
+﻿@using BlazorFocused
+@using BlazorMusic.Client.Actions
+@using BlazorMusic.Client.Models
+@using BlazorMusic.Shared
+
+@inject IStore<ArtistStore> store
+
+<h3>Artist Releases</h3>
+
+@if (artistReleases is not null)
+{
+    <div class="accordion accordion-flush" id="artistReleases">
+        @foreach(var release in artistReleases)
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-@release.Id">
+                    <button class="accordion-button @(IsCurrent(release.Id) ? string.Empty : "collapsed")" type="button" @onclick="@(() => Toggle(release.Id))" data-bs-toggle="collapse" data-bs-target="#collapse-@release.Id" aria-expanded="@(IsCurrent(release.Id) ? "true" : "false")" aria-controls="collapse-@release.Id">
+                        @release.Title
+                    </button>
+                </h2>
+                <div id="collapse-@release.Id" class="accordion-collapse collapse @(IsCurrent(release.Id) ? "show" : string.Empty)" aria-labelledby="heading-@release.Id" data-bs-parent="#artistReleases">
+                    <div class="accordion-body">
+                        <strong>Type:</strong> @release.MediaType
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h5>No releases present</h5>
+}
+
+
+@code {
+    private string currentToggleId = string.Empty;
+
+    IEnumerable<ArtistRelease> artistReleases;
+
+    protected override void OnInitialized()
+    {
+        store.Subscribe(store =>
+        {
+            artistReleases = store.Releases;
+
+            StateHasChanged();
+        });
+    }
+
+    protected void Toggle(string id)
+    {
+        currentToggleId = currentToggleId == id ? string.Empty : id;
+
+        StateHasChanged();
+    }
+
+    protected bool IsCurrent(string id) => currentToggleId == id;
+}

@@ -9,4 +9,6 @@ public class ArtistStore
     public Artist CurrentArtist { get; set; }
 
     public IEnumerable<Artist> Artists { get; set; }
+
+    public IEnumerable<ArtistRelease> Releases { get; set; }
 }
