@@ -1,0 +1,57 @@
+﻿@using BlazorFocused
+@using BlazorMusic.Client.Actions
+@using BlazorMusic.Client.Models
+@using BlazorMusic.Shared
+
+@inject IStore<ArtistStore> store
+
+<div id="searchPanel">
+    <label for="artistSearchBox" class="form-label">Artist Search</label>
+    <form class="d-flex">
+        <input type="text" id="artistSearchBox" class="form-control" placeholder="Type Your Search Here" @bind="@searchText" aria-label="Search" />
+        <button class="btn btn-sm btn-primary btn-block" type="button" @onclick="SearchUserInput">Search</button>
+    </form>
+    <div id="artistSearchBoxHelp" class="form-text">Results will display below</div>
+</div>
+<div id="artistSearchResults">
+    @if (artists is not null)
+    { 
+        <ul class="list-group">
+            @foreach(var artist in artists)
+            {
+                <li class="list-group-item">
+                    <a class="artist-search-result" href="#" @onclick="@(() => SelectArtist(artist.Id))">@artist.Name</a>
+                    <br />
+                    <div id="artistSearchBoxHelp" class="form-text fst-italic">@artist.Description</div>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@code {
+    string searchText = string.Empty;
+
+    IEnumerable<Artist> artists;
+
+    protected override void OnInitialized()
+    {
+        store.Subscribe(store =>
+        {
+            artists = store.Artists;
+
+            StateHasChanged();
+        });
+    }
+
+    private async Task SearchUserInput()
+    {
+        if (!string.IsNullOrEmpty(searchText))
+            await store.DispatchAsync<SearchArtistAction, string>(searchText);
+    }
+
+    private async Task SelectArtist(string artistId)
+    {
+        await store.DispatchAsync<SelectArtistAction, string>(artistId);
+    }
+}
