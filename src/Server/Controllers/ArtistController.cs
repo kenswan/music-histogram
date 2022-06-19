@@ -2,10 +2,12 @@
 using BlazorMusic.Shared;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+using System.Net;
 
 namespace BlazorMusic.Server.Controllers;
 
 [Route("api/[controller]")]
+[Produces("application/json")]
 [ApiController]
 public class ArtistController : ControllerBase
 {
@@ -19,7 +21,8 @@ public class ArtistController : ControllerBase
     }
 
     [HttpGet]
-    [Produces(typeof(ArtistCollection))]
+    [ProducesResponseType(typeof(ArtistCollection), (int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.NotFound)]
     public async Task<ActionResult<ArtistCollection>> SearchArtist([FromQuery][Required] string search, [FromQuery] int page = 1)
     {
         logger.LogInformation("Request Artist Search Keyword: {Search}", search);
@@ -33,7 +36,8 @@ public class ArtistController : ControllerBase
     }
 
     [HttpGet("{id}/release")]
-    [Produces(typeof(ArtistCollection))]
+    [ProducesResponseType(typeof(IEnumerable<ArtistRelease>), (int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.NotFound)]
     public async Task<ActionResult<IEnumerable<ArtistRelease>>> GetArtistReleases([FromRoute] string id)
     {
         logger.LogInformation("Request Releases for Artist {Id}", id);
