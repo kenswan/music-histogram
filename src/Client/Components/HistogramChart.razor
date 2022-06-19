@@ -1,0 +1,52 @@
+﻿<h3>HistogramChart</h3>
+
+@inject IJSRuntime JSRuntime
+
+<canvas id="@Id"></canvas>
+
+@code {
+
+    [Parameter]
+    public string Id { get; set; }
+
+    [Parameter]
+    public int[] Years { get; set; }
+
+    [Parameter]
+    public int[] ReleaseCount { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        var config = new
+        {
+            Type = "bar",
+            Options = new
+            {
+                Responsive = true,
+                Scales = new
+                {
+                    YAxes = new[]
+                    {
+                        new 
+                        { 
+                            Ticks = new 
+                            {
+                                BeginAtZero=true
+                            } 
+                        }
+                }
+                }
+            },
+            Data = new
+            {
+                Datasets = new[]
+                {
+                    new { Label= "# of Releases", Data = ReleaseCount, BackgroundColor = "Blue"}
+            },
+                Labels = Years
+            }
+        };
+
+        await JSRuntime.InvokeVoidAsync("setup", Id, config);
+    }
+}
