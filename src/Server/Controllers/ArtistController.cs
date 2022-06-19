@@ -24,11 +24,25 @@ public class ArtistController : ControllerBase
     {
         logger.LogInformation("Request Artist Search Keyword: {Search}", search);
 
-        var artistCollection = await artistService.SearchArtists(search, page);
+        var artistCollection = await artistService.SearchArtistsAsync(search, page);
 
         if (artistCollection is null || !artistCollection.Artists.Any())
             return NotFound();
 
         return Ok(artistCollection);
+    }
+
+    [HttpGet("{id}/release")]
+    [Produces(typeof(ArtistCollection))]
+    public async Task<ActionResult<IEnumerable<ArtistRelease>>> GetArtistReleases([FromRoute] string id)
+    {
+        logger.LogInformation("Request Releases for Artist {Id}", id);
+
+        var artistReleases = await artistService.RetrieveAristReleasesAsync(id);
+
+        if (artistReleases is null || !artistReleases.Any())
+            return NotFound();
+
+        return Ok(artistReleases);
     }
 }
