@@ -7,23 +7,22 @@ public class HistogramDataReducer : IReducer<ArtistStore, HistorgramData>
 {
     public HistorgramData Execute(ArtistStore input)
     {
-        Dictionary<int, int> counts = new();
+        SortedDictionary<int, int> counts = new();
         HistorgramData data = new();
 
         if (input.Releases is not null)
         {
             foreach (var release in input.Releases)
             {
-                foreach (var track in release.Tracks)
+                var year = release.Year;
+                var trackCount = release.TrackCount;
+
+                if (release.Year > 0)
                 {
-                    var hasKey = int.TryParse(track.ReleaseDate, out int key);
-                    if (hasKey)
-                    {
-                        if (counts.ContainsKey(int.Parse(track.ReleaseDate)))
-                            counts[key]++;
-                        else
-                            counts.Add(key, 1);
-                    }
+                    if (counts.ContainsKey(year))
+                        counts[year] += trackCount;
+                    else
+                        counts.Add(year, trackCount);
                 }
             }
 
