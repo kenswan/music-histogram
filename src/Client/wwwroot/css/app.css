@@ -70,3 +70,8 @@ a, .btn-link {
 {
     margin-top: 1em;
 }
+
+.list-group-item.selected
+{
+    background-color: aliceblue;
+}
