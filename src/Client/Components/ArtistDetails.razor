@@ -20,15 +20,27 @@
             <a class="nav-link @IsCurrentTab("Histogram")" href="#" @onclick="@(() => ChangeTab("Histogram"))">Histogram</a>
         </li>
     </ul>
-    if (currentTab == "Overview")
+
+    @switch(currentTab)
     {
-        <table cellpadding="5">
-            <tr><td align="right">Category:</td><td>@artist.Type</td></tr>
-            <tr><td align="right">Desctiption:</td><td>@artist.Description</td></tr>
-            <tr><td align="right">Country:</td><td>@artist.Country</td></tr>
-            <tr><td align="right">Search Rank:</td><td>@artist.Rank</td></tr>
-            <tr><td align="right">Tags:</td><td> @ShowArtistTags()</td></tr>
-        </table>
+        case "Overview":
+            <table cellpadding="5">
+                <tr><td align="right">Category:</td><td>@artist.Type</td></tr>
+                <tr><td align="right">Desctiption:</td><td>@artist.Description</td></tr>
+                <tr><td align="right">Country:</td><td>@artist.Country</td></tr>
+                <tr><td align="right">Search Rank:</td><td>@artist.Rank</td></tr>
+                <tr><td align="right">Tags:</td><td> @ShowArtistTags()</td></tr>
+            </table>
+            break;
+        case "Releases":
+            break;
+        case "Histogram":
+            <HistogramChart Id="artistMusicHistogram" 
+                Years="@(new[] { 2019, 2020, 2021, 2022 })"
+                ReleaseCount="@(new[] { 3, 2, 5, 0 })" />
+            break;
+        default:
+            break;
     }
 }
 else
@@ -65,5 +77,4 @@ else
     private string ShowArtistTags() =>
         artist.Tags is not null ?
             string.Join(", ", artist.Tags) : "N/A";
-    
 }
