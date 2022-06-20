@@ -6,6 +6,7 @@ using Microsoft.Extensions.Options;
 
 namespace BlazorMusic.Server.Services;
 
+/// <inheritdoc cref="IArtistService"/>
 public class ArtistService : IArtistService
 {
     private readonly IMusicDataProvider musicDataProvider;

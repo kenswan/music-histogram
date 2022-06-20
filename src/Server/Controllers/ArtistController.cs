@@ -20,6 +20,12 @@ public class ArtistController : ControllerBase
         this.logger = logger;
     }
 
+    /// <summary>
+    /// Performs a search for an artist with a given keyword
+    /// </summary>
+    /// <param name="search">Keyword search text</param>
+    /// <param name="page">Page # of intended result (searches with offset from previous page)</param>
+    /// <returns>List of artists matching search criteria</returns>
     [HttpGet]
     [ProducesResponseType(typeof(ArtistCollection), (int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.NotFound)]
@@ -35,6 +41,11 @@ public class ArtistController : ControllerBase
         return Ok(artistCollection);
     }
 
+    /// <summary>
+    /// Retrieves all releases for a given artist
+    /// </summary>
+    /// <param name="id">Unique identifier of artist</param>
+    /// <returns>List of artist releases over time</returns>
     [HttpGet("{id}/release")]
     [ProducesResponseType(typeof(IEnumerable<ArtistRelease>), (int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.NotFound)]
