@@ -6,9 +6,10 @@
 
 @inject IStore<ArtistStore> store
 
-<HistogramChart Id="artistMusicHistogram"
-    Years="@years"
-    ReleaseCount="@releases" />
+@if (years.Any() && releases.Any())
+{
+    <HistogramChart Id="artistMusicHistogram" Years="@years" ReleaseCount="@releases" />
+}
 
 @code {
 
@@ -20,7 +21,7 @@
         store.Reduce<HistogramDataReducer, HistorgramData>(reduced =>
         {
             years = reduced.Years ?? new int[] { };
-            releases = reduced.Releases ?? new int[] { }; ;
+            releases = reduced.Releases ?? new int[] { };
 
             StateHasChanged();
         });

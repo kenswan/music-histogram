@@ -12,25 +12,25 @@
 
     <ul class="nav nav-tabs">
         <li class="nav-item">
-            <a class="nav-link @IsCurrentTab("Overview")" href="#" @onclick="@(() => ChangeTab("Overview"))">Overview</a>
+            <a id="artist-overview" class="nav-link @IsCurrentTab(ArtistTab.Overview)" href="#" @onclick="@(() => ChangeTab(ArtistTab.Overview))">Overview</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link @IsCurrentTab("Releases")" href="#" @onclick="@(() => ChangeTab("Releases"))">Releases</a>
+            <a id="artist-releases" class="nav-link @IsCurrentTab(ArtistTab.Releases)" href="#" @onclick="@(() => ChangeTab(ArtistTab.Releases))">Releases</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link @IsCurrentTab("Histogram")" href="#" @onclick="@(() => ChangeTab("Histogram"))">Histogram</a>
+            <a id="artist-histogram" class="nav-link @IsCurrentTab(ArtistTab.Histogram)" href="#" @onclick="@(() => ChangeTab(ArtistTab.Histogram))">Histogram</a>
         </li>
     </ul>
 
     @switch(currentTab)
     {
-        case "Overview":
+        case ArtistTab.Overview:
             <ArtistOverview />
             break;
-        case "Releases":
+        case ArtistTab.Releases:
             <ArtistReleases />
             break;
-        case "Histogram":
+        case ArtistTab.Histogram:
             <ArtistHistogram />
             break;
         default:
@@ -41,27 +41,32 @@ else
 {
     <h3>ArtistDetails</h3>
 
-    <div class="">No artist has been selected</div>
+    <div class="unselected-artist">No artist has been selected</div>
 }
 
 @code {
+    private enum ArtistTab { Overview, Releases, Histogram }
+
     private Artist artist = null;
-    private string currentTab = "Overview";
+    private ArtistTab currentTab = ArtistTab.Overview;
 
     protected override void OnInitialized()
     {
         store.Subscribe(store =>
         {
+            if (artist is not null && artist.Id != store.CurrentArtist.Id)
+                currentTab = ArtistTab.Overview;
+
             artist = store.CurrentArtist;
 
             StateHasChanged();
         });
     }
 
-    private string IsCurrentTab(string tabName) =>
+    private string IsCurrentTab(ArtistTab tabName) =>
         currentTab == tabName ? "active" : string.Empty;
 
-    private void ChangeTab(string tabName)
+    private void ChangeTab(ArtistTab tabName)
     {
         currentTab = tabName;
 

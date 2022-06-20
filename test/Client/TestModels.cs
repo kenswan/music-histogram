@@ -17,13 +17,30 @@ public static class TestModels
     public static IEnumerable<Artist> GenerateArtists() =>
         GenerateArtistFake().Generate(RandomCount);
 
+    public static IEnumerable<ArtistRelease> GenerateArtistReleases() =>
+        new Faker<ArtistRelease>()
+        .RuleFor(release => release.Id, _ => RandomIdentifier)
+        .RuleFor(release => release.Year, fake => fake.Date.Past().Year)
+        .RuleFor(release => release.Title, fake => fake.Lorem.Sentences(1))
+        .RuleFor(release => release.Country, fake => fake.Address.CountryCode())
+        .RuleFor(release => release.Tracks, _ => GenerateReleaseTracks())
+        .RuleFor(release => release.TrackCount, fake => fake.Random.Int())
+        .Generate(RandomCount);
+
+    public static IEnumerable<ReleaseTrack> GenerateReleaseTracks() =>
+        new Faker<ReleaseTrack>()
+        .RuleFor(release => release.Id, _ => RandomIdentifier)
+        .RuleFor(release => release.Title, fake => fake.Lorem.Sentences(1))
+        .RuleFor(release => release.Duration, fake => fake.Random.Long(1000000, 999999))
+        .Generate(RandomCount);
+
     private static Faker<Artist> GenerateArtistFake() =>
         new Faker<Artist>()
-        .RuleFor(response => response.Id, _ => RandomIdentifier)
-        .RuleFor(response => response.Name, fake => fake.Person.FullName)
-        .RuleFor(response => response.Description, fake => fake.Lorem.Sentences(2))
-        .RuleFor(response => response.Country, fake => fake.Address.CountryCode())
-        .RuleFor(response => response.Tags, fake => fake.Make(RandomCount, _ => fake.Random.Word()));
+        .RuleFor(artist => artist.Id, _ => RandomIdentifier)
+        .RuleFor(artist => artist.Name, fake => fake.Person.FullName)
+        .RuleFor(artist => artist.Description, fake => fake.Lorem.Sentences(2))
+        .RuleFor(artist => artist.Country, fake => fake.Address.CountryCode())
+        .RuleFor(artist => artist.Tags, fake => fake.Make(RandomCount, _ => fake.Random.Word()));
 
     public static string GenerateRandomRelativeUrl() =>
         new Faker().Internet.UrlRootedPath();
