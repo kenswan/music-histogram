@@ -19,7 +19,7 @@
         <ul class="list-group">
             @foreach(var artist in artists)
             {
-                <li class="list-group-item">
+                <li class="list-group-item @(IsCurrentArtist(artist.Id) ? "selected" : "")">
                     <a class="artist-search-result" href="#" @onclick="@(() => SelectArtist(artist.Id))">@artist.Name</a>
                     <br />
                     <div id="artistSearchBoxHelp" class="form-text fst-italic">@artist.Description</div>
@@ -31,7 +31,7 @@
 
 @code {
     string searchText = string.Empty;
-
+    string currentArstistId = string.Empty;
     IEnumerable<Artist> artists;
 
     protected override void OnInitialized()
@@ -39,6 +39,7 @@
         store.Subscribe(store =>
         {
             artists = store.Artists;
+            currentArstistId = store.CurrentArtist?.Id;
 
             StateHasChanged();
         });
@@ -54,4 +55,6 @@
     {
         await store.DispatchAsync<SelectArtistAction, string>(artistId);
     }
+
+    private bool IsCurrentArtist(string id) => id == currentArstistId;
 }

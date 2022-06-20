@@ -1,0 +1,77 @@
+﻿@using BlazorFocused
+@using BlazorMusic.Client.Actions
+@using BlazorMusic.Client.Models
+@using BlazorMusic.Shared
+
+@inject IStore<ArtistStore> store
+
+@if (artistReleases is not null)
+{
+    <div class="accordion accordion-flush" id="artistReleases">
+        @foreach(var release in artistReleases)
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-@release.Id">
+                    <button class="accordion-button @(IsCurrent(release.Id) ? string.Empty : "collapsed")" type="button" @onclick="@(() => Toggle(release.Id))" data-bs-toggle="collapse" data-bs-target="#collapse-@release.Id" aria-expanded="@(IsCurrent(release.Id) ? "true" : "false")" aria-controls="collapse-@release.Id">
+                        @release.Title (@release.TrackCount Tracks @release.MediaType @release.Format) @release.Country
+                    </button>
+                </h2>
+                <div id="collapse-@release.Id" class="accordion-collapse collapse @(IsCurrent(release.Id) ? "show" : string.Empty)" aria-labelledby="heading-@release.Id" data-bs-parent="#artistReleases">
+                    <div class="accordion-body">
+                        <table cellpadding="5">
+                            <thead>
+                                <tr>
+                                    <th>Track</th>
+                                    <th>Duration (minutes)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               @foreach (var track in release.Tracks)
+                               {
+                                <tr><td>@track.Title</td><td>@(MusicDuration(track.Duration))</td></tr>
+                               }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h5>No releases present</h5>
+}
+
+
+@code {
+    private string currentToggleId = string.Empty;
+
+    IEnumerable<ArtistRelease> artistReleases;
+
+    protected override void OnInitialized()
+    {
+        store.Subscribe(store =>
+        {
+            artistReleases = store.Releases;
+
+            StateHasChanged();
+        });
+    }
+
+    protected void Toggle(string id)
+    {
+        currentToggleId = currentToggleId == id ? string.Empty : id;
+
+        StateHasChanged();
+    }
+
+    protected bool IsCurrent(string id) => currentToggleId == id;
+
+    protected string MusicDuration(long seconds)
+    {
+        var timespan = TimeSpan.FromMilliseconds(seconds);
+
+        return $"{timespan.Minutes}:{timespan.Seconds}";
+    }
+}

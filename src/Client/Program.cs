@@ -2,6 +2,7 @@
 using BlazorMusic.Client;
 using BlazorMusic.Client.Actions;
 using BlazorMusic.Client.Models;
+using BlazorMusic.Client.Reducers;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -25,6 +26,7 @@ builder.Services.AddRestClient(client =>
 
 builder.Services.AddStore<ArtistStore>(new())
     .AddTransient<SearchArtistAction>()
-    .AddTransient<SelectArtistAction>();
+    .AddTransient<SelectArtistAction>()
+    .AddTransient<HistogramDataReducer>();
 
 await builder.Build().RunAsync();

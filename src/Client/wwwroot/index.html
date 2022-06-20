@@ -21,16 +21,22 @@
     </div>
 
     <script>
-        // Setup call for Chart.js
-        window.setup = (id, config) => {
+        // Setup calls for Chart.js
+        var histogramChart = null;
+
+        function setup(id, config) {
             var ctx = document.getElementById(id).getContext('2d');
-            new Chart(ctx, config);
+            histogramChart = new Chart(ctx, config);
+        }
+
+        function resetCanvas() {
+            histogramChart.destroy();
         }
     </script>
 
     <script src="_framework/blazor.webassembly.js"></script>
 
-    <script src="lib/charts/chart.js"></script>
+    <script src="lib/ChartJs/chart.min.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-﻿<h3>HistogramChart</h3>
+﻿<h3>Histogram Chart</h3>
 
 @inject IJSRuntime JSRuntime
 
@@ -15,8 +15,15 @@
     [Parameter]
     public int[] ReleaseCount { get; set; }
 
+    private bool InUse = false;
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
+        if (!firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("resetCanvas");
+        }
+
         var config = new
         {
             Type = "bar",
@@ -34,15 +41,15 @@
                                 BeginAtZero=true
                             } 
                         }
-                }
+                    }
                 }
             },
             Data = new
             {
                 Datasets = new[]
                 {
-                    new { Label= "# of Releases", Data = ReleaseCount, BackgroundColor = "Blue"}
-            },
+                    new { Label= "# of Tracks Released", Data = ReleaseCount, BackgroundColor = "Blue"}
+        },
                 Labels = Years
             }
         };

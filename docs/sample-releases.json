@@ -1,0 +1,4381 @@
+{
+  "releases": [
+    {
+      "quality": "normal",
+      "disambiguation": "",
+      "date": "1966",
+      "packaging-id": null,
+      "barcode": null,
+      "media": [
+        {
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "title": "",
+          "tracks": [
+            {
+              "length": 953906,
+              "number": "A1",
+              "id": "2c5c7ab8-abd1-494b-b66f-9cf357a16aff",
+              "title": "In the Beginning God",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 953906,
+                "id": "1a8e2c5b-b8b7-4b2f-bc57-1691ac981376",
+                "title": "In the Beginning God",
+                "first-release-date": "1966"
+              },
+              "position": 1
+            },
+            {
+              "position": 2,
+              "recording": {
+                "first-release-date": "1966",
+                "title": "Tell Me It’s the Truth",
+                "id": "e287a537-dd1c-4d0f-a227-8066b68ee3b9",
+                "length": 169800,
+                "disambiguation": "",
+                "video": false
+              },
+              "title": "Tell Me It’s the Truth",
+              "id": "3142db3e-71a9-4a2b-82fe-e10e079e6698",
+              "number": "A2",
+              "length": 169800
+            },
+            {
+              "position": 3,
+              "recording": {
+                "id": "30682341-98fd-4b63-abe3-73897704c391",
+                "title": "Come Sunday",
+                "first-release-date": "1966",
+                "disambiguation": "",
+                "video": false,
+                "length": 233360
+              },
+              "length": 233360,
+              "title": "Come Sunday",
+              "id": "e9c2d785-f99e-416c-8cdb-ae5da153b5fe",
+              "number": "A3"
+            },
+            {
+              "recording": {
+                "first-release-date": "1966",
+                "title": "The Lord’s Prayer",
+                "id": "77b274da-589e-4ce4-9012-08a8c1dac41d",
+                "length": 162333,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 4,
+              "length": 162333,
+              "id": "318302c0-b6fc-4b3c-8465-5b643b7fc494",
+              "number": "A4",
+              "title": "The Lord’s Prayer"
+            },
+            {
+              "recording": {
+                "length": 365173,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1966",
+                "title": "Come Sunday",
+                "id": "e4f68adc-8a38-431f-be41-87e9c7421298"
+              },
+              "position": 5,
+              "number": "B1",
+              "id": "15f7bd20-0e9d-493e-b4e5-68cec12b7c23",
+              "title": "Come Sunday",
+              "length": 365173
+            },
+            {
+              "length": 282560,
+              "title": "Will You Be There? / Ain’t but the One",
+              "number": "B2",
+              "id": "755c5112-4d28-4c9a-8b0f-ae3c70d47923",
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 282560,
+                "id": "e89c89e1-c6ad-409e-80e8-eab529286b3a",
+                "title": "Will You Be There? / Ain’t but the One",
+                "first-release-date": "1966"
+              }
+            },
+            {
+              "length": 506973,
+              "number": "B3",
+              "id": "384cbcb9-7bf5-4919-9072-c2338ed17a30",
+              "title": "New World A-Coming",
+              "recording": {
+                "length": 506973,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1966",
+                "title": "New World A-Coming",
+                "id": "9cc7b6ab-5cf3-4147-9350-c957d8101738"
+              },
+              "position": 7
+            },
+            {
+              "recording": {
+                "length": 391893,
+                "video": false,
+                "disambiguation": "",
+                "title": "David Danced Before the Lord With All His Might",
+                "first-release-date": "1966",
+                "id": "3ee7023d-112a-418c-bfe7-a964230c20a5"
+              },
+              "position": 8,
+              "number": "B4",
+              "id": "60706c01-50da-4d68-99b6-8a4e1f96ff1a",
+              "title": "David Danced Before the Lord With All His Might",
+              "length": 391893
+            }
+          ],
+          "track-offset": 0,
+          "track-count": 8,
+          "format": "12\" Vinyl"
+        }
+      ],
+      "status": "Official",
+      "release-group": {
+        "first-release-date": "1966",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "title": "Concert of Sacred Music",
+        "id": "e9bbdc99-637b-4ad0-af66-83f791bf0ad9",
+        "secondary-types": [],
+        "primary-type": "Album",
+        "disambiguation": ""
+      },
+      "packaging": null,
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "cover-art-archive": {
+        "front": true,
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 4
+      },
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": ["DE"],
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Germany",
+            "name": "Germany"
+          },
+          "date": "1966"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "0d0d6eb8-d1b5-4b6b-9bd6-5ecc037b6724",
+      "country": "DE",
+      "title": "Duke Ellington's Concert of Sacred Music",
+      "asin": null
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "2a7d0078-25b9-41c8-b03b-263498a7ed75",
+      "country": "US",
+      "asin": null,
+      "title": "The Far East Suite",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 309760,
+                "id": "9aa2f7cf-aafd-4d4e-b9b2-d8c16015c353",
+                "title": "Tourist Point of View",
+                "first-release-date": "1967"
+              },
+              "position": 1,
+              "length": 309760,
+              "number": "A1",
+              "id": "d45e50aa-d516-4909-bae4-fe9cd7b2b512",
+              "title": "Tourist Point of View"
+            },
+            {
+              "length": 194506,
+              "number": "A2",
+              "id": "33dc5966-a9d5-4be4-990c-daf0a3f867e2",
+              "title": "Bluebird of Delhi (Mynah)",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 194506,
+                "id": "e4c92486-757e-4f39-8fa2-21e5682983f0",
+                "title": "Bluebird of Delhi (Mynah)",
+                "first-release-date": "1967"
+              },
+              "position": 2
+            },
+            {
+              "length": 245733,
+              "title": "Isfahan",
+              "number": "A3",
+              "id": "48c05e9a-d2fa-4a92-b856-c185bb4de814",
+              "position": 3,
+              "recording": {
+                "length": 245733,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1967",
+                "title": "Isfahan",
+                "id": "9c077904-0f1a-4a2f-81b6-5aabd26fa1d5"
+              }
+            },
+            {
+              "length": 170066,
+              "title": "Depk",
+              "id": "85d01e33-093d-4e4e-b049-0c9497cf0b71",
+              "number": "A4",
+              "position": 4,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 170066,
+                "id": "bb30b1f3-2502-474d-b2ea-7ca9d399a28e",
+                "first-release-date": "1967",
+                "title": "Depk"
+              }
+            },
+            {
+              "position": 5,
+              "recording": {
+                "id": "5a446111-0bc9-4a54-acf4-89f830da4ebb",
+                "first-release-date": "1967",
+                "title": "Mount Harissa",
+                "disambiguation": "",
+                "video": false,
+                "length": 462493
+              },
+              "length": 462493,
+              "title": "Mount Harissa",
+              "id": "1e6031fd-2fd9-44a8-b7ef-8d4fd0a343e8",
+              "number": "A5"
+            },
+            {
+              "number": "B1",
+              "id": "b5031ba4-c20f-473d-b448-c64c003c669e",
+              "title": "Blue Pepper (Far East of the Blues)",
+              "length": 182400,
+              "recording": {
+                "id": "d0d0e415-2d34-4284-bd2a-70887068a3d2",
+                "first-release-date": "1967",
+                "title": "Far East Suite: Blue Pepper (Far East of the Blues)",
+                "disambiguation": "",
+                "video": false,
+                "length": 182400
+              },
+              "position": 6
+            },
+            {
+              "id": "776ae0e9-3672-417b-b684-22e2f72125cc",
+              "number": "B2",
+              "title": "Agra",
+              "length": 155640,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 156200,
+                "id": "050615db-d5bf-4aae-a0a3-14f1cf159147",
+                "first-release-date": "1967",
+                "title": "Far East Suite: Agra"
+              },
+              "position": 7
+            },
+            {
+              "title": "Amad",
+              "number": "B3",
+              "id": "a65f86bd-4933-40d9-90a2-487fd0f33019",
+              "length": 267200,
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 267200,
+                "id": "d11493fc-2b77-44e2-bad4-ac1489029175",
+                "first-release-date": "1967",
+                "title": "Amad"
+              }
+            },
+            {
+              "title": "Ad Lib on Nippon",
+              "number": "B5",
+              "id": "6cd8fc1e-5630-4962-8016-bc06a21c137e",
+              "length": 691760,
+              "position": 9,
+              "recording": {
+                "length": 695800,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1967",
+                "title": "Far East Suite: Ad Lib on Nippon",
+                "id": "695d5130-a71d-4e62-86f9-3471c0a1b182"
+              }
+            }
+          ],
+          "title": "",
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 9
+        }
+      ],
+      "status": "Official",
+      "packaging": null,
+      "release-group": {
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1967",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album",
+        "title": "The Far East Suite",
+        "id": "c5176862-2fc7-4410-ba2b-46a6c440ede3"
+      },
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "cover-art-archive": {
+        "count": 2,
+        "darkened": false,
+        "artwork": true,
+        "front": true,
+        "back": false
+      },
+      "release-events": [
+        {
+          "date": "1967",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": ["US"],
+            "name": "United States",
+            "sort-name": "United States",
+            "type-id": null,
+            "type": null
+          }
+        }
+      ],
+      "quality": "normal",
+      "disambiguation": "",
+      "date": "1967",
+      "packaging-id": null,
+      "barcode": null
+    },
+    {
+      "media": [
+        {
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 7,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "title": "",
+          "tracks": [
+            {
+              "title": "In a Sentimental Mood",
+              "id": "97e2d0c0-90ec-39b3-8408-56f60ab2f21d",
+              "number": "A1",
+              "length": 252000,
+              "position": 1,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 256173,
+                "id": "d95677bb-60c5-4671-9f50-f9c7494ccaf6",
+                "title": "In a Sentimental Mood",
+                "first-release-date": "1963"
+              }
+            },
+            {
+              "title": "Take the Coltrane",
+              "id": "11d388fa-8fc3-3ea9-8aa8-04e683e8ce6d",
+              "number": "A2",
+              "length": 280000,
+              "position": 2,
+              "recording": {
+                "length": 284000,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1963",
+                "title": "Take the Coltrane",
+                "id": "c25b6d47-0197-4f90-8a16-8f1be61f1991"
+              }
+            },
+            {
+              "recording": {
+                "length": 269000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Big Nick",
+                "first-release-date": "1963",
+                "id": "d332a3e2-9149-4de7-b086-4f58946d5948"
+              },
+              "position": 3,
+              "length": 265000,
+              "number": "A3",
+              "id": "7c18c6ad-86d2-3767-b7c0-4ffdd26e5234",
+              "title": "Big Nick"
+            },
+            {
+              "length": 260000,
+              "number": "A4",
+              "id": "a1551f25-cfa9-3bcb-bcbc-6d1780049628",
+              "title": "Stevie",
+              "recording": {
+                "first-release-date": "1963",
+                "title": "Stevie",
+                "id": "89bbe038-c6f5-4099-a2b9-73f79f081f7b",
+                "length": 265000,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 4
+            },
+            {
+              "position": 5,
+              "recording": {
+                "first-release-date": "1963",
+                "title": "My Little Brown Book",
+                "id": "21d6fd5f-427d-4e2b-a37d-7008c27c7e1e",
+                "length": 322293,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 320000,
+              "title": "My Little Brown Book",
+              "number": "B1",
+              "id": "edef1805-1689-3bea-9c6d-2d1078490961"
+            },
+            {
+              "length": 356000,
+              "id": "0ce975f4-4670-33ad-9ac8-2f16df79b195",
+              "number": "B2",
+              "title": "Angelica",
+              "recording": {
+                "id": "06deadd9-ab48-4284-a950-0412d385fe49",
+                "first-release-date": "1963",
+                "title": "Angelica",
+                "video": false,
+                "disambiguation": "",
+                "length": 360000
+              },
+              "position": 6
+            },
+            {
+              "title": "The Feeling of Jazz",
+              "id": "93cbcc35-3cae-3d02-a5ff-7ae1dda6b859",
+              "number": "B3",
+              "length": 330000,
+              "position": 7,
+              "recording": {
+                "title": "The Feeling of Jazz",
+                "first-release-date": "1963",
+                "id": "6b3bf38d-077a-4675-9463-686f0f79b900",
+                "length": 333000,
+                "disambiguation": "",
+                "video": false
+              }
+            }
+          ]
+        }
+      ],
+      "status": "Official",
+      "release-group": {
+        "first-release-date": "1963",
+        "secondary-type-ids": [],
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "id": "4f64c4fc-1de9-3b28-970c-e86f78c631be",
+        "title": "Duke Ellington & John Coltrane",
+        "disambiguation": "",
+        "primary-type": "Album",
+        "secondary-types": []
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "front": true,
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 1
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "type-id": null,
+            "sort-name": "United States",
+            "name": "United States",
+            "iso-3166-1-codes": ["US"],
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "date": "1963"
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "country": "US",
+      "id": "362ec441-b593-48c6-a569-808c3a6b29dd",
+      "asin": null,
+      "title": "Duke Ellington & John Coltrane",
+      "quality": "normal",
+      "disambiguation": "Mono release",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "date": "1963",
+      "barcode": ""
+    },
+    {
+      "barcode": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "date": "1959",
+      "disambiguation": "",
+      "quality": "normal",
+      "release-events": [
+        {
+          "date": "1959",
+          "area": {
+            "iso-3166-1-codes": ["US"],
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": null,
+            "type-id": null,
+            "sort-name": "United States",
+            "name": "United States"
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 4,
+        "front": true,
+        "back": true,
+        "artwork": true
+      },
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-group": {
+        "first-release-date": "1959",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "title": "Side by Side",
+        "id": "f8d5a1fd-04c9-338c-b1a4-811e3b65f684",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album"
+      },
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "tracks": [
+            {
+              "title": "Stompy Jones",
+              "number": "A1",
+              "id": "442d4387-93ca-4d6d-892a-171830fa6556",
+              "length": 397280,
+              "position": 1,
+              "recording": {
+                "title": "Stompy Jones",
+                "first-release-date": "1959",
+                "id": "e6464397-8b25-4ac1-ad19-adc6ec3945f2",
+                "length": 399960,
+                "disambiguation": "",
+                "video": false
+              }
+            },
+            {
+              "title": "Squeeze Me",
+              "number": "A2",
+              "id": "d4bb356c-1d17-4485-b462-f37cf586c9c9",
+              "length": 275360,
+              "position": 2,
+              "recording": {
+                "first-release-date": "1959",
+                "title": "Squeeze Me",
+                "id": "ba7c47ae-4615-4462-aa40-082e9c21dba5",
+                "length": 278426,
+                "disambiguation": "",
+                "video": false
+              }
+            },
+            {
+              "recording": {
+                "id": "1fad3b3e-8151-41b3-901a-2342b945c155",
+                "title": "Big Shoe",
+                "first-release-date": "1959",
+                "video": false,
+                "disambiguation": "",
+                "length": 339560
+              },
+              "position": 3,
+              "id": "b2cdb7d7-6a0a-4091-abd6-4f2e86bfab2b",
+              "number": "A3",
+              "title": "Big Shoe",
+              "length": 332720
+            },
+            {
+              "length": 291026,
+              "id": "0e218bd8-ce42-46fe-bfc9-92b97b7cae8a",
+              "number": "A4",
+              "title": "Going Up",
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 294800,
+                "id": "daf97ccc-0bc3-4887-a398-26481305bf4b",
+                "title": "Going Up",
+                "first-release-date": "1959"
+              },
+              "position": 4
+            },
+            {
+              "id": "1fcc710d-826f-42f5-a2f2-6ef6d7226fb5",
+              "number": "B1",
+              "title": "Just a Memory",
+              "length": 353386,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 356466,
+                "id": "d4dc3e90-e29c-4930-a4bd-abe844ff0693",
+                "title": "Just a Memory",
+                "first-release-date": "1959"
+              },
+              "position": 5
+            },
+            {
+              "id": "c87bde8d-93b2-488a-bdd9-71550a66d502",
+              "number": "B2",
+              "title": "Let's Fall in Love",
+              "length": 407733,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 409693,
+                "id": "4183ae83-1b4f-44dd-b180-b780f9c523a6",
+                "title": "Let's Fall in Love",
+                "first-release-date": "1959"
+              },
+              "position": 6
+            },
+            {
+              "position": 7,
+              "recording": {
+                "length": 154960,
+                "disambiguation": "",
+                "video": false,
+                "title": "Ruint",
+                "first-release-date": "1959",
+                "id": "84e807b6-7536-4c22-be50-f5af70b11d90"
+              },
+              "title": "Ruint",
+              "number": "B3",
+              "id": "55c28e36-cdad-48a2-bead-2fcdfe26fe01",
+              "length": 152613
+            },
+            {
+              "id": "c0f56cfb-f592-44c3-9d01-64206d43bd2c",
+              "number": "B4",
+              "title": "Bend One",
+              "length": 179240,
+              "recording": {
+                "title": "Bend One",
+                "first-release-date": "1959",
+                "id": "d5606296-0ebf-480e-aeb3-9b3b3fa7f8d4",
+                "length": 180600,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 8
+            },
+            {
+              "length": 350213,
+              "title": "You Need to Rock",
+              "number": "B5",
+              "id": "997d8bb8-5d38-4e4c-9a1d-2c59eb70944e",
+              "position": 9,
+              "recording": {
+                "id": "ae7e958b-2876-4123-b221-658261704e1a",
+                "first-release-date": "1959",
+                "title": "You Need to Rock",
+                "video": false,
+                "disambiguation": "",
+                "length": 352173
+              }
+            }
+          ],
+          "title": "",
+          "track-count": 9,
+          "track-offset": 0,
+          "format": "12\" Vinyl"
+        }
+      ],
+      "asin": null,
+      "title": "Side by Side",
+      "id": "38101786-3bbe-4366-8b8f-f777d3e164ed",
+      "country": "US",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "quality": "normal",
+      "date": "1963-02",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "disambiguation": "",
+      "asin": null,
+      "title": "Duke Ellington Meets Coleman Hawkins",
+      "id": "43c55c3a-c3e8-33c7-ae87-73387cbf3bdd",
+      "country": "US",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-group": {
+        "first-release-date": "1963-02",
+        "secondary-type-ids": [],
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "id": "0bbc462f-554b-3cc3-b4c5-a78c6a313d5a",
+        "title": "Duke Ellington Meets Coleman Hawkins",
+        "disambiguation": "",
+        "primary-type": "Album",
+        "secondary-types": []
+      },
+      "status": "Official",
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "tracks": [
+            {
+              "length": 313373,
+              "number": "A1",
+              "id": "d89add97-c964-35d1-92f6-06839bcf932a",
+              "title": "Limbo Jazz",
+              "recording": {
+                "length": 313373,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1963-02",
+                "title": "Limbo Jazz",
+                "id": "e976a377-b697-4c44-8866-a25fe5c6561d"
+              },
+              "position": 1
+            },
+            {
+              "recording": {
+                "length": 357026,
+                "disambiguation": "",
+                "video": false,
+                "title": "Mood Indigo",
+                "first-release-date": "1963-02",
+                "id": "0cd550f4-baa0-4c77-92e0-abbe147eb7f4"
+              },
+              "position": 2,
+              "length": 357026,
+              "id": "4d56c80c-2bec-3202-851a-b9a6bd47593e",
+              "number": "A2",
+              "title": "Mood Indigo"
+            },
+            {
+              "recording": {
+                "id": "10614584-7909-474a-a8da-bcc0182925e7",
+                "first-release-date": "1963-02",
+                "title": "Ray Charles' Place",
+                "video": false,
+                "disambiguation": "",
+                "length": 245600
+              },
+              "position": 3,
+              "length": 245600,
+              "id": "6a610860-59c1-3e75-9eb9-71ea1acc9786",
+              "number": "A3",
+              "title": "Ray Charles' Place"
+            },
+            {
+              "recording": {
+                "title": "Wanderlust",
+                "first-release-date": "1963-02",
+                "id": "ae0cc86e-277e-422c-be3b-ffff1fd06f92",
+                "length": 301840,
+                "video": false,
+                "disambiguation": "Gray remastering"
+              },
+              "position": 4,
+              "id": "9a2024b5-8772-3757-b43b-8654d623e016",
+              "number": "A4",
+              "title": "Wanderlust",
+              "length": 301840
+            },
+            {
+              "title": "You Dirty Dog",
+              "number": "B1",
+              "id": "a2ce128d-ce30-3399-8e16-2387043a2084",
+              "length": 258560,
+              "position": 5,
+              "recording": {
+                "title": "You Dirty Dog",
+                "first-release-date": "1963-02",
+                "id": "8975e95f-746b-4b1f-8384-ff23903930ca",
+                "length": 258560,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "number": "B2",
+              "id": "64239592-46e9-3095-962a-0742a18ac0f8",
+              "title": "Self Portrait (of the Bean)",
+              "length": 232440,
+              "recording": {
+                "id": "8cfdb441-dfbd-4fa5-97c6-3375f4eecbad",
+                "first-release-date": "1963-02",
+                "title": "Self Portrait (of the Bean)",
+                "video": false,
+                "disambiguation": "",
+                "length": 232440
+              },
+              "position": 6
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 288866,
+                "id": "8fe08f92-44a1-451a-903d-067b0a1da692",
+                "title": "The Jeep Is Jumpin’",
+                "first-release-date": "1963-02"
+              },
+              "position": 7,
+              "id": "b21337c8-549b-32a0-9cb0-d50b924ab0af",
+              "number": "B3",
+              "title": "The Jeep Is Jumpin'",
+              "length": 288866
+            },
+            {
+              "title": "The Ricitic",
+              "id": "af6fa148-9fe0-340f-bc17-cc3642d111d9",
+              "number": "B4",
+              "length": 351800,
+              "position": 8,
+              "recording": {
+                "first-release-date": "1963-02",
+                "title": "The Ricitic",
+                "id": "0a6119f8-3278-47ef-bb82-4e9101c9d0d0",
+                "length": 351800,
+                "disambiguation": "",
+                "video": false
+              }
+            }
+          ],
+          "title": "",
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 8
+        }
+      ],
+      "release-events": [
+        {
+          "date": "1963-02",
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": ["US"],
+            "sort-name": "United States",
+            "name": "United States",
+            "type-id": null,
+            "type": null
+          }
+        }
+      ],
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "front": true,
+        "count": 3,
+        "darkened": false
+      },
+      "text-representation": { "language": "eng", "script": "Latn" }
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "date": "1966",
+      "quality": "normal",
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "artwork": false,
+        "front": false,
+        "back": false
+      },
+      "release-events": [
+        {
+          "date": "1966",
+          "area": {
+            "iso-3166-1-codes": ["SE"],
+            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "name": "Sweden",
+            "sort-name": "Sweden"
+          }
+        }
+      ],
+      "media": [
+        {
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 15,
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "length": 190000,
+                "disambiguation": "",
+                "video": false,
+                "title": "Serenade to Sweden",
+                "first-release-date": "1966",
+                "id": "3c38c4a9-6504-4488-8fb8-182c19a0c2a9"
+              },
+              "length": 190000,
+              "title": "Serenade to Sweden",
+              "id": "174c080e-5a25-46c9-9b07-b76d20377868",
+              "number": "A1"
+            },
+            {
+              "id": "d960ace8-2174-459e-a612-e0cdda82240b",
+              "number": "A2",
+              "title": "The Boy in My Dreams",
+              "length": 150000,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 150000,
+                "id": "3ad359d4-ce1d-417f-80b5-300f4572d52a",
+                "first-release-date": "1966",
+                "title": "The Boy in My Dreams"
+              },
+              "position": 2
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 173000,
+                "id": "d01bb031-0e61-4f4f-a423-2e48bbca7161",
+                "first-release-date": "1966",
+                "title": "Stoona"
+              },
+              "position": 3,
+              "number": "A3",
+              "id": "415b8877-f8d2-4bba-bd7f-bbc6f7c9e37e",
+              "title": "Stoona",
+              "length": 173000
+            },
+            {
+              "length": 135000,
+              "title": "La de Doody Doo",
+              "number": "A4",
+              "id": "393dc7cb-71e0-411f-a249-36405fe3db24",
+              "position": 4,
+              "recording": {
+                "first-release-date": "1966",
+                "title": "La de Doody Doo",
+                "id": "db978888-bcb4-40cb-abd1-669554016d50",
+                "length": 135000,
+                "disambiguation": "",
+                "video": false
+              }
+            },
+            {
+              "title": "Strange Visitor",
+              "id": "760fc7de-31e3-44f3-b774-250c96a55ef1",
+              "number": "A5",
+              "length": 150000,
+              "position": 5,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 150000,
+                "id": "7787a85d-828e-4a0b-a69c-81c3dc1ca30a",
+                "title": "Strange Visitor",
+                "first-release-date": "1966"
+              }
+            },
+            {
+              "position": 6,
+              "recording": {
+                "length": 170000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Azure",
+                "first-release-date": "1966",
+                "id": "ec9cda08-499b-4494-ab06-138b78cda639"
+              },
+              "title": "Azure",
+              "id": "45532039-412d-4359-b3cc-9d95551cd3a2",
+              "number": "A6",
+              "length": 170000
+            },
+            {
+              "title": "Come Sunday",
+              "number": "A7",
+              "id": "b9f8a45b-115c-4608-ae79-5b2f0f60ae8f",
+              "length": 290000,
+              "position": 7,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 290000,
+                "id": "9b167c8c-a5d3-48d7-bfd6-e9a464b5ddc0",
+                "title": "Come Sunday",
+                "first-release-date": "1966"
+              }
+            },
+            {
+              "length": 156000,
+              "id": "3960da68-75df-4b9f-aa21-20afbe186d59",
+              "number": "B1",
+              "title": "\"C\" Jam Blues",
+              "recording": {
+                "id": "1137e119-d91f-43a5-8625-ccbe03866a35",
+                "first-release-date": "1966",
+                "title": "\"C\" Jam Blues",
+                "disambiguation": "",
+                "video": false,
+                "length": 156000
+              },
+              "position": 8
+            },
+            {
+              "position": 9,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 250000,
+                "id": "f213af42-f185-44cc-93ad-a2b6b33e025a",
+                "first-release-date": "1966",
+                "title": "I Didn't Know About You"
+              },
+              "title": "I Didn't Know About You",
+              "number": "B2",
+              "id": "860981d7-9ca5-4729-a653-cb00d72d2b21",
+              "length": 250000
+            },
+            {
+              "length": 175000,
+              "title": "Satin Doll",
+              "number": "B3",
+              "id": "919525ee-3cdb-4372-8649-6b2005cba609",
+              "position": 10,
+              "recording": {
+                "length": 175000,
+                "disambiguation": "",
+                "video": false,
+                "title": "Satin Doll",
+                "first-release-date": "1966",
+                "id": "8ad0d280-e74c-441a-b4c6-17e261e5a6d0"
+              }
+            },
+            {
+              "title": "Take Love Easy",
+              "id": "682a2b50-8340-49ed-bd39-709c18bce8ae",
+              "number": "B4",
+              "length": 202000,
+              "position": 11,
+              "recording": {
+                "length": 202000,
+                "disambiguation": "",
+                "video": false,
+                "title": "Take Love Easy",
+                "first-release-date": "1966",
+                "id": "8887f47c-5c89-44a4-9a50-fe53f2b388a7"
+              }
+            },
+            {
+              "position": 12,
+              "recording": {
+                "id": "4b74df9a-7e2a-462a-a19b-231b887aa128",
+                "first-release-date": "1966",
+                "title": "Babsie",
+                "video": false,
+                "disambiguation": "",
+                "length": 125000
+              },
+              "length": 125000,
+              "title": "Babsie",
+              "id": "65e3fb1b-09c7-4d1c-bc37-d72a1d76be0d",
+              "number": "B5"
+            },
+            {
+              "id": "be9e15e6-2e84-4722-968c-29645549c104",
+              "number": "B6",
+              "title": "(I Want) Something to Live For",
+              "length": 168000,
+              "recording": {
+                "length": 168000,
+                "video": false,
+                "disambiguation": "",
+                "title": "(I Want) Something to Live For",
+                "first-release-date": "1966",
+                "id": "e511c2b7-e6e2-4afd-80ce-5bdcd16f2338"
+              },
+              "position": 13
+            },
+            {
+              "title": "I'm Beginning to See the Light",
+              "number": "B7",
+              "id": "b69b4376-707f-48c3-b27c-3f29e699aab7",
+              "length": 158000,
+              "position": 14,
+              "recording": {
+                "id": "a13e7add-01c2-4793-be46-aeb764efe432",
+                "title": "I'm Beginning to See the Light",
+                "first-release-date": "1966",
+                "video": false,
+                "disambiguation": "",
+                "length": 158000
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 153000,
+                "id": "7b08ae22-4ea8-4c9a-a035-9acc7c031f9c",
+                "first-release-date": "1966",
+                "title": "Untitled Lullaby"
+              },
+              "position": 15,
+              "id": "6270d36f-7300-4c81-9206-e72756c15c4b",
+              "number": "B8",
+              "title": "Untitled Lullaby",
+              "length": 153000
+            }
+          ],
+          "title": "",
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "status": "Official",
+      "release-group": {
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1966",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album",
+        "title": "Serenade to Sweden",
+        "id": "44c7e02e-e60e-4428-9ba3-23df9cd3613c"
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "4f53dc7b-e738-4f29-aa3a-36a166fee913",
+      "country": "SE",
+      "asin": null,
+      "title": "Serenade to Sweden"
+    },
+    {
+      "cover-art-archive": {
+        "artwork": false,
+        "front": false,
+        "back": false,
+        "count": 0,
+        "darkened": false
+      },
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "release-events": [
+        {
+          "area": {
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": ["US"]
+          },
+          "date": "1965"
+        }
+      ],
+      "media": [
+        {
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "track-count": 16,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "title": "",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "c543917b-16a4-45ba-b8c8-6a5d72682711",
+                "title": "Conga Brava",
+                "first-release-date": "1965"
+              },
+              "title": "Conga Brava",
+              "id": "baad735d-7ff0-4a90-99e0-88ea0ea81d96",
+              "number": "A1",
+              "length": null
+            },
+            {
+              "position": 2,
+              "recording": {
+                "id": "1287b428-8a78-45ff-b400-5cc5c916dc97",
+                "title": "Me and You",
+                "first-release-date": "1965",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              },
+              "title": "Me and You",
+              "number": "A2",
+              "id": "243b35bd-c9ff-4621-9cd5-85b800d10ac8",
+              "length": null
+            },
+            {
+              "id": "5c7f75df-b6b1-4a76-8f8c-211c3482e1ad",
+              "number": "A3",
+              "title": "Dusk",
+              "length": null,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "4b231f0d-4b50-4222-a688-4d30b46c8771",
+                "title": "Dusk",
+                "first-release-date": "1965"
+              },
+              "position": 3
+            },
+            {
+              "length": null,
+              "number": "A4",
+              "id": "b2afdd5a-4b38-4c4a-b7c1-c1c95c724e84",
+              "title": "Blue Goose",
+              "recording": {
+                "id": "9534c9b9-a049-4658-9783-b6ecc5bb906c",
+                "first-release-date": "1965",
+                "title": "Blue Goose",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              },
+              "position": 4
+            },
+            {
+              "title": "Five O' Clock Whistle",
+              "id": "be9ec2dc-1bd5-488b-bf57-4761d9c90e51",
+              "number": "A5",
+              "length": null,
+              "position": 5,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "834bb316-d516-48ae-b009-2842c442d128",
+                "first-release-date": "1965",
+                "title": "Five O' Clock Whistle"
+              }
+            },
+            {
+              "id": "3b2bb3d0-c457-4e75-9fc8-41806b12bfc0",
+              "number": "A6",
+              "title": "The Sidewalks of New York",
+              "length": null,
+              "recording": {
+                "length": null,
+                "video": false,
+                "disambiguation": "",
+                "title": "The Sidewalks of New York",
+                "first-release-date": "1965",
+                "id": "c94d1c9d-f357-447a-9b58-b5ab25a85821"
+              },
+              "position": 6
+            },
+            {
+              "length": null,
+              "title": "After All",
+              "number": "A7",
+              "id": "4960cec0-67f6-4cf6-aa49-bcdfaa989d5a",
+              "position": 7,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "2a5daaff-59fe-4f97-94ee-ef3885ae16fe",
+                "first-release-date": "1965",
+                "title": "After All"
+              }
+            },
+            {
+              "position": 8,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "id": "be71c13a-a8ef-4382-a047-31bbf8c7135d",
+                "first-release-date": "1965",
+                "title": "John Hardy's Wife"
+              },
+              "title": "John Hardy's Wife",
+              "id": "e26d9508-1223-49d4-a28d-bb6b0569f332",
+              "number": "A8",
+              "length": null
+            },
+            {
+              "number": "B1",
+              "id": "eb99f309-ca98-46c9-946c-e2d0923700da",
+              "title": "Jumpin' Punkins",
+              "length": null,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "0d4afdaa-faa6-46a8-9c27-1fb92d4c7dd2",
+                "title": "Jumpin' Punkins",
+                "first-release-date": "1965"
+              },
+              "position": 9
+            },
+            {
+              "length": null,
+              "number": "B2",
+              "id": "3f098e67-ae41-49b2-8ddf-930209cbc3bd",
+              "title": "Are You Sticking?",
+              "recording": {
+                "id": "c24516af-65e6-40fa-b33f-7f18284db411",
+                "title": "Are You Sticking?",
+                "first-release-date": "1965",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              },
+              "position": 10
+            },
+            {
+              "title": "The Giddy Bug Gallop",
+              "number": "B3",
+              "id": "138c62a5-03f7-4e57-9bb1-25fc7a9f5452",
+              "length": null,
+              "position": 11,
+              "recording": {
+                "id": "7f92443f-ca54-4256-a39c-778195c76682",
+                "first-release-date": "1965",
+                "title": "The Giddy Bug Gallop",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              }
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "id": "f694db70-c0ed-4533-8a72-899018d04538",
+                "first-release-date": "1965",
+                "title": "Chocolate Shake"
+              },
+              "position": 12,
+              "number": "B4",
+              "id": "d6d21f6d-993b-46d2-a264-d4885976df88",
+              "title": "Chocolate Shake",
+              "length": null
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "5854746c-8b62-4fdf-87a0-a9e5ab7c957c",
+                "title": "Clementine",
+                "first-release-date": "1965"
+              },
+              "position": 13,
+              "id": "93747c39-dd1e-4634-ab53-b8e7939f6480",
+              "number": "B5",
+              "title": "Clementine",
+              "length": null
+            },
+            {
+              "title": "Jump for Joy",
+              "number": "B6",
+              "id": "5cdae821-fcac-4c1b-9590-97a51870571d",
+              "length": null,
+              "position": 14,
+              "recording": {
+                "first-release-date": "1965",
+                "title": "Jump for Joy",
+                "id": "d930e6e1-8b97-451c-ba55-0c4a69689271",
+                "length": null,
+                "disambiguation": "",
+                "video": false
+              }
+            },
+            {
+              "length": null,
+              "title": "Bli-Blip",
+              "number": "B7",
+              "id": "50952e89-2bb0-49eb-9c99-9edb82b38aac",
+              "position": 15,
+              "recording": {
+                "id": "32cfaff4-3a60-488c-8ecc-618ae6f10620",
+                "title": "Bli-Blip",
+                "first-release-date": "1965",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              }
+            },
+            {
+              "title": "Five O' Clock Drag",
+              "number": "B8",
+              "id": "e5b1d507-a9b2-41de-9b2f-c2897051ec59",
+              "length": null,
+              "position": 16,
+              "recording": {
+                "first-release-date": "1965",
+                "title": "Five O' Clock Drag",
+                "id": "ec4cad5b-d6bb-402e-92cb-aed94521d510",
+                "length": null,
+                "disambiguation": "",
+                "video": false
+              }
+            }
+          ]
+        }
+      ],
+      "release-group": {
+        "secondary-types": ["Compilation"],
+        "primary-type": "Album",
+        "disambiguation": "",
+        "title": "Jumpin' Punkins",
+        "id": "81b8b108-6b5b-4927-8d42-bfd1afa30a2c",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+        "first-release-date": "1965"
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "Jumpin' Punkins",
+      "asin": null,
+      "id": "50cf48d9-ec94-4ed9-8011-7c088d50ae80",
+      "country": "US",
+      "date": "1965",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "disambiguation": "",
+      "quality": "normal"
+    },
+    {
+      "disambiguation": "",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "date": "1962",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": ["US"],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1962"
+        }
+      ],
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 4,
+        "back": true,
+        "front": true,
+        "artwork": true
+      },
+      "status": "Official",
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-group": {
+        "title": "Money Jungle",
+        "id": "1c18538e-e9be-3449-8be1-f3cdc7b493e0",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album",
+        "first-release-date": "1962",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": []
+      },
+      "media": [
+        {
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1,
+          "title": "",
+          "tracks": [
+            {
+              "number": "A1",
+              "id": "64035023-ad60-4799-8276-036b83f4ad2f",
+              "title": "Money Jungle",
+              "length": 325000,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 330093,
+                "id": "abb7166e-2de6-44e8-a13a-b71d96d6da75",
+                "first-release-date": "1962",
+                "title": "Money Jungle"
+              },
+              "position": 1
+            },
+            {
+              "position": 2,
+              "recording": {
+                "id": "9ec75368-e95d-4e37-a4e4-512278d356ea",
+                "first-release-date": "1962",
+                "title": "Fleurette africaine",
+                "disambiguation": "",
+                "video": false,
+                "length": 216000
+              },
+              "title": "Les Fleurs Africaines (African Flower)",
+              "id": "9c7b0185-3d01-4c35-b38b-891b6d0e9c3a",
+              "number": "A2",
+              "length": 212000
+            },
+            {
+              "position": 3,
+              "recording": {
+                "length": 267826,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1962",
+                "title": "Very Special",
+                "id": "25c7a473-0bf7-4a85-8d05-12741b383eb0"
+              },
+              "length": 265000,
+              "title": "Very Special",
+              "id": "9e7c5823-d758-4f25-8219-7563d42d418e",
+              "number": "A3"
+            },
+            {
+              "length": 210000,
+              "title": "Warm Valley",
+              "number": "A4",
+              "id": "ac9770b7-f070-4289-820a-792e52d6aae2",
+              "position": 4,
+              "recording": {
+                "first-release-date": "1962",
+                "title": "Warm Valley",
+                "id": "354ad100-fb38-40dd-a4f3-daf676c4da50",
+                "length": 214226,
+                "disambiguation": "",
+                "video": false
+              }
+            },
+            {
+              "position": 5,
+              "recording": {
+                "id": "99052be5-a261-4648-9648-c6047d57a88e",
+                "title": "Wig Wise",
+                "first-release-date": "1962",
+                "disambiguation": "",
+                "video": false,
+                "length": 199493
+              },
+              "title": "Wig Wise",
+              "number": "B1",
+              "id": "382609f5-a016-4730-9ded-c3057b192e1d",
+              "length": 200000
+            },
+            {
+              "length": 255000,
+              "title": "Caravan",
+              "id": "7ddada28-e626-46f1-9cdc-fe81deb64341",
+              "number": "B2",
+              "position": 6,
+              "recording": {
+                "id": "4cd6b2b7-f9d5-46e0-b220-9bae1775cde8",
+                "title": "Caravan",
+                "first-release-date": "1962",
+                "video": false,
+                "disambiguation": "",
+                "length": 254066
+              }
+            },
+            {
+              "id": "fa1e89c9-2edc-406d-ae9a-bcb7b3cb635e",
+              "number": "B3",
+              "title": "Solitude",
+              "length": 330000,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 333373,
+                "id": "c2bd0549-c167-40ae-b80b-a8e29705ae25",
+                "first-release-date": "1962",
+                "title": "Solitude"
+              },
+              "position": 7
+            }
+          ],
+          "track-count": 7,
+          "track-offset": 0,
+          "format": "12\" Vinyl"
+        }
+      ],
+      "id": "6a3d8dfe-bc72-4010-861e-a3f51723a4b7",
+      "country": "US",
+      "title": "Money Jungle",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "id": "7c5d5d21-a444-4af0-b832-0ea6c2031446",
+      "country": "US",
+      "title": "The Minor Goes Muggin' / Tonight I Shall Sleep",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "release-group": {
+        "first-release-date": "1945-06",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "secondary-type-ids": [],
+        "title": "The Minor Goes Muggin' / Tonight I Shall Sleep",
+        "id": "7cef1151-51e1-4d7d-b4bd-763555e5ee07",
+        "secondary-types": [],
+        "primary-type": "Single",
+        "disambiguation": ""
+      },
+      "packaging": null,
+      "media": [
+        {
+          "position": 1,
+          "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b",
+          "title": "",
+          "tracks": [
+            {
+              "length": null,
+              "title": "The Minor Goes Muggin'",
+              "id": "2111be93-d939-4478-8272-04b85f8ea079",
+              "number": "A",
+              "position": 1,
+              "recording": {
+                "first-release-date": "1945-06",
+                "title": "The Minor Goes Muggin'",
+                "id": "34cefb57-142a-4ddf-aa79-82dc63bdfa5b",
+                "length": null,
+                "video": false,
+                "disambiguation": ""
+              }
+            },
+            {
+              "recording": {
+                "first-release-date": "1945-06",
+                "title": "Tonight I Shall Sleep (with a Smile on My Face)",
+                "id": "0bf313ad-58e9-4b10-8cc0-8118917db785",
+                "length": null,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2,
+              "id": "5ddfdded-8a15-4828-aca1-e8d8bd714658",
+              "number": "B",
+              "title": "Tonight I Shall Sleep (with a Smile on My Face)",
+              "length": null
+            }
+          ],
+          "track-offset": 0,
+          "track-count": 2,
+          "format": "10\" Shellac"
+        }
+      ],
+      "release-events": [
+        {
+          "date": "1945-06",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "front": true,
+        "count": 2,
+        "darkened": false
+      },
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": null,
+      "barcode": null,
+      "date": "1945-06"
+    },
+    {
+      "quality": "normal",
+      "disambiguation": "",
+      "barcode": null,
+      "packaging-id": null,
+      "date": "1952",
+      "id": "7d940137-06e9-4d8a-920f-344bb3d9f74b",
+      "country": "US",
+      "asin": null,
+      "title": "Dancers in Love / Coloratura",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "packaging": null,
+      "release-group": {
+        "first-release-date": "1952",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "secondary-type-ids": [],
+        "title": "Dancers in Love / Coloratura",
+        "id": "af3b0d52-90e6-4132-849c-24466583df9e",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Single"
+      },
+      "media": [
+        {
+          "position": 1,
+          "format-id": "1d5a48e4-e94a-36dc-84e2-0c5f9f880aa7",
+          "tracks": [
+            {
+              "length": null,
+              "number": "A",
+              "id": "c5268d47-e7d8-4bad-a4db-3634f96ddd9a",
+              "title": "Dancers in Love",
+              "recording": {
+                "id": "0a68e288-168e-4928-9ab8-32881a1811ec",
+                "first-release-date": "1952",
+                "title": "Dancers in Love",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              },
+              "position": 1
+            },
+            {
+              "length": null,
+              "title": "Coloratura",
+              "id": "26ddacb7-9616-49c0-8f0a-778d6b11fee5",
+              "number": "B",
+              "position": 2,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "11d70b78-ee56-4105-8a40-ad36e32fb9bd",
+                "first-release-date": "1952",
+                "title": "Coloratura"
+              }
+            }
+          ],
+          "title": "",
+          "format": "7\" Vinyl",
+          "track-offset": 0,
+          "track-count": 2
+        }
+      ],
+      "release-events": [
+        {
+          "date": "1952",
+          "area": {
+            "iso-3166-1-codes": ["US"],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "name": "United States",
+            "sort-name": "United States"
+          }
+        }
+      ],
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "cover-art-archive": {
+        "front": true,
+        "back": false,
+        "artwork": true,
+        "darkened": false,
+        "count": 2
+      }
+    },
+    {
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "id": "7eafbddf-b130-4ed3-a6bf-34885d06894e",
+      "country": "DE",
+      "title": "Sophisticated Lady",
+      "asin": null,
+      "media": [
+        {
+          "track-offset": 0,
+          "format": "7\" Vinyl",
+          "track-count": 4,
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "first-release-date": "1959",
+                "title": "Sophisticated Lady",
+                "id": "511af06c-0e9b-4e71-bc0f-08f8ab64a800",
+                "length": null,
+                "disambiguation": "",
+                "video": false
+              },
+              "title": "Sophisticated Lady",
+              "number": "A1",
+              "id": "43a06ca6-9a2e-4800-a748-5ad029bf434c",
+              "length": null
+            },
+            {
+              "id": "2567da88-ed38-4fe4-b447-ac1b52d36f7f",
+              "number": "A2",
+              "title": "Merry Go Round",
+              "length": null,
+              "recording": {
+                "id": "47428c74-758a-4f23-a3df-c2839d629cca",
+                "title": "Merry Go Round",
+                "first-release-date": "1959",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              },
+              "position": 2
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "52756f48-7fd5-48f0-8107-b675f83f4fd1",
+                "title": "I've Got the World on a String",
+                "first-release-date": "1959"
+              },
+              "position": 3,
+              "id": "8b1b73cf-34a6-47d2-8145-a83f0d34d664",
+              "number": "B1",
+              "title": "I've Got the World on a String",
+              "length": null
+            },
+            {
+              "length": null,
+              "id": "de0b4c15-56c7-4cfc-9ffe-12122f3c5804",
+              "number": "B2",
+              "title": "Down a Carolina Lane",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "id": "8e038732-8f35-45b6-abe9-0c55a88c996f",
+                "title": "Down a Carolina Lane",
+                "first-release-date": "1959"
+              },
+              "position": 4
+            }
+          ],
+          "title": "",
+          "format-id": "1d5a48e4-e94a-36dc-84e2-0c5f9f880aa7",
+          "position": 1
+        }
+      ],
+      "status": "Promotion",
+      "packaging": null,
+      "release-group": {
+        "first-release-date": "1959",
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "secondary-type-ids": [],
+        "title": "Sophisticated Lady",
+        "id": "2899aae0-195c-440e-891d-32b2da430383",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "EP"
+      },
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "artwork": false,
+        "front": false,
+        "back": false,
+        "count": 0,
+        "darkened": false
+      },
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": ["DE"],
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Germany",
+            "name": "Germany"
+          },
+          "date": "1959"
+        }
+      ],
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": null,
+      "barcode": null,
+      "date": "1959"
+    },
+    {
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": null,
+      "barcode": null,
+      "date": "1965",
+      "id": "8ceecec1-f8e7-427a-ae82-f5729762158b",
+      "country": "GB",
+      "title": "Duke Ellington, Fletcher Henderson, Artie Shaw And Their Orchestras",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "status": "Official",
+      "packaging": null,
+      "release-group": {
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1965",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album",
+        "title": "Duke Ellington, Fletcher Henderson, Artie Shaw And Their Orchestras",
+        "id": "3c24b56c-3c87-4e67-b2e1-0cc86aad1be8"
+      },
+      "media": [
+        {
+          "format": "Vinyl",
+          "track-offset": 0,
+          "track-count": 10,
+          "position": 1,
+          "format-id": "10e17707-9751-3aaf-95b2-2432acd5374c",
+          "title": "",
+          "tracks": [
+            {
+              "title": "Molten Swing",
+              "id": "60d0d5af-3dbc-4bba-9b4b-28325b734480",
+              "number": "A1",
+              "length": null,
+              "position": 1,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "id": "b9ddf4f0-bf2e-4702-99de-536b97c0bd57",
+                "first-release-date": "1965",
+                "title": "Molten Swing"
+              }
+            },
+            {
+              "length": null,
+              "id": "c3c036e8-6e87-46e1-9ce7-91f8206489fa",
+              "number": "A2",
+              "title": "Minor Riff",
+              "recording": {
+                "length": null,
+                "video": false,
+                "disambiguation": "",
+                "title": "Minor Riff",
+                "first-release-date": "1965",
+                "id": "49c96eb2-9274-457f-9218-b30f72819e7f"
+              },
+              "position": 2
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "id": "7d839cb1-354a-4f41-8fd6-240cd98e9018",
+                "title": "Satchel Mouth Baby",
+                "first-release-date": "1965"
+              },
+              "position": 3,
+              "id": "02c8b54f-09e6-492c-a1b8-81555c3937b2",
+              "number": "A3",
+              "title": "Satchel Mouth Baby",
+              "length": null
+            },
+            {
+              "recording": {
+                "length": null,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1965",
+                "title": "King Porter Stomp",
+                "id": "2ca994e5-e7f8-4930-afcc-f5c443a3742a"
+              },
+              "position": 4,
+              "length": null,
+              "number": "A4",
+              "id": "9b17e668-cad6-4b3e-bda8-6baceb99ccfc",
+              "title": "King Porter Stomp"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "id": "ab908a98-20a2-4db4-8d08-fd75dd8e4258",
+                "title": "Tulip Or Turnip",
+                "first-release-date": "1965",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              },
+              "title": "Tulip Or Turnip",
+              "number": "A5",
+              "id": "f43d3fd9-88cc-4499-ba04-740a99bdd257",
+              "length": null
+            },
+            {
+              "position": 6,
+              "recording": {
+                "id": "3047b46a-953b-4156-a364-5486fa501ba4",
+                "title": "It Shouldn't Happen to a Dream",
+                "first-release-date": "1965",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              },
+              "length": null,
+              "title": "It Shouldn't Happen to a Dream",
+              "id": "752000aa-e606-4691-a2b1-324aa181da12",
+              "number": "B1"
+            },
+            {
+              "length": null,
+              "number": "B2",
+              "id": "0fae1b44-c3cc-4332-a886-12349c447d0e",
+              "title": "Night and Day",
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "ff06f3b4-320f-4787-875e-f2608c852bf8",
+                "first-release-date": "1965",
+                "title": "Night and Day"
+              },
+              "position": 7
+            },
+            {
+              "length": null,
+              "title": "Along With Me",
+              "number": "B3",
+              "id": "79ea003e-e58b-4905-b419-4b621dc85838",
+              "position": 8,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "cbe72db3-c4c0-4d6c-98ec-22098820dc33",
+                "first-release-date": "1965",
+                "title": "Along With Me"
+              }
+            },
+            {
+              "position": 9,
+              "recording": {
+                "first-release-date": "1965",
+                "title": "For You, For Me, For Evermore",
+                "id": "679a58aa-8b24-4a14-ac5d-57564aa09c58",
+                "length": null,
+                "disambiguation": "",
+                "video": false
+              },
+              "title": "For You, For Me, For Evermore",
+              "id": "58a017ae-f1ed-44d3-bc8d-8c1b6303e05e",
+              "number": "B4",
+              "length": null
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "id": "24c7f889-53f3-425d-9a0c-43a521724097",
+                "first-release-date": "1965",
+                "title": "I Believe"
+              },
+              "position": 10,
+              "length": null,
+              "number": "B5",
+              "id": "272846f0-8940-4cd4-a229-1bd98ce063fc",
+              "title": "I Believe"
+            }
+          ]
+        }
+      ],
+      "release-events": [
+        {
+          "date": "1965",
+          "area": {
+            "iso-3166-1-codes": ["GB"],
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom"
+          }
+        }
+      ],
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 1,
+        "front": true,
+        "back": false,
+        "artwork": true
+      }
+    },
+    {
+      "date": "1963",
+      "packaging-id": null,
+      "barcode": null,
+      "disambiguation": "",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "title": "Duke Ellington Meets Coleman Hawkins",
+      "id": "8dc17365-36d8-3f53-921d-69ae364a9540",
+      "country": "US",
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "artwork": false,
+        "back": false,
+        "front": false
+      },
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "release-events": [
+        {
+          "area": {
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "iso-3166-1-codes": ["US"]
+          },
+          "date": "1963"
+        }
+      ],
+      "media": [
+        {
+          "position": 1,
+          "format-id": "10e17707-9751-3aaf-95b2-2432acd5374c",
+          "tracks": [
+            {
+              "id": "84947c5d-d204-38af-b9a7-fe97ff6139eb",
+              "number": "1",
+              "title": "Limbo Jazz",
+              "length": 313373,
+              "recording": {
+                "id": "e976a377-b697-4c44-8866-a25fe5c6561d",
+                "first-release-date": "1963-02",
+                "title": "Limbo Jazz",
+                "disambiguation": "",
+                "video": false,
+                "length": 313373
+              },
+              "position": 1
+            },
+            {
+              "length": 357026,
+              "number": "2",
+              "id": "e8ce7270-5d1d-34bf-a4ad-a677f9b7d937",
+              "title": "Mood Indigo",
+              "recording": {
+                "first-release-date": "1963-02",
+                "title": "Mood Indigo",
+                "id": "0cd550f4-baa0-4c77-92e0-abbe147eb7f4",
+                "length": 357026,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 2
+            },
+            {
+              "id": "0d266c85-fbd2-37a3-a5f2-128f316a69b1",
+              "number": "3",
+              "title": "Ray Charles' Place",
+              "length": 245600,
+              "recording": {
+                "first-release-date": "1963-02",
+                "title": "Ray Charles' Place",
+                "id": "10614584-7909-474a-a8da-bcc0182925e7",
+                "length": 245600,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 3
+            },
+            {
+              "length": 301840,
+              "title": "Wanderlust",
+              "number": "4",
+              "id": "010523e3-2c43-3a4a-82a7-c3a9d38dffa9",
+              "position": 4,
+              "recording": {
+                "first-release-date": "1963-02",
+                "title": "Wanderlust",
+                "id": "ae0cc86e-277e-422c-be3b-ffff1fd06f92",
+                "length": 301840,
+                "disambiguation": "Gray remastering",
+                "video": false
+              }
+            },
+            {
+              "title": "You Dirty Dog",
+              "id": "b6c945c7-97e2-3072-a30f-aae46a3ee008",
+              "number": "5",
+              "length": 258560,
+              "position": 5,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 258560,
+                "id": "8975e95f-746b-4b1f-8384-ff23903930ca",
+                "title": "You Dirty Dog",
+                "first-release-date": "1963-02"
+              }
+            },
+            {
+              "length": 232440,
+              "number": "6",
+              "id": "6a3130e1-1090-3a18-a64f-0b612c8dd657",
+              "title": "Self Portrait (of the Bean)",
+              "recording": {
+                "id": "8cfdb441-dfbd-4fa5-97c6-3375f4eecbad",
+                "title": "Self Portrait (of the Bean)",
+                "first-release-date": "1963-02",
+                "disambiguation": "",
+                "video": false,
+                "length": 232440
+              },
+              "position": 6
+            },
+            {
+              "id": "20099297-37e5-380d-9870-4c0a9bc630a7",
+              "number": "7",
+              "title": "The Jeep Is Jumpin'",
+              "length": 288866,
+              "recording": {
+                "id": "8fe08f92-44a1-451a-903d-067b0a1da692",
+                "first-release-date": "1963-02",
+                "title": "The Jeep Is Jumpin’",
+                "disambiguation": "",
+                "video": false,
+                "length": 288866
+              },
+              "position": 7
+            },
+            {
+              "position": 8,
+              "recording": {
+                "first-release-date": "1963-02",
+                "title": "The Ricitic",
+                "id": "0a6119f8-3278-47ef-bb82-4e9101c9d0d0",
+                "length": 351800,
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "The Ricitic",
+              "number": "8",
+              "id": "51d5dc74-1a5d-35ef-96d1-eee6775b6d2e",
+              "length": 351800
+            }
+          ],
+          "title": "",
+          "track-count": 8,
+          "track-offset": 0,
+          "format": "Vinyl"
+        }
+      ],
+      "packaging": null,
+      "release-group": {
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1963-02",
+        "secondary-types": [],
+        "primary-type": "Album",
+        "disambiguation": "",
+        "title": "Duke Ellington Meets Coleman Hawkins",
+        "id": "0bbc462f-554b-3cc3-b4c5-a78c6a313d5a"
+      },
+      "status": "Official"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "First Time! The Count Meets the Duke",
+      "asin": null,
+      "country": "US",
+      "id": "90fb77ac-6270-404c-97e3-172775d0da9c",
+      "cover-art-archive": {
+        "count": 4,
+        "darkened": false,
+        "artwork": true,
+        "front": true,
+        "back": true
+      },
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "release-events": [
+        {
+          "date": "1962",
+          "area": {
+            "sort-name": "United States",
+            "name": "United States",
+            "type": null,
+            "type-id": null,
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "media": [
+        {
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 8,
+          "title": "",
+          "tracks": [
+            {
+              "number": "A1",
+              "id": "a194205f-aa64-4944-b55f-fd30d4800a6e",
+              "title": "Battle Royal",
+              "length": 335000,
+              "recording": {
+                "first-release-date": "1961",
+                "title": "Battle Royal",
+                "id": "ffc89e6c-f479-45c7-a356-85ae627b6e27",
+                "length": 335000,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 1
+            },
+            {
+              "length": 237106,
+              "id": "d89dc9ef-ca93-4f93-bc48-1db02e50fe89",
+              "number": "A2",
+              "title": "To You",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 237093,
+                "id": "c85511bd-e172-42b0-8c9b-9b12a8ecd9b8",
+                "title": "To You",
+                "first-release-date": "1961"
+              },
+              "position": 2
+            },
+            {
+              "length": 229493,
+              "number": "A3",
+              "id": "cbf35287-9bfd-4a5d-8fbd-21f90f5b7135",
+              "title": "Take the \"A\" Train",
+              "recording": {
+                "length": 228000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Take the “A” Train",
+                "first-release-date": "1961",
+                "id": "504bb420-fa5c-4b9a-bfea-cc688c18b8a0"
+              },
+              "position": 3
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 295133,
+                "id": "9d07b0eb-2b41-4ec3-9be2-d1a60b318981",
+                "first-release-date": "1961",
+                "title": "Corner Pocket (Until I Met You)"
+              },
+              "position": 4,
+              "length": 297000,
+              "id": "42b4ce53-d267-425b-99b0-f48c150bbfd2",
+              "number": "A4",
+              "title": "Until I Met You"
+            },
+            {
+              "number": "B1",
+              "id": "cc9a7bd5-401f-4f57-8789-a9eda8dfbb4f",
+              "title": "Wild Man",
+              "length": 345000,
+              "recording": {
+                "length": 345000,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1961",
+                "title": "Wild Man",
+                "id": "d7b96107-b567-4345-838d-6c19e24b3a95"
+              },
+              "position": 5
+            },
+            {
+              "number": "B2",
+              "id": "d4f6213c-3a0e-4215-94bb-443c2d455eae",
+              "title": "Segue in C",
+              "length": 505240,
+              "recording": {
+                "title": "Segue in C",
+                "first-release-date": "1961",
+                "id": "36bb5dfe-401c-4569-ace5-93adb294b3aa",
+                "length": 505240,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 6
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 245360,
+                "id": "b02e2cda-2412-47a4-85b8-5141a238ef80",
+                "title": "B D B",
+                "first-release-date": "1961"
+              },
+              "position": 7,
+              "id": "45dc5e18-fe3f-4c91-b5e9-d32ae3bf6e02",
+              "number": "B3",
+              "title": "B D B",
+              "length": 245360
+            },
+            {
+              "recording": {
+                "first-release-date": "1961",
+                "title": "Jumpin’ at the Woodside",
+                "id": "9e4e68d2-4320-42a1-9a20-4a68467f18a4",
+                "length": 187000,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 8,
+              "length": 186934,
+              "id": "1c86bf78-f3bd-4174-b545-400cad9f9ec1",
+              "number": "B4",
+              "title": "Jumpin’ at the Woodside"
+            }
+          ],
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-group": {
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1961",
+        "secondary-types": [],
+        "primary-type": "Album",
+        "disambiguation": "",
+        "title": "First Time! The Count Meets the Duke",
+        "id": "65890654-7523-33e0-a825-2bf9fe8efe41"
+      },
+      "status": "Official",
+      "date": "1962",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "disambiguation": "",
+      "quality": "normal"
+    },
+    {
+      "date": "1954",
+      "packaging-id": null,
+      "barcode": null,
+      "disambiguation": "",
+      "quality": "normal",
+      "cover-art-archive": {
+        "artwork": true,
+        "back": true,
+        "front": true,
+        "count": 4,
+        "darkened": false
+      },
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": ["DE"],
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "type-id": null,
+            "type": null,
+            "sort-name": "Germany",
+            "name": "Germany"
+          },
+          "date": "1954"
+        }
+      ],
+      "media": [
+        {
+          "track-offset": 0,
+          "format": "7\" Vinyl",
+          "track-count": 4,
+          "tracks": [
+            {
+              "id": "36f958f4-b061-45dc-a24e-c4ed102adfe1",
+              "number": "A1",
+              "title": "In a Sentimental Mood",
+              "length": null,
+              "recording": {
+                "id": "24efdbea-357d-445d-9c7a-5ab739165164",
+                "first-release-date": "1954",
+                "title": "In a Sentimental Mood",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              },
+              "position": 1
+            },
+            {
+              "title": "Things Ain't What They Used to Be",
+              "number": "A2",
+              "id": "b0c7f25b-de50-47e3-baf5-5026ccb0acf7",
+              "length": null,
+              "position": 2,
+              "recording": {
+                "id": "38be7cb8-6532-4b53-b887-c6f37032a110",
+                "title": "Things Ain't What They Used to Be",
+                "first-release-date": "1954",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              }
+            },
+            {
+              "length": null,
+              "number": "B1",
+              "id": "9ed02b9a-64b0-4dc3-9eeb-5349cd3d9d0d",
+              "title": "Reflections in D",
+              "recording": {
+                "id": "f8a13e33-7bf4-4323-8db2-2c7a7a82499a",
+                "title": "Reflections in D",
+                "first-release-date": "1954",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              },
+              "position": 3
+            },
+            {
+              "length": null,
+              "id": "7b59a829-21df-40f9-8e3a-d0f7c5de0e5c",
+              "number": "B2",
+              "title": "Who Knows?",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": null,
+                "id": "ac3c3d37-e07a-4e4d-88a5-d95032f7406f",
+                "title": "Who Knows?",
+                "first-release-date": "1954"
+              },
+              "position": 4
+            }
+          ],
+          "title": "",
+          "position": 1,
+          "format-id": "1d5a48e4-e94a-36dc-84e2-0c5f9f880aa7"
+        }
+      ],
+      "release-group": {
+        "title": "The Duke Plays Ellington, Part 1",
+        "id": "cdce0f43-972d-4e67-a03a-b9d395e5a71e",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "EP",
+        "first-release-date": "1954",
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "secondary-type-ids": []
+      },
+      "packaging": null,
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "asin": null,
+      "title": "The Duke Plays Ellington, Part 1",
+      "id": "9138ea32-c5b4-473a-905e-01379a1025ad",
+      "country": "DE"
+    },
+    {
+      "disambiguation": "",
+      "date": "1958",
+      "packaging-id": null,
+      "barcode": null,
+      "quality": "normal",
+      "country": "ES",
+      "id": "9cee1492-af18-4f07-be9d-0892144f0efb",
+      "title": "Harlem Suite",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+            "iso-3166-1-codes": ["ES"],
+            "sort-name": "Spain",
+            "name": "Spain",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1958"
+        }
+      ],
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 4,
+        "front": true,
+        "back": true,
+        "artwork": true
+      },
+      "status": "Official",
+      "release-group": {
+        "id": "2203552e-94bc-42c5-9fc9-dbbafb7b0361",
+        "title": "Harlem Suite",
+        "primary-type": "EP",
+        "disambiguation": "",
+        "secondary-types": [],
+        "first-release-date": "1958",
+        "secondary-type-ids": [],
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+      },
+      "packaging": null,
+      "media": [
+        {
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "id": "24083a9c-8258-43da-85ce-9d32c90f66dd",
+                "first-release-date": "1958",
+                "title": "Harlem Suite, Parte 1",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              },
+              "length": null,
+              "title": "Harlem Suite, Parte 1",
+              "id": "6a2321bf-cdbb-48e8-a4af-bbf406eaf11d",
+              "number": "A"
+            },
+            {
+              "recording": {
+                "first-release-date": "1958",
+                "title": "Harlem Suite (Conclusión)",
+                "id": "8dc076e0-1ab4-4286-8307-8418b73d3643",
+                "length": null,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 2,
+              "length": null,
+              "id": "1949cc3a-7353-476f-b519-401e2fe531d0",
+              "number": "B",
+              "title": "Harlem Suite (Conclusión)"
+            }
+          ],
+          "title": "",
+          "format-id": "1d5a48e4-e94a-36dc-84e2-0c5f9f880aa7",
+          "position": 1,
+          "track-count": 2,
+          "track-offset": 0,
+          "format": "7\" Vinyl"
+        }
+      ]
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": null,
+      "date": "1961",
+      "quality": "normal",
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "front": true,
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 2
+      },
+      "release-events": [
+        {
+          "date": "1961",
+          "area": {
+            "iso-3166-1-codes": ["US"],
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "type": null,
+            "sort-name": "United States",
+            "name": "United States"
+          }
+        }
+      ],
+      "media": [
+        {
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "title": "Duke’s Place",
+              "id": "a7d24b29-7532-3b65-a21b-760947e020cb",
+              "number": "A1",
+              "length": 303520,
+              "position": 1,
+              "recording": {
+                "length": 303520,
+                "disambiguation": "",
+                "video": false,
+                "title": "Duke's Place",
+                "first-release-date": "1961",
+                "id": "6bc3d0d7-c235-4f5d-84f2-336814dca8fd"
+              }
+            },
+            {
+              "recording": {
+                "length": 189226,
+                "video": false,
+                "disambiguation": "",
+                "title": "I’m Just a Lucky So and So",
+                "first-release-date": "1961",
+                "id": "3bacceab-02f9-4e41-b5f1-176bdcf76731"
+              },
+              "position": 2,
+              "length": 188920,
+              "id": "c61bc442-20af-319c-b2de-bef386808488",
+              "number": "A2",
+              "title": "I’m Just a Lucky So and So"
+            },
+            {
+              "recording": {
+                "id": "84df6569-0e80-430f-948b-72a2829059cb",
+                "first-release-date": "1961",
+                "title": "Cotton Tail",
+                "video": false,
+                "disambiguation": "",
+                "length": 222373
+              },
+              "position": 3,
+              "length": 222373,
+              "number": "A3",
+              "id": "39bd95fa-442f-3001-947b-4879b9163964",
+              "title": "Cottontail"
+            },
+            {
+              "position": 4,
+              "recording": {
+                "first-release-date": "1961",
+                "title": "Mood Indigo",
+                "id": "a45f4f4e-9f66-4dfb-b29e-9dff0b24c341",
+                "length": 240000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 236493,
+              "title": "Mood Indigo",
+              "id": "5c7db435-583b-33d5-be6c-3df78152e2b5",
+              "number": "A4"
+            },
+            {
+              "title": "Do Nuthin’ Till You Hear From Me",
+              "number": "A5",
+              "id": "e0215ae4-48be-3e5f-9cf7-13318a4a1dc6",
+              "length": 157746,
+              "position": 5,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 157746,
+                "id": "b0a1ecea-c698-478f-9e29-98743b328c0e",
+                "first-release-date": "1961",
+                "title": "Do Nothn' Till You Hear From Me"
+              }
+            },
+            {
+              "position": 6,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 188426,
+                "id": "74a93469-61de-4555-aa40-37a2555aca0a",
+                "title": "The Beautiful American",
+                "first-release-date": "1961"
+              },
+              "length": 188426,
+              "title": "The Beautiful American",
+              "number": "B1",
+              "id": "1767f810-832c-3d13-b11b-9840d7c5837b"
+            },
+            {
+              "length": 240186,
+              "id": "a5704057-1789-3fe0-82ba-50160daa2d55",
+              "number": "B2",
+              "title": "Black and Tan Fantasy",
+              "recording": {
+                "length": 239893,
+                "disambiguation": "",
+                "video": false,
+                "title": "Black and Tan Fantasy",
+                "first-release-date": "1961",
+                "id": "fa6596d5-5681-4f6f-988d-97ed227ab6ce"
+              },
+              "position": 7
+            },
+            {
+              "length": 229786,
+              "id": "79dfc3c0-91f5-31c0-a859-fa0f522c1bfe",
+              "number": "B3",
+              "title": "Drop Me Off in Harlem",
+              "recording": {
+                "title": "Drop Me Off in Harlem",
+                "first-release-date": "1961",
+                "id": "1d4fb0b0-2f09-441e-8727-5120159a5e92",
+                "length": 229786,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 8
+            },
+            {
+              "position": 9,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 221666,
+                "id": "8634874a-5a77-49ad-9a5f-e9c6fe79b78e",
+                "first-release-date": "1961",
+                "title": "The Mooche"
+              },
+              "title": "The Mooche",
+              "number": "B4",
+              "id": "68e25071-9711-39e1-abf0-e4aba0966c76",
+              "length": 220813
+            },
+            {
+              "position": 10,
+              "recording": {
+                "title": "In a Mellow Tone",
+                "first-release-date": "1961",
+                "id": "2fe7348d-79d1-48e0-ba31-6b59d7eb363c",
+                "length": 225853,
+                "disambiguation": "",
+                "video": false
+              },
+              "title": "In a Mellow Tone",
+              "number": "B5",
+              "id": "e9eced44-f48e-3094-b641-2d8c722f2e2a",
+              "length": 225853
+            }
+          ],
+          "title": "",
+          "track-count": 10,
+          "track-offset": 0,
+          "format": "12\" Vinyl"
+        }
+      ],
+      "status": "Official",
+      "release-group": {
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1961",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album",
+        "title": "Recording Together for the First Time",
+        "id": "a2a439e6-35b8-4be8-ac40-e7794e402091"
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "country": "US",
+      "id": "a184f261-137c-4f7d-a121-7816935f17eb",
+      "title": "Recording Together for the First Time",
+      "asin": null
+    },
+    {
+      "disambiguation": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "date": "1963",
+      "quality": "normal",
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "cover-art-archive": {
+        "count": 0,
+        "darkened": false,
+        "artwork": false,
+        "front": false,
+        "back": false
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "type-id": null,
+            "name": "United States",
+            "sort-name": "United States",
+            "iso-3166-1-codes": ["US"],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": ""
+          },
+          "date": "1963"
+        }
+      ],
+      "media": [
+        {
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "recording": {
+                "first-release-date": "1963",
+                "title": "It Don't Mean a Thing",
+                "id": "a5630390-e728-4b40-a30c-df9090798358",
+                "length": 239253,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 1,
+              "number": "A1",
+              "id": "0ad851f6-5a5f-4fff-8308-84563388a052",
+              "title": "It Don't Mean a Thing",
+              "length": 240506
+            },
+            {
+              "length": 296733,
+              "id": "6936a9aa-1bcc-4dc5-ad32-4055f7ddc6b1",
+              "number": "A2",
+              "title": "Solitude",
+              "recording": {
+                "id": "24d4b092-6f79-43e9-a993-cea606770fa2",
+                "title": "Solitude",
+                "first-release-date": "1963",
+                "disambiguation": "",
+                "video": false,
+                "length": 296733
+              },
+              "position": 2
+            },
+            {
+              "position": 3,
+              "recording": {
+                "id": "ef263d8f-bb4c-4d1a-b46e-e8bfdd47ef9d",
+                "title": "Don’t Get Around Much Anymore",
+                "first-release-date": "1963",
+                "video": false,
+                "disambiguation": "",
+                "length": 214000
+              },
+              "length": 214133,
+              "title": "Don't Get Around Much Anymore",
+              "id": "2ecf07c4-62a5-4bff-86aa-c5e77925ca7a",
+              "number": "A3"
+            },
+            {
+              "position": 4,
+              "recording": {
+                "id": "d3da01d5-d4d7-4f9f-a619-0baebc6d0353",
+                "first-release-date": "1963",
+                "title": "I'm Beginning to See the Light",
+                "video": false,
+                "disambiguation": "",
+                "length": 218960
+              },
+              "title": "I'm Beginning to See the Light",
+              "id": "43655d92-7948-4720-908f-38d5b14a0043",
+              "number": "A4",
+              "length": 218960
+            },
+            {
+              "recording": {
+                "id": "597a42bf-bac1-4b66-bae8-f3f6735fdbee",
+                "first-release-date": "1963",
+                "title": "Just Squeeze Me",
+                "video": false,
+                "disambiguation": "",
+                "length": 241280
+              },
+              "position": 5,
+              "id": "3ba3ebdf-4c85-4942-951d-98fdd5d18259",
+              "number": "B1",
+              "title": "Just Squeeze Me",
+              "length": 241280
+            },
+            {
+              "length": 333133,
+              "number": "B2",
+              "id": "cd0ffba6-da7f-47ee-a3fb-4ef93a4b6591",
+              "title": "I Got It Bad and That Ain't Good",
+              "recording": {
+                "length": 333133,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1963",
+                "title": "I Got It Bad and That Ain't Good",
+                "id": "c2b803e8-452a-40e8-967a-a7de57c46435"
+              },
+              "position": 6
+            },
+            {
+              "recording": {
+                "id": "39d68852-00a4-4b70-9ba9-a83b46bdcb19",
+                "first-release-date": "1963",
+                "title": "Azalea",
+                "disambiguation": "",
+                "video": false,
+                "length": 306026
+              },
+              "position": 7,
+              "id": "7893f65a-8545-4cc3-8540-bb5b90fd2b16",
+              "number": "B3",
+              "title": "Azalea",
+              "length": 306040
+            }
+          ],
+          "title": "",
+          "track-count": 7,
+          "track-offset": 0,
+          "format": "12\" Vinyl"
+        }
+      ],
+      "status": "Official",
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-group": {
+        "id": "adfee37a-06ca-342d-b6b9-60eb2b02ceab",
+        "title": "The Great Reunion",
+        "disambiguation": "",
+        "primary-type": "Album",
+        "secondary-types": [],
+        "first-release-date": "1963",
+        "secondary-type-ids": [],
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "country": "US",
+      "id": "a20ce0d6-a743-4841-8ded-5f9215f75a0c",
+      "asin": null,
+      "title": "The Great Reunion"
+    },
+    {
+      "quality": "normal",
+      "date": "1930-04",
+      "packaging-id": null,
+      "barcode": null,
+      "disambiguation": "",
+      "packaging": null,
+      "release-group": {
+        "title": "Hot and Bothered / Swampy River",
+        "id": "40ddbc57-f4ed-489b-bac0-c09199ed7c5a",
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Single",
+        "first-release-date": "1930-04",
+        "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+        "secondary-type-ids": []
+      },
+      "status": "Official",
+      "media": [
+        {
+          "position": 1,
+          "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b",
+          "title": "",
+          "tracks": [
+            {
+              "title": "Hot and Bothered",
+              "id": "0509fce8-01ed-4580-a2c0-e9e53062086e",
+              "number": "1",
+              "length": null,
+              "position": 1,
+              "recording": {
+                "title": "Hot and Bothered",
+                "first-release-date": "1930-04",
+                "id": "4c31f78d-77a7-4fac-93ab-47d9c7b27850",
+                "length": 198893,
+                "video": false,
+                "disambiguation": "matrix no. W.401177-A"
+              }
+            },
+            {
+              "position": 2,
+              "recording": {
+                "id": "72575a1e-f17d-4781-a120-7919392c294d",
+                "title": "Swampy River",
+                "first-release-date": "1930-04",
+                "disambiguation": "matrix no. W.401173-B",
+                "video": false,
+                "length": 170560
+              },
+              "length": null,
+              "title": "Swampy River",
+              "number": "2",
+              "id": "876e6944-a6c7-4653-b2ae-5b3abc23a2c8"
+            }
+          ],
+          "track-count": 2,
+          "track-offset": 0,
+          "format": "10\" Shellac"
+        }
+      ],
+      "release-events": [
+        {
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "disambiguation": "",
+            "iso-3166-1-codes": ["GB"],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type-id": null,
+            "type": null
+          },
+          "date": "1930-04"
+        }
+      ],
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "front": true,
+        "count": 2,
+        "darkened": false
+      },
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "asin": null,
+      "title": "Hot and Bothered / Swampy River",
+      "country": "GB",
+      "id": "b2b300ba-1f75-4682-af13-90b73bbdc899",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "quality": "normal",
+      "disambiguation": "Stereo release",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "",
+      "date": "1963",
+      "media": [
+        {
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 7,
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "length": 252000,
+              "id": "2af30b83-6cd1-3ebf-9bc7-eafcaaae22c2",
+              "number": "A1",
+              "title": "In a Sentimental Mood",
+              "recording": {
+                "length": 256173,
+                "disambiguation": "",
+                "video": false,
+                "title": "In a Sentimental Mood",
+                "first-release-date": "1963",
+                "id": "d95677bb-60c5-4671-9f50-f9c7494ccaf6"
+              },
+              "position": 1
+            },
+            {
+              "title": "Take the Coltrane",
+              "number": "A2",
+              "id": "a3af2ca2-9d7b-3c94-ba3a-303fe0a62997",
+              "length": 280000,
+              "position": 2,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 284000,
+                "id": "c25b6d47-0197-4f90-8a16-8f1be61f1991",
+                "first-release-date": "1963",
+                "title": "Take the Coltrane"
+              }
+            },
+            {
+              "length": 265000,
+              "number": "A3",
+              "id": "b5655878-3b58-369a-b0c7-9ec30b925542",
+              "title": "Big Nick",
+              "recording": {
+                "length": 269000,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1963",
+                "title": "Big Nick",
+                "id": "d332a3e2-9149-4de7-b086-4f58946d5948"
+              },
+              "position": 3
+            },
+            {
+              "number": "A4",
+              "id": "5a57bb20-1181-3f5d-90e7-58a377034043",
+              "title": "Stevie",
+              "length": 260000,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 265000,
+                "id": "89bbe038-c6f5-4099-a2b9-73f79f081f7b",
+                "title": "Stevie",
+                "first-release-date": "1963"
+              },
+              "position": 4
+            },
+            {
+              "position": 5,
+              "recording": {
+                "first-release-date": "1963",
+                "title": "My Little Brown Book",
+                "id": "21d6fd5f-427d-4e2b-a37d-7008c27c7e1e",
+                "length": 322293,
+                "video": false,
+                "disambiguation": ""
+              },
+              "length": 320000,
+              "title": "My Little Brown Book",
+              "number": "B1",
+              "id": "a2d5ec14-4113-3129-813c-106a572999eb"
+            },
+            {
+              "title": "Angelica",
+              "number": "B2",
+              "id": "7942c327-9bf4-307c-9bf0-a6d03c4c4c2b",
+              "length": 356000,
+              "position": 6,
+              "recording": {
+                "id": "06deadd9-ab48-4284-a950-0412d385fe49",
+                "title": "Angelica",
+                "first-release-date": "1963",
+                "video": false,
+                "disambiguation": "",
+                "length": 360000
+              }
+            },
+            {
+              "number": "B3",
+              "id": "42989fc0-c117-35dd-a58d-a41a59f15b47",
+              "title": "The Feeling of Jazz",
+              "length": 330000,
+              "recording": {
+                "title": "The Feeling of Jazz",
+                "first-release-date": "1963",
+                "id": "6b3bf38d-077a-4675-9463-686f0f79b900",
+                "length": 333000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 7
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "status": "Official",
+      "release-group": {
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album",
+        "title": "Duke Ellington & John Coltrane",
+        "id": "4f64c4fc-1de9-3b28-970c-e86f78c631be",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1963"
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 1,
+        "back": false,
+        "front": true,
+        "artwork": true
+      },
+      "release-events": [
+        {
+          "date": "1963",
+          "area": {
+            "type-id": null,
+            "type": null,
+            "sort-name": "United States",
+            "name": "United States",
+            "iso-3166-1-codes": ["US"],
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "id": "bacde930-b4f6-3f06-a83f-07f760221528",
+      "country": "US",
+      "asin": null,
+      "title": "Duke Ellington & John Coltrane"
+    },
+    {
+      "disambiguation": "",
+      "barcode": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "date": "1961",
+      "quality": "normal",
+      "release-events": [
+        {
+          "date": "1961",
+          "area": {
+            "sort-name": "United Kingdom",
+            "name": "United Kingdom",
+            "type": null,
+            "type-id": null,
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": ["GB"]
+          }
+        }
+      ],
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "artwork": true,
+        "back": false,
+        "front": true,
+        "count": 1,
+        "darkened": false
+      },
+      "status": "Official",
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-group": {
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1961",
+        "secondary-types": [],
+        "primary-type": "Album",
+        "disambiguation": "",
+        "title": "First Time! The Count Meets the Duke",
+        "id": "65890654-7523-33e0-a825-2bf9fe8efe41"
+      },
+      "media": [
+        {
+          "track-count": 8,
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "tracks": [
+            {
+              "title": "Battle Royal",
+              "number": "A1",
+              "id": "393f7fc8-4e81-46f0-9d01-9b5b55578242",
+              "length": 335866,
+              "position": 1,
+              "recording": {
+                "id": "ffc89e6c-f479-45c7-a356-85ae627b6e27",
+                "title": "Battle Royal",
+                "first-release-date": "1961",
+                "video": false,
+                "disambiguation": "",
+                "length": 335000
+              }
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 237093,
+                "id": "c85511bd-e172-42b0-8c9b-9b12a8ecd9b8",
+                "first-release-date": "1961",
+                "title": "To You"
+              },
+              "position": 2,
+              "length": 237106,
+              "id": "2c0773a5-fa22-4388-ba42-aa0b6473295c",
+              "number": "A2",
+              "title": "To You"
+            },
+            {
+              "id": "c37234a4-2be2-416f-84b2-7ae88ab59ef4",
+              "number": "A3",
+              "title": "Take the \"A\" Train",
+              "length": 229493,
+              "recording": {
+                "id": "504bb420-fa5c-4b9a-bfea-cc688c18b8a0",
+                "first-release-date": "1961",
+                "title": "Take the “A” Train",
+                "video": false,
+                "disambiguation": "",
+                "length": 228000
+              },
+              "position": 3
+            },
+            {
+              "recording": {
+                "length": 295133,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1961",
+                "title": "Corner Pocket (Until I Met You)",
+                "id": "9d07b0eb-2b41-4ec3-9be2-d1a60b318981"
+              },
+              "position": 4,
+              "number": "A4",
+              "id": "6cd9de67-f14a-449f-91f9-d3279453ff10",
+              "title": "Until I Met You",
+              "length": 297000
+            },
+            {
+              "recording": {
+                "id": "d7b96107-b567-4345-838d-6c19e24b3a95",
+                "title": "Wild Man",
+                "first-release-date": "1961",
+                "disambiguation": "",
+                "video": false,
+                "length": 345000
+              },
+              "position": 5,
+              "length": 345000,
+              "id": "a8691d9d-06a2-4cf7-a61a-03fd4a365c19",
+              "number": "B1",
+              "title": "Wild Man"
+            },
+            {
+              "position": 6,
+              "recording": {
+                "id": "36bb5dfe-401c-4569-ace5-93adb294b3aa",
+                "title": "Segue in C",
+                "first-release-date": "1961",
+                "disambiguation": "",
+                "video": false,
+                "length": 505240
+              },
+              "title": "Segue in C",
+              "number": "B2",
+              "id": "49d61ead-bec8-4ea5-b2b8-85df6e9e45c7",
+              "length": 505240
+            },
+            {
+              "title": "B D B",
+              "number": "B3",
+              "id": "b5dfdbb3-434b-49df-94d0-9eb68899fc20",
+              "length": 245360,
+              "position": 7,
+              "recording": {
+                "length": 245360,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1961",
+                "title": "B D B",
+                "id": "b02e2cda-2412-47a4-85b8-5141a238ef80"
+              }
+            },
+            {
+              "recording": {
+                "length": 187000,
+                "disambiguation": "",
+                "video": false,
+                "title": "Jumpin’ at the Woodside",
+                "first-release-date": "1961",
+                "id": "9e4e68d2-4320-42a1-9a20-4a68467f18a4"
+              },
+              "position": 8,
+              "number": "B4",
+              "id": "818ffb1e-aeda-475f-8acb-7eb96bfd32b2",
+              "title": "Jumpin' at the Woodside",
+              "length": 186934
+            }
+          ],
+          "title": "",
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "country": "GB",
+      "id": "c1ff749e-4d4e-4201-9a77-553741eb2e06",
+      "asin": null,
+      "title": "Battle Royal: The Duke Meets the Count",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "status": "Official",
+      "packaging": "Gatefold Cover",
+      "release-group": {
+        "primary-type": "Album",
+        "disambiguation": "",
+        "secondary-types": [],
+        "id": "03510992-9fd7-30e3-9a17-cf8b20bed0b3",
+        "title": "Ella at Duke’s Place",
+        "secondary-type-ids": [],
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "first-release-date": "1966"
+      },
+      "media": [
+        {
+          "title": "",
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 213000,
+                "id": "1a833c27-7d85-4dbf-86df-cbbfd16bb40e",
+                "first-release-date": "1966",
+                "title": "Something To Live For"
+              },
+              "position": 1,
+              "number": "A1",
+              "id": "5e97cc3d-86c6-45b4-80f9-8c2925b0097b",
+              "title": "Something To Live For",
+              "length": 213000
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 298000,
+                "id": "0ce74df6-0a7e-48d2-beb5-fb31038f3257",
+                "first-release-date": "1966",
+                "title": "A Flower Is A Lovesome Thing"
+              },
+              "position": 2,
+              "length": 298000,
+              "id": "8053b840-9a8d-4e9d-adb0-c30a7c0e1c0a",
+              "number": "A2",
+              "title": "A Flower Is A Lovesome Thing"
+            },
+            {
+              "title": "Passion Flower",
+              "number": "A3",
+              "id": "0df12a3c-4403-4050-a3a3-5c8afe4a2268",
+              "length": 276000,
+              "position": 3,
+              "recording": {
+                "first-release-date": "1966",
+                "title": "Passion Flower",
+                "id": "95632360-c443-444d-b8d7-585785513da0",
+                "length": 276000,
+                "disambiguation": "",
+                "video": false
+              }
+            },
+            {
+              "position": 4,
+              "recording": {
+                "title": "I Like The Sunrise",
+                "first-release-date": "1966",
+                "id": "a9fd8687-a58b-413a-acc9-9eaa683bc1d5",
+                "length": 204000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "title": "I Like The Sunrise",
+              "number": "A4",
+              "id": "242e3d2b-9e5e-4379-be66-a008f8498dcc",
+              "length": 204000
+            },
+            {
+              "recording": {
+                "length": 410000,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1966",
+                "title": "Azure",
+                "id": "d8011295-b06f-4c74-9afb-c7406f4303c7"
+              },
+              "position": 5,
+              "number": "A5",
+              "id": "2aab4a59-cdef-44fe-9cc6-fc57edf437b4",
+              "title": "Azure",
+              "length": 410000
+            },
+            {
+              "length": 287000,
+              "number": "B1",
+              "id": "2bd47e74-9203-466c-92d1-0b891532d510",
+              "title": "Imagine My Frustation",
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 287000,
+                "id": "74e13f94-f6c0-46db-adba-3b0fd7e84ead",
+                "first-release-date": "1966",
+                "title": "Imagine My Frustation"
+              },
+              "position": 6
+            },
+            {
+              "recording": {
+                "length": 248000,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1966",
+                "title": "Duke's Place",
+                "id": "da347e0c-05ed-4667-ab8c-32157373f01b"
+              },
+              "position": 7,
+              "id": "b45e8c32-03cb-477b-a23f-a67bf2f87d3c",
+              "number": "B2",
+              "title": "Duke's Place",
+              "length": 248000
+            },
+            {
+              "position": 8,
+              "recording": {
+                "length": 302000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Brown Skin Gal In The Calico Gown",
+                "first-release-date": "1966",
+                "id": "02a650fa-f77f-43b4-a84b-a4a7f33a3f47"
+              },
+              "length": 302000,
+              "title": "Brown Skin Gal In The Calico Gown",
+              "number": "B3",
+              "id": "77d811fc-7ea0-4eac-a9ae-0c2592375615"
+            },
+            {
+              "recording": {
+                "length": 330000,
+                "disambiguation": "",
+                "video": false,
+                "title": "What Am I Here For",
+                "first-release-date": "1966",
+                "id": "9525c7d1-3ffc-42e1-acfb-fd52094f3e80"
+              },
+              "position": 9,
+              "length": 330000,
+              "id": "134bbefd-157d-41f3-8b9e-e61831726a19",
+              "number": "B4",
+              "title": "What Am I Here For"
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 220000,
+                "id": "26d08acb-b55d-421f-b1eb-fcfd13c6bfb3",
+                "first-release-date": "1966",
+                "title": "Cotton Tail"
+              },
+              "position": 10,
+              "id": "5d121601-f5e4-4927-b4df-72dee1891770",
+              "number": "B5",
+              "title": "Cotton Tail",
+              "length": 220000
+            }
+          ],
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "format": "12\" Vinyl",
+          "track-offset": 0,
+          "track-count": 10
+        }
+      ],
+      "release-events": [
+        {
+          "date": "1966",
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": ["US"],
+            "sort-name": "United States",
+            "name": "United States",
+            "type": null,
+            "type-id": null
+          }
+        }
+      ],
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "cover-art-archive": {
+        "darkened": false,
+        "count": 0,
+        "front": false,
+        "back": false,
+        "artwork": false
+      },
+      "country": "US",
+      "id": "c84f2fae-e3c6-40c1-894c-ea2c918c4e21",
+      "asin": null,
+      "title": "Ella at Duke’s Place",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "date": "1966",
+      "barcode": ""
+    },
+    {
+      "quality": "normal",
+      "barcode": null,
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "date": "1960",
+      "disambiguation": "",
+      "media": [
+        {
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "length": 374466,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1960",
+                "title": "Wabash Blues",
+                "id": "54fbb4e1-4a43-455a-9f3c-365626898283"
+              },
+              "title": "Wabash Blues",
+              "id": "fae9f65a-3307-46de-b07d-ebfde62f5d6c",
+              "number": "A1",
+              "length": 374466
+            },
+            {
+              "recording": {
+                "length": 484280,
+                "disambiguation": "",
+                "video": false,
+                "title": "Basin Street Blues",
+                "first-release-date": "1960",
+                "id": "09385d56-0c54-4ddd-914f-c28777c7d590"
+              },
+              "position": 2,
+              "number": "A2",
+              "id": "92853c2c-fa45-4a11-8aee-22ac3992a487",
+              "title": "Basin Street Blues",
+              "length": 483320
+            },
+            {
+              "recording": {
+                "title": "Beale Street Blues",
+                "first-release-date": "1960",
+                "id": "b1c89a83-6e38-4f25-a282-adedc4b475af",
+                "length": 459000,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 3,
+              "length": 455453,
+              "number": "A3",
+              "id": "63495f2d-5ac6-4af6-b9c8-93b84c312c96",
+              "title": "Beale Street Blues"
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 418000,
+                "id": "4e03d5e3-868b-47e6-966b-47429d269f06",
+                "title": "Weary Blues",
+                "first-release-date": "1960"
+              },
+              "position": 4,
+              "id": "dfcc7036-5016-4805-bde1-c36f9b5c8010",
+              "number": "B1",
+              "title": "Weary Blues",
+              "length": 415146
+            },
+            {
+              "length": 346893,
+              "title": "St. Louis Blues",
+              "id": "bde01f79-96af-4186-8012-d896fb5b4995",
+              "number": "B2",
+              "position": 5,
+              "recording": {
+                "length": 351000,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1960",
+                "title": "The St. Louis Blues",
+                "id": "11a9fe1a-41af-45e3-bfef-9e891fe1edce"
+              }
+            },
+            {
+              "recording": {
+                "id": "42a74ad0-ada3-4348-845f-a451a7fc8530",
+                "first-release-date": "1960",
+                "title": "Loveless Love",
+                "video": false,
+                "disambiguation": "",
+                "length": 433000
+              },
+              "position": 6,
+              "length": 429586,
+              "number": "B3",
+              "id": "8a24f902-78a3-4a05-85f9-5c0c87fe566d",
+              "title": "Loveless Love"
+            },
+            {
+              "length": 322573,
+              "title": "Royal Garden Blues",
+              "number": "B4",
+              "id": "74daf061-3097-45df-9992-2d70179fe8a8",
+              "position": 7,
+              "recording": {
+                "length": 324000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Royal Garden Blues",
+                "first-release-date": "1960",
+                "id": "63edbb93-7eef-4294-986a-cdabc235c025"
+              }
+            }
+          ],
+          "title": "",
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "track-count": 7
+        }
+      ],
+      "release-group": {
+        "secondary-types": [],
+        "disambiguation": "",
+        "primary-type": "Album",
+        "title": "Back to Back: Duke Ellington and Johnny Hodges Play the Blues",
+        "id": "86ba50d8-ff17-3b8e-94a8-08e02e6926fa",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": [],
+        "first-release-date": "1960"
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "status": "Official",
+      "cover-art-archive": {
+        "back": true,
+        "front": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 4
+      },
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "release-events": [
+        {
+          "date": "1960",
+          "area": {
+            "iso-3166-1-codes": ["US"],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "name": "United States",
+            "sort-name": "United States"
+          }
+        }
+      ],
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "title": "Back to Back: Duke Ellington and Johnny Hodges Play the Blues",
+      "asin": null,
+      "id": "de2960d7-0a81-484d-b34b-d36ac45f394a",
+      "country": "US"
+    },
+    {
+      "quality": "normal",
+      "disambiguation": "",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "date": "1964",
+      "barcode": "",
+      "status": "Official",
+      "release-group": {
+        "first-release-date": "1964",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": ["dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"],
+        "title": "Daybreak Express",
+        "id": "93517eda-a7a3-4829-82e7-811a6bfbf3ab",
+        "secondary-types": ["Compilation"],
+        "disambiguation": "",
+        "primary-type": "Album"
+      },
+      "packaging": "Cardboard/Paper Sleeve",
+      "media": [
+        {
+          "track-offset": 0,
+          "track-count": 16,
+          "format": "12\" Vinyl",
+          "title": "",
+          "tracks": [
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 205000,
+                "id": "a5c34f50-15a9-41a1-b997-77fbeaf1cc9f",
+                "first-release-date": "1964",
+                "title": "Echoes of the Jungle"
+              },
+              "position": 1,
+              "number": "A1",
+              "id": "2e22da4e-7739-49b4-9fdf-cc720ba0c9b7",
+              "title": "Echoes of the Jungle",
+              "length": 205000
+            },
+            {
+              "length": 190000,
+              "id": "33cab3f4-1a36-4525-a631-499c220ab12a",
+              "number": "A2",
+              "title": "Limehouse Blues",
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 188000,
+                "id": "9e47778b-a7d1-4531-b7f3-801f510fa6e7",
+                "first-release-date": "1964",
+                "title": "Limehouse Blues"
+              },
+              "position": 2
+            },
+            {
+              "number": "A3",
+              "id": "aa414a59-bd24-4d2b-b539-fec875e367ad",
+              "title": "It's Glory",
+              "length": 190000,
+              "recording": {
+                "title": "It's Glory",
+                "first-release-date": "1964",
+                "id": "0632d4f1-14dd-48aa-bb54-150dd9bd6bce",
+                "length": 190000,
+                "disambiguation": "",
+                "video": false
+              },
+              "position": 3
+            },
+            {
+              "position": 4,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 173000,
+                "id": "26aa7d57-208c-4a95-8acb-d386bb013621",
+                "title": "Dinah",
+                "first-release-date": "1964"
+              },
+              "length": 173000,
+              "title": "Dinah",
+              "number": "A4",
+              "id": "011eb540-239f-4434-9ae4-4697306126ce"
+            },
+            {
+              "position": 5,
+              "recording": {
+                "length": 182000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Bugle Call Rag",
+                "first-release-date": "1964",
+                "id": "b72226cd-c31f-4104-8e9b-d89a880ba65e"
+              },
+              "title": "Bugle Call Rag",
+              "id": "a7e85489-c291-4727-944f-bcfa791a0c8b",
+              "number": "A5",
+              "length": 182000
+            },
+            {
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 190000,
+                "id": "c635e088-baec-4fe3-9cbe-699f71bce560",
+                "title": "Rude (interlude)",
+                "first-release-date": "1964"
+              },
+              "position": 6,
+              "number": "A6",
+              "id": "975c112d-b355-4377-9a6d-35ecb77fa446",
+              "title": "Rude (interlude)",
+              "length": 190000
+            },
+            {
+              "position": 7,
+              "recording": {
+                "length": 175000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Dallas Doings",
+                "first-release-date": "1964",
+                "id": "a7c6380e-aae7-4c72-a16e-dfed4068f938"
+              },
+              "length": 175000,
+              "title": "Dallas Doings",
+              "number": "A7",
+              "id": "67a8be3f-5217-4f11-acf3-17178cc4da74"
+            },
+            {
+              "position": 8,
+              "recording": {
+                "id": "e8f20c64-6ef4-4592-af24-2851a0e9eac0",
+                "first-release-date": "1964",
+                "title": "Dear Old Southland",
+                "disambiguation": "",
+                "video": false,
+                "length": 212000
+              },
+              "length": 212000,
+              "title": "Dear Old Southland",
+              "number": "A8",
+              "id": "c49162a4-38e6-448b-b19a-4862cbea8c55"
+            },
+            {
+              "length": 175000,
+              "title": "Daybreak Express",
+              "id": "9f07eeb1-96b0-4ec0-a0fc-b44c5da01efc",
+              "number": "B1",
+              "position": 9,
+              "recording": {
+                "id": "ebd6b699-9c8f-4ee3-b816-1dc53bf18060",
+                "title": "Daybreak Express",
+                "first-release-date": "1964",
+                "video": false,
+                "disambiguation": "",
+                "length": 175000
+              }
+            },
+            {
+              "position": 10,
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 198000,
+                "id": "bc45c5ea-5458-455d-8f97-c060fa9a2a0f",
+                "first-release-date": "1964",
+                "title": "Delta Serenade"
+              },
+              "length": 198000,
+              "title": "Delta Serenade",
+              "number": "B2",
+              "id": "5342364e-a0f2-45a0-98d9-9b66451c5e43"
+            },
+            {
+              "recording": {
+                "length": 182000,
+                "disambiguation": "",
+                "video": false,
+                "first-release-date": "1964",
+                "title": "Stompy Jones",
+                "id": "6a541d96-1c23-47eb-ba4f-96357564df2d"
+              },
+              "position": 11,
+              "number": "B3",
+              "id": "d1a83327-8811-46a2-8a36-43449f52cbdf",
+              "title": "Stompy Jones",
+              "length": 182000
+            },
+            {
+              "title": "Solitude",
+              "id": "405aaeb8-84fe-4a0e-a1c8-3fc248fb6663",
+              "number": "B4",
+              "length": 207000,
+              "position": 12,
+              "recording": {
+                "title": "Solitude",
+                "first-release-date": "1964",
+                "id": "e1a8a251-f84c-43e1-b844-0b32efb62b6f",
+                "length": 207000,
+                "disambiguation": "",
+                "video": false
+              }
+            },
+            {
+              "id": "49daea49-eab6-400c-ae5a-4e228c6dbe9a",
+              "number": "B5",
+              "title": "Blue Feeling",
+              "length": 192000,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": 192000,
+                "id": "f3c12b95-8371-4d3b-a4b6-facc52d2f883",
+                "first-release-date": "1964",
+                "title": "Blue Feeling"
+              },
+              "position": 13
+            },
+            {
+              "recording": {
+                "id": "a7bf13ae-27f6-4967-a59b-d47bbf887d01",
+                "title": "Ebony Rhapsody",
+                "first-release-date": "1964",
+                "video": false,
+                "disambiguation": "",
+                "length": 203000
+              },
+              "position": 14,
+              "id": "68278ae9-29ac-4898-b203-1370f58ee062",
+              "number": "B6",
+              "title": "Ebony Rhapsody",
+              "length": 203000
+            },
+            {
+              "recording": {
+                "disambiguation": "",
+                "video": false,
+                "length": 197000,
+                "id": "d610f4a8-01bc-466d-9f57-03889545106b",
+                "first-release-date": "1964",
+                "title": "Live and Love Tonight"
+              },
+              "position": 15,
+              "length": 197000,
+              "id": "ca573399-7197-46ad-8fda-8d9b43301791",
+              "number": "B7",
+              "title": "Live and Love Tonight"
+            },
+            {
+              "id": "daea2bdc-5fb3-4467-be15-d88ad81f0279",
+              "number": "B8",
+              "title": "Troubled Water",
+              "length": 208000,
+              "recording": {
+                "first-release-date": "1964",
+                "title": "Troubled Water",
+                "id": "6e20386a-9aef-4610-aa47-265ca75b0de1",
+                "length": 208000,
+                "video": false,
+                "disambiguation": ""
+              },
+              "position": 16
+            }
+          ],
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+          "position": 1
+        }
+      ],
+      "release-events": [
+        {
+          "date": "1964",
+          "area": {
+            "sort-name": "United States",
+            "name": "United States",
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": ["US"]
+          }
+        }
+      ],
+      "text-representation": { "language": "eng", "script": "Latn" },
+      "cover-art-archive": {
+        "front": false,
+        "back": false,
+        "artwork": false,
+        "darkened": false,
+        "count": 0
+      },
+      "country": "US",
+      "id": "e2b7797f-f4cb-44db-8754-e71a5872612d",
+      "title": "Daybreak Express",
+      "asin": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+    },
+    {
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "type-id": null,
+            "name": "Israel",
+            "sort-name": "Israel",
+            "iso-3166-1-codes": ["IL"],
+            "id": "03691455-bb46-37e3-91d2-cb064a35ffcc",
+            "disambiguation": ""
+          },
+          "date": "1960"
+        }
+      ],
+      "cover-art-archive": {
+        "front": true,
+        "back": true,
+        "artwork": true,
+        "darkened": false,
+        "count": 2
+      },
+      "text-representation": { "script": "Latn", "language": "eng" },
+      "packaging": "Cardboard/Paper Sleeve",
+      "release-group": {
+        "title": "Dance Air Force Date 1960",
+        "id": "46d402fc-44f4-40ea-af53-2c5f1fb299ad",
+        "secondary-types": [],
+        "primary-type": "Album",
+        "disambiguation": "",
+        "first-release-date": "1960",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "secondary-type-ids": []
+      },
+      "status": "Official",
+      "media": [
+        {
+          "track-count": 9,
+          "track-offset": 0,
+          "format": "12\" Vinyl",
+          "title": "",
+          "tracks": [
+            {
+              "position": 1,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "ae53ba90-3978-4fcc-b653-ba95d1a8fb8f",
+                "title": "Stardust",
+                "first-release-date": "1960"
+              },
+              "length": null,
+              "title": "Stardust",
+              "number": "A1",
+              "id": "69905428-e2a1-4526-bc0e-203cefc93e26"
+            },
+            {
+              "length": null,
+              "title": "Paris Blues",
+              "id": "946efecf-507b-4c60-9d2d-f487f329f9fb",
+              "number": "A2",
+              "position": 2,
+              "recording": {
+                "id": "5cde22b8-6fe8-4a19-bc71-de4089a4bd81",
+                "title": "Paris Blues",
+                "first-release-date": "1960",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              }
+            },
+            {
+              "title": "Portrait of Louis Armstrong (Such Sweet Thunder)",
+              "id": "760eaf21-3353-4dc2-aa55-c7dfd241c947",
+              "number": "A3",
+              "length": null,
+              "position": 3,
+              "recording": {
+                "id": "2e185bfc-a885-413a-aafd-f6ac6b7542a2",
+                "title": "Portrait of Louis Armstrong (Such Sweet Thunder)",
+                "first-release-date": "1960",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+              }
+            },
+            {
+              "position": 4,
+              "recording": {
+                "first-release-date": "1960",
+                "title": "Overture (Nutcracker Suite)",
+                "id": "fc9014e0-8d25-446a-b746-ce02bc23a2a2",
+                "length": null,
+                "disambiguation": "",
+                "video": false
+              },
+              "title": "Overture (Nutcracker Suite)",
+              "id": "465fc594-6bfc-4731-8452-ab795c05a34d",
+              "number": "A4",
+              "length": null
+            },
+            {
+              "position": 5,
+              "recording": {
+                "length": null,
+                "disambiguation": "",
+                "video": false,
+                "title": "Tenderly",
+                "first-release-date": "1960",
+                "id": "7d823250-278d-4c13-aab8-8ff4f9abd7fa"
+              },
+              "length": null,
+              "title": "Tenderly",
+              "number": "A5",
+              "id": "617ac783-f1a7-410f-98c3-ad9aeaa3c8cf"
+            },
+            {
+              "recording": {
+                "id": "bda81c00-1d6d-4ac3-be2c-24f160e063c0",
+                "first-release-date": "1960",
+                "title": "Black and Tan Fantasy / Creole Love Call / The Mooche",
+                "video": false,
+                "disambiguation": "",
+                "length": null
+              },
+              "position": 6,
+              "length": null,
+              "id": "4109edcd-ce85-4ce7-a266-ae883a4f95c7",
+              "number": "B1",
+              "title": "Black and Tan Fantasy / Creole Love Call / The Mooche"
+            },
+            {
+              "id": "c2f8342a-058d-4448-b628-f98cd2f23eaf",
+              "number": "B2",
+              "title": "Take the a Train",
+              "length": null,
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "09322568-b287-44e5-9195-946138a69a00",
+                "first-release-date": "1960",
+                "title": "Take the a Train"
+              },
+              "position": 7
+            },
+            {
+              "length": null,
+              "number": "B3",
+              "id": "9f2cc04e-9e62-4a49-a378-11302198010c",
+              "title": "Jeeps Blues",
+              "recording": {
+                "video": false,
+                "disambiguation": "",
+                "length": null,
+                "id": "31145b02-b8b9-4f9a-9400-6e331c726acc",
+                "title": "Jeeps Blues",
+                "first-release-date": "1960"
+              },
+              "position": 8
+            },
+            {
+              "position": 9,
+              "recording": {
+                "length": null,
+                "video": false,
+                "disambiguation": "",
+                "first-release-date": "1960",
+                "title": "Moonglow",
+                "id": "dc7182bf-df2d-4e1a-b195-ffb08da8cd2b"
+              },
+              "length": null,
+              "title": "Moonglow",
+              "id": "c27282a3-2b17-4b47-96c9-7d95dfab396e",
+              "number": "B4"
+            }
+          ],
+          "position": 1,
+          "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+        }
+      ],
+      "title": "Dance Air Force Date 1960",
+      "asin": null,
+      "id": "e5925c9e-cfa1-4527-aaaa-74cd08d1ab43",
+      "country": "IL",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "barcode": "725543124319",
+      "date": "1960",
+      "disambiguation": "",
+      "quality": "normal"
+    }
+  ],
+  "release-offset": 0,
+  "release-count": 522
+}

@@ -1,0 +1,36 @@
+﻿@using BlazorFocused
+@using BlazorMusic.Client.Actions
+@using BlazorMusic.Client.Models
+@using BlazorMusic.Shared
+
+@inject IStore<ArtistStore> store
+
+@if (artist is not null)
+{
+    <table cellpadding="5" id="artist-detail-@artist.Id" class="artist-detail-table">
+        <tr><td align="right">Category:</td><td>@artist.Type</td></tr>
+        <tr><td align="right">Desctiption:</td><td>@artist.Description</td></tr>
+        <tr><td align="right">Country:</td><td>@artist.Country</td></tr>
+        <tr><td align="right">Search Rank:</td><td>@artist.Rank</td></tr>
+        <tr><td align="right">Tags:</td><td> @ShowArtistTags()</td></tr>
+    </table>
+}
+
+@code {
+    private Artist artist = null;
+    private string currentTab = "Overview";
+
+    protected override void OnInitialized()
+    {
+        store.Subscribe(store =>
+        {
+            artist = store.CurrentArtist;
+
+            StateHasChanged();
+        });
+    }
+
+    private string ShowArtistTags() =>
+        artist.Tags is not null ?
+            string.Join(", ", artist.Tags) : "N/A";
+}
