@@ -4,7 +4,7 @@ This project demonstrates leveraging an existing Music Library Web Service to pr
 
 ## Demo
 
-You can view a running sample of the application in screenshot and video format in the [Docs- Screenshots](https://github.com/kenswan/music-histogram/tree/main/docs/ScreenShots) folder.
+You can view a running sample of the application in screenshot and video format in the [Docs- Screenshots](https://github.com/kenswan/music-histogram/tree/main/docs/Screenshots) folder.
 
 ## Project
 
