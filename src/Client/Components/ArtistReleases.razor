@@ -71,7 +71,9 @@ else
     protected string MusicDuration(long seconds)
     {
         var timespan = TimeSpan.FromMilliseconds(seconds);
+        var timeSpanSeconds = timespan.Seconds;
+        var secondsDisplay = timeSpanSeconds < 10 ? $"0{timeSpanSeconds}" : timeSpanSeconds.ToString();
 
-        return $"{timespan.Minutes}:{timespan.Seconds}";
+        return $"{timespan.Minutes}:{secondsDisplay}";
     }
 }

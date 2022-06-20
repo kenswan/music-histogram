@@ -8,7 +8,7 @@ public class HistogramDataReducer : IReducer<ArtistStore, HistorgramData>
     public HistorgramData Execute(ArtistStore input)
     {
         SortedDictionary<int, int> counts = new();
-        HistorgramData data = new();
+        HistorgramData data = new() { Years = Array.Empty<int>(), Releases = Array.Empty<int>() };
 
         if (input.Releases is not null)
         {
@@ -17,6 +17,7 @@ public class HistogramDataReducer : IReducer<ArtistStore, HistorgramData>
                 var year = release.Year;
                 var trackCount = release.TrackCount;
 
+                // API returns 0 for years that were not identified
                 if (release.Year > 0)
                 {
                     if (counts.ContainsKey(year))

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Options;
 
 namespace BlazorMusic.Server.Providers;
 
+/// <inheritdoc cref="IMusicDataProvider"/>
 public class MusicDataProvider : IMusicDataProvider
 {
     private readonly MusicDataOptions musicDataOptions;

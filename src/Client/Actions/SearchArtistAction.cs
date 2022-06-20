@@ -30,7 +30,6 @@ public class SearchArtistAction : StoreActionAsync<ArtistStore, string>
 
         State.CurrentSearchTerm = input;
 
-        // TODO: Add multiple page results
         var url = string.Format(apiOptions.SearchArtistUrl, input, 1);
 
         var artistSearchResult = await restClient.TryGetAsync<ArtistCollection>(url);
