@@ -75,3 +75,8 @@ a, .btn-link {
 {
     background-color: aliceblue;
 }
+
+.download-link
+{
+    padding-top: 1em;
+}

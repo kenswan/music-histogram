@@ -20,23 +20,11 @@
         <a class="dismiss">🗙</a>
     </div>
 
-    <script>
-        // Setup calls for Chart.js
-        var histogramChart = null;
-
-        function setup(id, config) {
-            var ctx = document.getElementById(id).getContext('2d');
-            histogramChart = new Chart(ctx, config);
-        }
-
-        function resetCanvas() {
-            histogramChart.destroy();
-        }
-    </script>
-
     <script src="_framework/blazor.webassembly.js"></script>
 
     <script src="lib/ChartJs/chart.min.js"></script>
+
+    <script src="js/functions.js"></script>
 </body>
 
 </html>
