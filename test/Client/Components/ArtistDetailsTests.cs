@@ -1,5 +1,6 @@
 ﻿using BlazorFocused;
 using BlazorMusic.Client.Models;
+using BlazorMusic.Client.Provider;
 using Bunit;
 using FluentAssertions;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,10 +10,12 @@ namespace BlazorMusic.Client.Components;
 public class ArtistDetailsTests
 {
     private readonly Mock<IStore<ArtistStore>> artistStoreMock;
+    private readonly Mock<IDateTimeProvider> dateTimeProviderMock;
 
     public ArtistDetailsTests()
     {
         artistStoreMock = new();
+        dateTimeProviderMock = new();
     }
 
     [Fact]
@@ -100,6 +103,7 @@ public class ArtistDetailsTests
         var artist = TestModels.GenerateArtist();
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
+        context.Services.AddTransient(_ => dateTimeProviderMock.Object);
         var store = new ArtistStore { CurrentArtist = artist };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))

@@ -7,8 +7,15 @@ public class HistogramDataReducer : IReducer<ArtistStore, HistorgramData>
 {
     public HistorgramData Execute(ArtistStore input)
     {
-        SortedDictionary<int, int> counts = new();
-        HistorgramData data = new() { Years = Array.Empty<int>(), Releases = Array.Empty<int>() };
+        SortedDictionary<int, int> releaseCounts = new();
+
+        HistorgramData data = new()
+        {
+            Years = Array.Empty<int>(),
+            Releases = Array.Empty<int>(),
+            ArtistName = string.Empty,
+            CsvFormat = string.Empty
+        };
 
         if (input.Releases is not null)
         {
@@ -20,15 +27,20 @@ public class HistogramDataReducer : IReducer<ArtistStore, HistorgramData>
                 // API returns 0 for years that were not identified
                 if (release.Year > 0)
                 {
-                    if (counts.ContainsKey(year))
-                        counts[year] += trackCount;
+                    if (releaseCounts.ContainsKey(year))
+                        releaseCounts[year] += trackCount;
                     else
-                        counts.Add(year, trackCount);
+                        releaseCounts.Add(year, trackCount);
                 }
             }
 
-            data.Years = counts.Keys.ToArray();
-            data.Releases = counts.Values.ToArray();
+            data.Years = releaseCounts.Keys.ToArray();
+            data.Releases = releaseCounts.Values.ToArray();
+            data.ArtistName = input.CurrentArtist?.Name;
+
+            data.CsvFormat = string.Join("\n",
+                (releaseCounts.Select(releaseCount => $"{releaseCount.Key},{releaseCount.Value}")));
+
         }
 
         return data;

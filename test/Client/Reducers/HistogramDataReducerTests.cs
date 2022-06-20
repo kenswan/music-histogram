@@ -14,6 +14,8 @@ public class HistogramDataReducerTests
     [Fact]
     public void ShouldConsolidateYearsAndReleaseCounts()
     {
+        var currentArtist = TestModels.GenerateArtist();
+
         var releases = new List<ArtistRelease>
         {
             { new ArtistRelease { Year = 2022, TrackCount = 15 } },
@@ -23,15 +25,19 @@ public class HistogramDataReducerTests
             { new ArtistRelease { Year = 2022, TrackCount = 3 } }
         };
 
-        var expectedYears = new int[] { 2020, 2021, 2022 };
-        var expectedReleaseCounts = new int[] { 5, 1, 48 };
+        var expectedHistogramData = new HistorgramData
+        {
+            Years = new int[] { 2020, 2021, 2022 },
+            Releases = new int[] { 5, 1, 48 },
+            CsvFormat = "2020,5\n2021,1\n2022,48",
+            ArtistName = currentArtist.Name
+        };
 
-        var artistStore = new ArtistStore { Releases = releases };
+        var artistStore = new ArtistStore { Releases = releases, CurrentArtist = currentArtist };
 
         var actualHistogramData = histogramDataReducer.Execute(artistStore);
 
-        actualHistogramData.Years.Should().BeEquivalentTo(expectedYears);
-        actualHistogramData.Releases.Should().BeEquivalentTo(expectedReleaseCounts);
+        actualHistogramData.Should().BeEquivalentTo(expectedHistogramData);
     }
 
     [Fact]
@@ -43,5 +49,7 @@ public class HistogramDataReducerTests
 
         actualHistogramData.Years.Should().BeEmpty();
         actualHistogramData.Releases.Should().BeEmpty();
+        actualHistogramData.ArtistName.Should().BeEmpty();
+        actualHistogramData.CsvFormat.Should().BeEmpty();
     }
 }

@@ -1,13 +1,21 @@
 ﻿@using BlazorFocused
 @using BlazorMusic.Client.Actions
 @using BlazorMusic.Client.Models
+@using BlazorMusic.Client.Provider
 @using BlazorMusic.Client.Reducers
 @using BlazorMusic.Shared
 
+@inject IJSRuntime JSRuntime
 @inject IStore<ArtistStore> store
+@inject IDateTimeProvider dateTimeProvider
 
 @if (years.Any() && releases.Any())
 {
+    if (!string.IsNullOrEmpty(csvContent))
+    {
+        <div class="download-link"><a class="file-download" href="#" @onclick="DownloadFile">[Download File]</a></div>
+    }
+
     <HistogramChart Id="artistMusicHistogram" Years="@years" ReleaseCount="@releases" />
 }
 
@@ -15,6 +23,8 @@
 
     private int[] years = new int[] { };
     private int[] releases = new int[] { };
+    private string artistName = string.Empty;
+    private string csvContent = string.Empty;
 
     protected override void OnInitialized()
     {
@@ -22,8 +32,19 @@
         {
             years = reduced.Years ?? new int[] { };
             releases = reduced.Releases ?? new int[] { };
+            artistName = reduced.ArtistName;
+            csvContent = reduced.CsvFormat;
 
             StateHasChanged();
         });
+    }
+
+    public async void DownloadFile()
+    {
+        // Keep files unique with datetime format ex June 20, 2022 12:30am 12 seconds = 20220620123012
+        var dateTimeFormat = dateTimeProvider.GetDateTimeNow().ToString("yyyyMMddHmss");
+        var fileName = (artistName + dateTimeFormat).Replace(" ", "");
+
+        await JSRuntime.InvokeVoidAsync("downloadFileToBrowser", fileName, csvContent);
     }
 }

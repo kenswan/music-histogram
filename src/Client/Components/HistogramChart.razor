@@ -1,6 +1,4 @@
-﻿<h3>Histogram Chart</h3>
-
-@inject IJSRuntime JSRuntime
+﻿@inject IJSRuntime JSRuntime
 
 <canvas id="@Id"></canvas>
 
@@ -54,6 +52,6 @@
             }
         };
 
-        await JSRuntime.InvokeVoidAsync("setup", Id, config);
+        await JSRuntime.InvokeVoidAsync("setupChart", Id, config);
     }
 }

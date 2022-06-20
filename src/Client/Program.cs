@@ -2,6 +2,7 @@
 using BlazorMusic.Client;
 using BlazorMusic.Client.Actions;
 using BlazorMusic.Client.Models;
+using BlazorMusic.Client.Provider;
 using BlazorMusic.Client.Reducers;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -23,6 +24,8 @@ builder.Services.AddRestClient(client =>
     client.BaseAddress = hostEnvironmentBaseAddress;
     client.DefaultRequestHeaders.Add("Accept", "application/json");
 });
+
+builder.Services.AddTransient<IDateTimeProvider, DateTimeProvider>();
 
 builder.Services.AddStore<ArtistStore>(new())
     .AddTransient<SearchArtistAction>()
