@@ -2,6 +2,14 @@
 
 This project demonstrates leveraging an existing Music Library Web Service to provide historical music data by a given artist
 
+## Demo
+
+You can view a running sample of the application in screenshot and video format in the [Docs- Screenshots](https://github.com/kenswan/music-histogram/tree/main/docs/ScreenShots) folder.
+
+## Project
+
+Visit [Music Histogram GitHub Project](https://github.com/kenswan/music-histogram/projects/1) to see list of new, pending, and completed issues
+
 ## Requirements
 
 - [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
@@ -18,7 +26,3 @@ This project demonstrates leveraging an existing Music Library Web Service to pr
 1. Run `dotnet run` in command-line
 1. View application at [https://localhost:7126/](https://localhost:7126/)
 1. View Swagger Documentation at [https://localhost:7126/swagger](https://localhost:7126/swagger)
-
-## Project
-
-Visit [Music Histogram GitHub Project](https://github.com/kenswan/music-histogram/projects/1) to see list of new, pending, and completed issues
