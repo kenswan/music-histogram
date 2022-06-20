@@ -3,7 +3,6 @@ using BlazorFocused.Tools;
 using BlazorMusic.Client.Models;
 using Bogus;
 using FluentAssertions;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Options;
 using System.Net;
@@ -13,7 +12,6 @@ namespace BlazorMusic.Client.Actions;
 public class SearchArtistActionTests
 {
     private readonly ISimulatedHttp simulatedHttp;
-    private readonly IServiceCollection serviceCollection;
     private readonly ApiOptions apiOptions;
 
     private readonly SearchArtistAction searchArtistAction;
