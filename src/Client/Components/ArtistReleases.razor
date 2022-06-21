@@ -2,8 +2,10 @@
 @using BlazorMusic.Client.Actions
 @using BlazorMusic.Client.Models
 @using BlazorMusic.Shared
+@using Microsoft.Extensions.Options
 
 @inject IStore<ArtistStore> store
+@inject IOptions<ApiOptions> apiOptions
 
 @if (artistReleases is not null)
 {
@@ -17,22 +19,34 @@
                     </button>
                 </h2>
                 <div id="collapse-@release.Id" class="accordion-collapse collapse @(IsCurrent(release.Id) ? "show" : string.Empty)" aria-labelledby="heading-@release.Id" data-bs-parent="#artistReleases">
-                    <div class="accordion-body">
-                        <table cellpadding="5">
-                            <thead>
-                                <tr>
-                                    <th>Track</th>
-                                    <th>Duration (minutes)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                               @foreach (var track in release.Tracks)
-                               {
-                                <tr><td>@track.Title</td><td>@(MusicDuration(track.Duration))</td></tr>
-                               }
-                            </tbody>
-                        </table>
-                    </div>
+                    @if (release.Tracks.Any())
+                    {
+                        <div class="accordion-body">
+                            <table cellpadding="5">
+                                <thead>
+                                    <tr>
+                                        <th>Track</th>
+                                        <th>Duration (minutes)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var track in release.Tracks)
+                                    {
+                                        <tr><td>@track.Title</td><td>@(MusicDuration(track.Duration))</td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="tracks-loading track">
+                            <strong>Loading Tracks...</strong>
+                            <div class="spinner-border" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    }
                 </div>
             </div>
         }
@@ -40,12 +54,25 @@
 }
 else
 {
-    <h5>No releases present</h5>
+    if (releaseError)
+    {
+        <h5>An error occurred. No releases present at this time.</h5>
+    }
+    else
+    {
+        <div class="tracks-loading release">
+            <strong class="text-primary">Loading Releases...</strong>
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    }
 }
 
 
 @code {
     private string currentToggleId = string.Empty;
+    private bool releaseError = false;
 
     IEnumerable<ArtistRelease> artistReleases;
 
@@ -54,16 +81,18 @@ else
         store.Subscribe(store =>
         {
             artistReleases = store.Releases;
+            releaseError = store.ReleaseError;
 
             StateHasChanged();
         });
     }
 
-    protected void Toggle(string id)
+    protected async Task Toggle(string id)
     {
         currentToggleId = currentToggleId == id ? string.Empty : id;
 
-        StateHasChanged();
+        // This action will trigger a state change
+        await store.DispatchAsync<AttachTracksAction, string>(id);
     }
 
     protected bool IsCurrent(string id) => currentToggleId == id;

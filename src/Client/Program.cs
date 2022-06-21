@@ -23,6 +23,7 @@ builder.Services.AddRestClient(client =>
 {
     client.BaseAddress = hostEnvironmentBaseAddress;
     client.DefaultRequestHeaders.Add("Accept", "application/json");
+    client.Timeout = TimeSpan.FromSeconds(20);
 });
 
 builder.Services.AddTransient<IDateTimeProvider, DateTimeProvider>();
@@ -30,6 +31,8 @@ builder.Services.AddTransient<IDateTimeProvider, DateTimeProvider>();
 builder.Services.AddStore<ArtistStore>(new())
     .AddTransient<SearchArtistAction>()
     .AddTransient<SelectArtistAction>()
-    .AddTransient<HistogramDataReducer>();
+    .AddTransient<HistogramDataReducer>()
+    .AddTransient<AttachTracksAction>()
+    .AddTransient<RetrieveArtistReleasesAction>();
 
 await builder.Build().RunAsync();

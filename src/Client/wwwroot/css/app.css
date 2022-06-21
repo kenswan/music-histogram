@@ -80,3 +80,16 @@ a, .btn-link {
 {
     padding-top: 1em;
 }
+
+.tracks-loading {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.tracks-loading.release {
+    font-size: 2em;
+}
+
+.tracks-loading.track {
+    font-size: 1.3em;
+}

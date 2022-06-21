@@ -53,7 +53,9 @@
 
     private async Task SelectArtist(string artistId)
     {
-        await store.DispatchAsync<SelectArtistAction, string>(artistId);
+        store.Dispatch<SelectArtistAction, string>(artistId);
+
+        await store.DispatchAsync<RetrieveArtistReleasesAction, string>(artistId);
     }
 
     private bool IsCurrentArtist(string id) => id == currentArstistId;

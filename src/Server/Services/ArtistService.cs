@@ -30,8 +30,11 @@ public class ArtistService : IArtistService
         var totalReleaseCount = artistReleaseResponse.RelseaseCount;
         var currentReleaseCount = artistReleaseResponse.Releases.Count();
 
-        while (currentReleaseCount < totalReleaseCount)
+        while (currentReleaseCount < totalReleaseCount && currentReleaseCount < musicDataOptions.MaxReleaseResults)
         {
+            // Only make one request per second to avoid getting throttle by source api.
+            // Will receive 'ServiceUnavailable' when exceeding more than one request per second
+            Thread.Sleep(1000);
             var nextReleaseSet = await musicDataProvider.GetArtistReleasesByIdAsync(artistId, currentReleaseCount + 1);
 
             if (!nextReleaseSet.Releases.Any())
