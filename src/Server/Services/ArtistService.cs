@@ -23,13 +23,13 @@ public class ArtistService : IArtistService
         this.logger = logger;
     }
 
-    public async Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId)
+    public async Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId, bool includeTracks = true)
     {
         logger.LogDebug("Retrieving releases for artist {Id}", artistId);
 
         var artistReleaseResponse = await musicDataProvider.GetArtistReleasesByIdAsync(artistId);
 
-        return artistReleaseResponse.ToReleases();
+        return artistReleaseResponse.ToReleases(includeTracks);
     }
 
     public async Task<ArtistCollection> SearchArtistsAsync(string keyword, int page)

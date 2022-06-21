@@ -11,8 +11,9 @@ public interface IArtistService
     /// Retrieves artist releases by unique ID
     /// </summary>
     /// <param name="artistId">Artist ID</param>
+    /// <param name="includeTracks">Determine whether to include song tracks in list of releases</param>
     /// <returns>List of artist releases over time</returns>
-    Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId);
+    Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId, bool includeTracks = true);
 
     /// <summary>
     /// Search artist by keyword

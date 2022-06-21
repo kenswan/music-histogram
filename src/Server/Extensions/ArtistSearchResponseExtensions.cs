@@ -18,7 +18,9 @@ public static class ArtistSearchResponseExtensions
                 Tags = response.Tags?.Select(tag => tag.Name)
             });
 
-    public static IEnumerable<ArtistRelease> ToReleases(this ArtistReleaseResponse artistReleaseResponse) =>
+    public static IEnumerable<ArtistRelease> ToReleases(
+        this ArtistReleaseResponse artistReleaseResponse,
+        bool includeTracks) =>
         artistReleaseResponse.Releases.Select(release =>
             new ArtistRelease
             {
@@ -29,7 +31,7 @@ public static class ArtistSearchResponseExtensions
                 MediaType = release.ReleaseGroup.Type,
                 Format = release.Media.First().Format,
                 TrackCount = release.Media.First().TrackCount,
-                Tracks = release.Media.First().Tracks.ToTracks()
+                Tracks = includeTracks ? release.Media.First().Tracks.ToTracks() : Enumerable.Empty<ReleaseTrack>()
             });
 
     public static IEnumerable<ReleaseTrack> ToTracks(this IEnumerable<TrackResponse> trackResponses) =>

@@ -25,6 +25,6 @@ public class ArtistSearchResponseExtensionsTests
             }
         };
 
-        Assert.Equal(expectedReleaseYear, artistRelease.ToReleases().First().Year);
+        Assert.Equal(expectedReleaseYear, artistRelease.ToReleases(false).First().Year);
     }
 }
