@@ -47,4 +47,13 @@ public class MusicDataProvider : IMusicDataProvider
 
         return restClient.GetAsync<ArtistSearchResponse>(url);
     }
+
+    public Task<ReleaseResponse> GetReleaseByIdAsync(string releaseId)
+    {
+        logger.LogDebug("Get Release {Id} information", releaseId);
+
+        var url = string.Format(musicDataOptions.ReleaseDetailUrl, releaseId);
+
+        return restClient.GetAsync<ReleaseResponse>(url);
+    }
 }

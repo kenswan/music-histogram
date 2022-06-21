@@ -30,4 +30,11 @@ public interface IMusicDataProvider
     /// <param name="offset">Specify result index starting point</param>
     /// <returns>List of artists matching search term</returns>
     Task<ArtistSearchResponse> GetArtistsByKeywordAsync(string keyword, int limit, int offset);
+
+    /// <summary>
+    /// Get release details for a given release
+    /// </summary>
+    /// <param name="releaseId">Unique identifier for release</param>
+    /// <returns>Release details</returns>
+    Task<ReleaseResponse> GetReleaseByIdAsync(string releaseId);
 }

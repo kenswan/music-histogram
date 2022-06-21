@@ -17,6 +17,7 @@ builder.Services
     .BindConfiguration(nameof(MusicDataOptions));
 
 builder.Services.AddTransient<IArtistService, ArtistService>();
+builder.Services.AddTransient<IReleaseService, ReleaseService>();
 builder.Services.AddTransient<IMusicDataProvider, MusicDataProvider>();
 
 var app = builder.Build();

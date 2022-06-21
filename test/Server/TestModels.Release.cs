@@ -10,13 +10,12 @@ internal static partial class TestModels
         .Generate();
 
     public static IEnumerable<ReleaseResponse> GenerateReleaseResponses(int? count = null) =>
-        new Faker<ReleaseResponse>()
-        .RuleFor(release => release.Id, _ => RandomIdentifier)
-        .RuleFor(release => release.Country, fake => fake.Address.Country())
-        .RuleFor(release => release.Date, fake => fake.Date.Past().Year.ToString())
-        .RuleFor(release => release.Media, _ => GenerateMediaResponses())
-        .RuleFor(release => release.ReleaseGroup, _ => GenerateReleaseGroupResponse())
+        GenerateReleaseResponseFake()
         .Generate(count ?? RandomCount);
+
+    public static ReleaseResponse GenerateReleaseResponse() =>
+        GenerateReleaseResponseFake()
+        .Generate();
 
     public static ReleaseGroupResponse GenerateReleaseGroupResponse() =>
         new Faker<ReleaseGroupResponse>()
@@ -48,4 +47,12 @@ internal static partial class TestModels
         .RuleFor(recording => recording.Title, fake => fake.Lorem.Sentence(RandomCount))
         .RuleFor(recording => recording.ReleaseDate, fake => fake.Date.Past().Year.ToString())
         .Generate();
+
+    public static Faker<ReleaseResponse> GenerateReleaseResponseFake() =>
+        new Faker<ReleaseResponse>()
+        .RuleFor(release => release.Id, _ => RandomIdentifier)
+        .RuleFor(release => release.Country, fake => fake.Address.Country())
+        .RuleFor(release => release.Date, fake => fake.Date.Past().Year.ToString())
+        .RuleFor(release => release.Media, _ => GenerateMediaResponses())
+        .RuleFor(release => release.ReleaseGroup, _ => GenerateReleaseGroupResponse());
 }
