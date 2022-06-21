@@ -51,11 +51,14 @@ public class ArtistController : ControllerBase
     [ProducesResponseType((int)HttpStatusCode.NotFound)]
     public async Task<ActionResult<IEnumerable<ArtistRelease>>> GetArtistReleases(
         [FromRoute] string id,
-        [FromQuery] bool includeTracks = false)
+        [FromQuery] bool includeTracks = false,
+        [FromQuery] bool includeAllReleases = false)
     {
         logger.LogInformation("Request Releases for Artist {Id}", id);
 
-        var artistReleases = await artistService.RetrieveAristReleasesAsync(id, includeTracks);
+        var artistReleases = includeAllReleases ?
+            await artistService.RetrieveAllAristReleasesAsync(id) : // For perfomance and size reasons, not including all tracks when pull all releases
+            await artistService.RetrieveAristReleasesAsync(id, includeTracks);
 
         if (artistReleases is null || !artistReleases.Any())
             return NotFound();

@@ -4,18 +4,19 @@ using Bogus;
 namespace BlazorMusic.Server;
 internal static partial class TestModels
 {
-    public static ArtistReleaseResponse GenerateArtistReleaseResponse() =>
+    public static ArtistReleaseResponse GenerateArtistReleaseResponse(int? count = null) =>
         new Faker<ArtistReleaseResponse>()
-        .RuleFor(artistRelease => artistRelease.Releases, _ => GenerateReleaseResponses())
+        .RuleFor(artistRelease => artistRelease.Releases, _ => GenerateReleaseResponses(count))
         .Generate();
 
-    public static IEnumerable<ReleaseResponse> GenerateReleaseResponses() =>
+    public static IEnumerable<ReleaseResponse> GenerateReleaseResponses(int? count = null) =>
         new Faker<ReleaseResponse>()
         .RuleFor(release => release.Id, _ => RandomIdentifier)
         .RuleFor(release => release.Country, fake => fake.Address.Country())
+        .RuleFor(release => release.Date, fake => fake.Date.Past().Year.ToString())
         .RuleFor(release => release.Media, _ => GenerateMediaResponses())
         .RuleFor(release => release.ReleaseGroup, _ => GenerateReleaseGroupResponse())
-        .Generate(RandomCount);
+        .Generate(count ?? RandomCount);
 
     public static ReleaseGroupResponse GenerateReleaseGroupResponse() =>
         new Faker<ReleaseGroupResponse>()
