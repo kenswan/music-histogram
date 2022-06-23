@@ -40,10 +40,10 @@ public class SearchArtistAction : StoreActionAsync<ArtistStore, string>
         }
         else
         {
-            logger.LogError("Search Artist Error: {Message}", artistSearchResult.Exception.Message);
+            var exception = new ApplicationException("Search Artist Error", artistSearchResult.Exception);
+            logger.LogError(exception, "Search Artist Error: {Message}", artistSearchResult.Exception.Message);
 
-            // TODO: Send exception to top error ribbon or blazor error ui
-            // throw artistSearchResult.Exception;
+            throw exception;
         }
 
         return State;

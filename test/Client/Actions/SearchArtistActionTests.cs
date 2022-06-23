@@ -54,4 +54,20 @@ public class SearchArtistActionTests
 
         Assert.Equal(searchText, actualState.CurrentSearchTerm);
     }
+
+    [Fact]
+    public async Task ShouldThrowOnSearchArtistError()
+    {
+        var searchText = TestModels.RandomString;
+        var expectedUrl = string.Format(apiOptions.SearchArtistUrl, searchText, 1);
+
+        simulatedHttp
+            .SetupGET(expectedUrl)
+            .ReturnsAsync(HttpStatusCode.BadGateway, null);
+
+        var exception = await Assert.ThrowsAsync<ApplicationException>(() =>
+            searchArtistAction.ExecuteAsync(searchText).AsTask());
+
+        Assert.Contains("Search Artist Error", exception.Message);
+    }
 }

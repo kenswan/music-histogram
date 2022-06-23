@@ -44,10 +44,16 @@ public class AttachTracksAction : StoreActionAsync<ArtistStore, string>
                 }
                 else
                 {
-                    logger.LogError("Search Artist Error: {Message}", releaseTracksResult.Exception.Message);
+                    var exception = new ApplicationException(
+                        $"Release {releaseId} Track Retrieval Error",
+                        releaseTracksResult.Exception);
 
-                    // TODO: Send exception to top error ribbon or blazor error ui
-                    // throw artistSearchResult.Exception;
+                    logger.LogError(
+                        "Release {Id} Track Retrieval Error: {Message}",
+                        releaseId,
+                        releaseTracksResult.Exception.Message);
+
+                    throw exception;
                 }
             }
         }
