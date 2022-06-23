@@ -29,7 +29,7 @@ public class ArtistHistogramTests
         context.Services.AddTransient(_ => dateTimeProviderMock.Object);
         var store = new ArtistStore { CurrentArtist = null };
 
-        var histogramData = new HistorgramData
+        var histogramData = new ArtistHistorgramViewModel
         {
             Years = new int[] { 2020, 2021, 2022 },
             Releases = new int[] { 1, 2, 3 },
@@ -38,8 +38,8 @@ public class ArtistHistogramTests
         };
 
         artistStoreMock.Setup(store =>
-            store.Reduce<HistogramDataReducer, HistorgramData>(It.IsAny<Action<HistorgramData>>()))
-                .Callback((Action<HistorgramData> action) => action(histogramData));
+            store.Reduce<ArtistHistogramReducer, ArtistHistorgramViewModel>(It.IsAny<Action<ArtistHistorgramViewModel>>()))
+                .Callback((Action<ArtistHistorgramViewModel> action) => action(histogramData));
 
         var component = context.RenderComponent<ArtistHistogram>();
 
@@ -61,7 +61,7 @@ public class ArtistHistogramTests
         var artistName = new Faker().Person.FullName;
         var expectedFileName = artistName.Replace(" ", "") + "20220620123456";
 
-        var histogramData = new HistorgramData
+        var histogramData = new ArtistHistorgramViewModel
         {
             Years = new int[] { 2020, 2021, 2022 },
             Releases = new int[] { 1, 2, 3 },
@@ -72,8 +72,8 @@ public class ArtistHistogramTests
         var plannedInvocation = context.JSInterop.SetupVoid("downloadFileToBrowser", expectedFileName, histogramData.CsvFormat);
 
         artistStoreMock.Setup(store =>
-            store.Reduce<HistogramDataReducer, HistorgramData>(It.IsAny<Action<HistorgramData>>()))
-                .Callback((Action<HistorgramData> action) => action(histogramData));
+            store.Reduce<ArtistHistogramReducer, ArtistHistorgramViewModel>(It.IsAny<Action<ArtistHistorgramViewModel>>()))
+                .Callback((Action<ArtistHistorgramViewModel> action) => action(histogramData));
 
         dateTimeProviderMock.Setup(provider => provider.GetDateTimeNow()).Returns(currentDateTime);
 

@@ -1,6 +1,7 @@
 ﻿@using BlazorFocused
 @using BlazorMusic.Client.Actions
 @using BlazorMusic.Client.Models
+@using BlazorMusic.Client.Reducers
 @using BlazorMusic.Shared
 @using Microsoft.Extensions.Options
 
@@ -16,7 +17,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="heading-@release.Id">
                     <button class="accordion-button @(IsCurrent(release.Id) ? string.Empty : "collapsed")" type="button" @onclick="@(() => Toggle(release.Id))" data-bs-toggle="collapse" data-bs-target="#collapse-@release.Id" aria-expanded="@(IsCurrent(release.Id) ? "true" : "false")" aria-controls="collapse-@release.Id">
-                        @release.Title (@release.MediaType @release.Format)
+                        @release.Title (@release.Year)
                     </button>
                 </h2>
                 <div id="collapse-@release.Id" class="accordion-collapse collapse @(IsCurrent(release.Id) ? "show" : string.Empty)" aria-labelledby="heading-@release.Id" data-bs-parent="#artistReleases">
@@ -57,7 +58,9 @@ else
 {
     if (releaseError)
     {
-        <h5>An error occurred. No releases present at this time.</h5>
+        <div class="tracks-loading error">
+            <h5>An error occurred. No releases present at this time.</h5>
+        </div>
     }
     else
     {
@@ -79,15 +82,12 @@ else
 
     protected override void OnInitialized()
     {
-        // TODO: Change to reducer to remove below logic and release duplicates
-        store.Subscribe(store =>
+        store.Reduce<ArtistReleasesReducer, ArtistReleasesViewModel>(viewModel =>
         {
             // Album releases in the U.S.
-            artistReleases = store.Releases?.Where(release => 
-                release.Country?.ToLower() == "us" &&
-                (release.Format?.ToLower() == "cd" || release.Format?.ToLower() == "digital media"));
+            artistReleases = viewModel.FilteredReleases;
 
-            releaseError = store.ReleaseError;
+            releaseError = viewModel.ArtistReleaseHasErrors;
 
             StateHasChanged();
         });

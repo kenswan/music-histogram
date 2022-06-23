@@ -32,7 +32,7 @@ else
 
     protected override void OnInitialized()
     {
-        store.Reduce<HistogramDataReducer, HistorgramData>(reduced =>
+        store.Reduce<ArtistHistogramReducer, ArtistHistorgramViewModel>(reduced =>
         {
             years = reduced.Years ?? new int[] { };
             releases = reduced.Releases ?? new int[] { };

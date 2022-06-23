@@ -3,13 +3,13 @@ using BlazorMusic.Client.Models;
 
 namespace BlazorMusic.Client.Reducers;
 
-public class HistogramDataReducer : IReducer<ArtistStore, HistorgramData>
+public class ArtistHistogramReducer : IReducer<ArtistStore, ArtistHistorgramViewModel>
 {
-    public HistorgramData Execute(ArtistStore input)
+    public ArtistHistorgramViewModel Execute(ArtistStore input)
     {
         SortedDictionary<int, int> releaseCounts = new();
 
-        HistorgramData data = new()
+        ArtistHistorgramViewModel data = new()
         {
             Years = Array.Empty<int>(),
             Releases = Array.Empty<int>(),

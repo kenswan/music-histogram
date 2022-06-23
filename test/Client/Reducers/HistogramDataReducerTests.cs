@@ -5,7 +5,7 @@ using FluentAssertions;
 namespace BlazorMusic.Client.Reducers;
 public class HistogramDataReducerTests
 {
-    private readonly HistogramDataReducer histogramDataReducer;
+    private readonly ArtistHistogramReducer histogramDataReducer;
     public HistogramDataReducerTests()
     {
         histogramDataReducer = new();
@@ -25,7 +25,7 @@ public class HistogramDataReducerTests
             { new ArtistRelease { Year = 2022, TrackCount = 3 } }
         };
 
-        var expectedHistogramData = new HistorgramData
+        var expectedHistogramData = new ArtistHistorgramViewModel
         {
             Years = new int[] { 2020, 2021, 2022 },
             Releases = new int[] { 5, 1, 48 },

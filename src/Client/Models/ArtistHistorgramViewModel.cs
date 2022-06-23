@@ -1,6 +1,6 @@
 ﻿namespace BlazorMusic.Client.Models;
 
-public class HistorgramData
+public class ArtistHistorgramViewModel
 {
     public int[] Releases { get; set; }
 

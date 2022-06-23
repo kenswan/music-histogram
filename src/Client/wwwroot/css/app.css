@@ -94,6 +94,11 @@ a, .btn-link {
     font-size: 1.3em;
 }
 
+.tracks-loading.error {
+    font-size: 2em;
+    color: red;
+}
+
 /* Advanced Release Toggle */
 #advanced-release-toggle
 {
