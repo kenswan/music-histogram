@@ -28,7 +28,7 @@ public class RetrieveArtistReleasesAction : StoreActionAsync<ArtistStore, string
     {
         logger.LogInformation("Selected Artist Id: {Input}", artistId);
 
-        var url = (apiOptions.MaxReleaseEnabled) ?
+        var url = (State.ShowPreviewRelease) ?
             string.Format(apiOptions.ArtistMaxReleaseUrl, artistId) :
             string.Format(apiOptions.ArtistReleaseUrl, artistId);
 

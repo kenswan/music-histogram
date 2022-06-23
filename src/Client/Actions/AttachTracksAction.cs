@@ -30,7 +30,7 @@ public class AttachTracksAction : StoreActionAsync<ArtistStore, string>
 
         var release = State.Releases.Where(release => release.Id == releaseId).FirstOrDefault();
 
-        if (release is not null && apiOptions.MaxReleaseEnabled)
+        if (release is not null && State.ShowPreviewRelease)
         {
             if (!release.Tracks.Any())
             {

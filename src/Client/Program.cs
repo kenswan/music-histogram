@@ -33,6 +33,7 @@ builder.Services.AddStore<ArtistStore>(new())
     .AddTransient<SelectArtistAction>()
     .AddTransient<HistogramDataReducer>()
     .AddTransient<AttachTracksAction>()
-    .AddTransient<RetrieveArtistReleasesAction>();
+    .AddTransient<RetrieveArtistReleasesAction>()
+    .AddTransient<TogglePreviewAction>();
 
 await builder.Build().RunAsync();

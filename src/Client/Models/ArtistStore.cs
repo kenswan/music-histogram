@@ -13,4 +13,6 @@ public class ArtistStore
     public IEnumerable<ArtistRelease> Releases { get; set; }
 
     public bool ReleaseError { get; set; } = false;
+
+    public bool ShowPreviewRelease { get; set; } = false;
 }

@@ -9,13 +9,14 @@
 
 @if (artistReleases is not null)
 {
+    <i>(Only album releases in the U.S. showing)</i>
     <div class="accordion accordion-flush" id="artistReleases">
         @foreach(var release in artistReleases)
         {
             <div class="accordion-item">
                 <h2 class="accordion-header" id="heading-@release.Id">
                     <button class="accordion-button @(IsCurrent(release.Id) ? string.Empty : "collapsed")" type="button" @onclick="@(() => Toggle(release.Id))" data-bs-toggle="collapse" data-bs-target="#collapse-@release.Id" aria-expanded="@(IsCurrent(release.Id) ? "true" : "false")" aria-controls="collapse-@release.Id">
-                        @release.Title (@release.TrackCount Tracks @release.MediaType @release.Format) @release.Country
+                        @release.Title (@release.MediaType @release.Format)
                     </button>
                 </h2>
                 <div id="collapse-@release.Id" class="accordion-collapse collapse @(IsCurrent(release.Id) ? "show" : string.Empty)" aria-labelledby="heading-@release.Id" data-bs-parent="#artistReleases">
@@ -78,9 +79,14 @@ else
 
     protected override void OnInitialized()
     {
+        // TODO: Change to reducer to remove below logic and release duplicates
         store.Subscribe(store =>
         {
-            artistReleases = store.Releases;
+            // Album releases in the U.S.
+            artistReleases = store.Releases?.Where(release => 
+                release.Country?.ToLower() == "us" &&
+                (release.Format?.ToLower() == "cd" || release.Format?.ToLower() == "digital media"));
+
             releaseError = store.ReleaseError;
 
             StateHasChanged();
