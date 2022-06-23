@@ -13,6 +13,7 @@ internal static partial class TestModels
         .RuleFor(options => options.ArtistReleaseUrl, _ => GenerateRandomRelativeUrl() + "/{0}/test")
         .RuleFor(options => options.MaxArtistReleaseUrl, _ => GenerateRandomRelativeUrl() + "/{0}/test?one={1}")
         .RuleFor(options => options.ReleaseDetailUrl, _ => GenerateRandomRelativeUrl() + "/{0}")
+        .RuleFor(options => options.MaxReleaseResults, fake => fake.Random.Int(500, 1000))
         .Generate();
 
     public static string GenerateRandomRelativeUrl() =>

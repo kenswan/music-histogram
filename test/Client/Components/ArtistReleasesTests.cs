@@ -1,5 +1,7 @@
 ﻿using BlazorFocused;
+using BlazorMusic.Client.Actions;
 using BlazorMusic.Client.Models;
+using BlazorMusic.Client.Reducers;
 using BlazorMusic.Shared;
 using Bunit;
 using FluentAssertions;
@@ -22,10 +24,11 @@ public class ArtistReleasesTests
         var releases = TestModels.GenerateArtistReleases();
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { Releases = releases };
+        var releaseViewModel = new ArtistReleasesViewModel { FilteredReleases = releases };
 
-        artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+        artistStoreMock.Setup(store =>
+            store.Reduce<ArtistReleasesReducer, ArtistReleasesViewModel>(It.IsAny<Action<ArtistReleasesViewModel>>()))
+                .Callback((Action<ArtistReleasesViewModel> action) => action(releaseViewModel));
 
         var component = context.RenderComponent<ArtistReleases>();
 
@@ -39,15 +42,40 @@ public class ArtistReleasesTests
     {
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { Releases = Enumerable.Empty<ArtistRelease>() };
+        var releaseViewModel = new ArtistReleasesViewModel { FilteredReleases = Enumerable.Empty<ArtistRelease>() };
 
-        artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+        artistStoreMock.Setup(store =>
+            store.Reduce<ArtistReleasesReducer, ArtistReleasesViewModel>(It.IsAny<Action<ArtistReleasesViewModel>>()))
+                .Callback((Action<ArtistReleasesViewModel> action) => action(releaseViewModel));
 
         var component = context.RenderComponent<ArtistReleases>();
 
         var artistElements = component.FindAll(".accordion-header");
 
         artistElements.Should().BeEmpty();
+    }
+
+    [Fact]
+    public void ShouldSelectReleaseToViewTracks()
+    {
+        var releases = TestModels.GenerateArtistReleases();
+        var expectedRelease = releases.Last();
+        var expectedReleaseId = expectedRelease.Id;
+
+        using var context = new TestContext();
+        context.Services.AddScoped(_ => artistStoreMock.Object);
+        var releaseViewModel = new ArtistReleasesViewModel { FilteredReleases = releases };
+
+        artistStoreMock.Setup(store =>
+            store.Reduce<ArtistReleasesReducer, ArtistReleasesViewModel>(It.IsAny<Action<ArtistReleasesViewModel>>()))
+                .Callback((Action<ArtistReleasesViewModel> action) => action(releaseViewModel));
+
+        var component = context.RenderComponent<ArtistReleases>();
+
+        var releaseButton = component.Find($"#select-release-{expectedReleaseId}");
+
+        releaseButton.Click();
+
+        artistStoreMock.Verify(store => store.DispatchAsync<AttachTracksAction, string>(expectedReleaseId), Times.Once());
     }
 }

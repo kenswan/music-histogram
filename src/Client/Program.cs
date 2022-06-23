@@ -33,7 +33,7 @@ builder.Services.AddStore<ArtistStore>(new())
     .AddTransient<SearchArtistAction>()
     .AddTransient<SelectArtistAction>()
     .AddTransient<AttachTracksAction>()
-    .AddTransient<RetrieveArtistReleasesAction>()
+    .AddTransient<RetrieveReleasesAction>()
     .AddTransient<TogglePreviewAction>()
     // Reducers
     .AddTransient<ArtistReleasesReducer>()

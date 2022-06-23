@@ -5,7 +5,6 @@ using Bogus;
 using FluentAssertions;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Options;
-using System.Net;
 
 namespace BlazorMusic.Client.Actions;
 public class SelectArtistActionTests
@@ -36,23 +35,18 @@ public class SelectArtistActionTests
     }
 
     [Fact]
-    public async Task ShouldRetrieveArtistReleasesWhenSelected()
+    public void ShouldRetrieveArtistReleasesWhenSelected()
     {
         var artists = TestModels.GenerateArtists();
         var expectedArtist = artists.First();
         var artistId = expectedArtist.Id;
-        var releases = TestModels.GenerateArtistReleases();
-        var expectedUrl = string.Format(apiOptions.ArtistReleaseUrl, artistId);
 
         selectArtistAction.State.Artists = artists;
 
-        simulatedHttp
-            .SetupGET(expectedUrl)
-            .ReturnsAsync(HttpStatusCode.OK, releases);
-
-        var actualState = await selectArtistAction.ExecuteAsync(artistId);
+        var actualState = selectArtistAction.Execute(artistId);
 
         actualState.CurrentArtist.Should().BeEquivalentTo(expectedArtist);
-        actualState.Releases.Should().BeEquivalentTo(releases);
+        actualState.Releases.Should().BeNull();
+        actualState.ReleaseError.Should().BeFalse();
     }
 }

@@ -6,16 +6,16 @@ using Microsoft.Extensions.Options;
 
 namespace BlazorMusic.Client.Actions;
 
-public class RetrieveArtistReleasesAction : StoreActionAsync<ArtistStore, string>
+public class RetrieveReleasesAction : StoreActionAsync<ArtistStore, string>
 {
     private readonly ApiOptions apiOptions;
     private readonly IRestClient restClient;
-    private readonly ILogger<RetrieveArtistReleasesAction> logger;
+    private readonly ILogger<RetrieveReleasesAction> logger;
 
-    public RetrieveArtistReleasesAction(
+    public RetrieveReleasesAction(
         IOptions<ApiOptions> apiOptions,
         IRestClient restClient,
-        ILogger<RetrieveArtistReleasesAction> logger)
+        ILogger<RetrieveReleasesAction> logger)
     {
         this.apiOptions = apiOptions.Value ??
             throw new ArgumentNullException(nameof(apiOptions), "Missing API Options. Check configuration");

@@ -3,12 +3,12 @@ using BlazorMusic.Shared;
 using FluentAssertions;
 
 namespace BlazorMusic.Client.Reducers;
-public class HistogramDataReducerTests
+public class ArtistHistogramReducerTests
 {
-    private readonly ArtistHistogramReducer histogramDataReducer;
-    public HistogramDataReducerTests()
+    private readonly ArtistHistogramReducer artistHistogramReducer;
+    public ArtistHistogramReducerTests()
     {
-        histogramDataReducer = new();
+        artistHistogramReducer = new();
     }
 
     [Fact]
@@ -35,7 +35,7 @@ public class HistogramDataReducerTests
 
         var artistStore = new ArtistStore { Releases = releases, CurrentArtist = currentArtist };
 
-        var actualHistogramData = histogramDataReducer.Execute(artistStore);
+        var actualHistogramData = artistHistogramReducer.Execute(artistStore);
 
         actualHistogramData.Should().BeEquivalentTo(expectedHistogramData);
     }
@@ -45,7 +45,7 @@ public class HistogramDataReducerTests
     {
         var artistStore = new ArtistStore { Releases = null };
 
-        var actualHistogramData = histogramDataReducer.Execute(artistStore);
+        var actualHistogramData = artistHistogramReducer.Execute(artistStore);
 
         actualHistogramData.Years.Should().BeEmpty();
         actualHistogramData.Releases.Should().BeEmpty();

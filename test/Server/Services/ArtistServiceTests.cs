@@ -138,7 +138,7 @@ public class ArtistServiceTests
             provider.GetArtistReleasesByIdAsync(artistId, 6))
                 .ReturnsAsync(thirdReleaseSet);
 
-        var actualArtistReleases = await artistService.RetrieveAllAristReleasesAsync(artistId);
+        var actualArtistReleases = await artistService.RetrieveAllAristReleasesAsync(artistId, false);
 
         Assert.Equal(totalReleaseSetCount, actualArtistReleases.Count());
 

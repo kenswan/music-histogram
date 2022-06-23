@@ -11,7 +11,7 @@
    <div id="advanced-release-toggle">
         @(previewMode ? "Preview" : "Standard")
         <label class="switch">
-            <input type="checkbox" @onchange="ChangeReleaseRetrieval" />
+            <input id="togglePreview" type="checkbox" @onclick="ChangeReleaseRetrieval" />
             <span class="slider round"></span>
         </label>
     </div> 

@@ -19,8 +19,10 @@
         <ul class="list-group">
             @foreach(var artist in artists)
             {
-                <li class="list-group-item @(IsCurrentArtist(artist.Id) ? "selected" : "")">
-                    <a class="artist-search-result" href="#" @onclick="@(() => SelectArtist(artist.Id))">@artist.Name</a>
+                <li id="artist-@artist.Id" class="list-group-item @(IsCurrentArtist(artist.Id) ? "selected" : "")">
+                    <a id="artist-select-@artist.Id" class="artist-search-result" href="#" @onclick="@(() => SelectArtist(artist.Id))">
+                        @artist.Name
+                    </a>
                     <br />
                     <div id="artistSearchBoxHelp" class="form-text fst-italic">@artist.Description</div>
                 </li>
@@ -55,7 +57,7 @@
     {
         store.Dispatch<SelectArtistAction, string>(artistId);
 
-        await store.DispatchAsync<RetrieveArtistReleasesAction, string>(artistId);
+        await store.DispatchAsync<RetrieveReleasesAction, string>(artistId);
     }
 
     private bool IsCurrentArtist(string id) => id == currentArstistId;

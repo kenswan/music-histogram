@@ -23,10 +23,10 @@ public class ArtistDetailsTests
     {
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { CurrentArtist = null };
+        var artistStore = new ArtistStore { CurrentArtist = null };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistDetails>();
 
@@ -49,10 +49,10 @@ public class ArtistDetailsTests
         var artist = TestModels.GenerateArtist();
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { CurrentArtist = artist };
+        var artistStore = new ArtistStore { CurrentArtist = artist };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistDetails>();
 
@@ -76,10 +76,10 @@ public class ArtistDetailsTests
         var artist = TestModels.GenerateArtist();
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { CurrentArtist = artist };
+        var artistStore = new ArtistStore { CurrentArtist = artist };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistDetails>();
 
@@ -104,10 +104,10 @@ public class ArtistDetailsTests
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
         context.Services.AddTransient(_ => dateTimeProviderMock.Object);
-        var store = new ArtistStore { CurrentArtist = artist };
+        var artistStore = new ArtistStore { CurrentArtist = artist };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistDetails>();
 

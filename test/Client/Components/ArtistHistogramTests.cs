@@ -29,7 +29,7 @@ public class ArtistHistogramTests
         context.Services.AddTransient(_ => dateTimeProviderMock.Object);
         var store = new ArtistStore { CurrentArtist = null };
 
-        var histogramData = new ArtistHistorgramViewModel
+        var histogramViewModel = new ArtistHistorgramViewModel
         {
             Years = new int[] { 2020, 2021, 2022 },
             Releases = new int[] { 1, 2, 3 },
@@ -39,7 +39,7 @@ public class ArtistHistogramTests
 
         artistStoreMock.Setup(store =>
             store.Reduce<ArtistHistogramReducer, ArtistHistorgramViewModel>(It.IsAny<Action<ArtistHistorgramViewModel>>()))
-                .Callback((Action<ArtistHistorgramViewModel> action) => action(histogramData));
+                .Callback((Action<ArtistHistorgramViewModel> action) => action(histogramViewModel));
 
         var component = context.RenderComponent<ArtistHistogram>();
 
@@ -61,7 +61,7 @@ public class ArtistHistogramTests
         var artistName = new Faker().Person.FullName;
         var expectedFileName = artistName.Replace(" ", "") + "20220620123456";
 
-        var histogramData = new ArtistHistorgramViewModel
+        var histogramViewModel = new ArtistHistorgramViewModel
         {
             Years = new int[] { 2020, 2021, 2022 },
             Releases = new int[] { 1, 2, 3 },
@@ -69,11 +69,11 @@ public class ArtistHistogramTests
             ArtistName = artistName
         };
 
-        var plannedInvocation = context.JSInterop.SetupVoid("downloadFileToBrowser", expectedFileName, histogramData.CsvFormat);
+        var plannedInvocation = context.JSInterop.SetupVoid("downloadFileToBrowser", expectedFileName, histogramViewModel.CsvFormat);
 
         artistStoreMock.Setup(store =>
             store.Reduce<ArtistHistogramReducer, ArtistHistorgramViewModel>(It.IsAny<Action<ArtistHistorgramViewModel>>()))
-                .Callback((Action<ArtistHistorgramViewModel> action) => action(histogramData));
+                .Callback((Action<ArtistHistorgramViewModel> action) => action(histogramViewModel));
 
         dateTimeProviderMock.Setup(provider => provider.GetDateTimeNow()).Returns(currentDateTime);
 
