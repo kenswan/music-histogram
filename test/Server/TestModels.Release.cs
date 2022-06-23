@@ -4,18 +4,18 @@ using Bogus;
 namespace BlazorMusic.Server;
 internal static partial class TestModels
 {
-    public static ArtistReleaseResponse GenerateArtistReleaseResponse() =>
+    public static ArtistReleaseResponse GenerateArtistReleaseResponse(int? count = null) =>
         new Faker<ArtistReleaseResponse>()
-        .RuleFor(artistRelease => artistRelease.Releases, _ => GenerateReleaseResponses())
+        .RuleFor(artistRelease => artistRelease.Releases, _ => GenerateReleaseResponses(count))
         .Generate();
 
-    public static IEnumerable<ReleaseResponse> GenerateReleaseResponses() =>
-        new Faker<ReleaseResponse>()
-        .RuleFor(release => release.Id, _ => RandomIdentifier)
-        .RuleFor(release => release.Country, fake => fake.Address.Country())
-        .RuleFor(release => release.Media, _ => GenerateMediaResponses())
-        .RuleFor(release => release.ReleaseGroup, _ => GenerateReleaseGroupResponse())
-        .Generate(RandomCount);
+    public static IEnumerable<ReleaseResponse> GenerateReleaseResponses(int? count = null) =>
+        GenerateReleaseResponseFake()
+        .Generate(count ?? RandomCount);
+
+    public static ReleaseResponse GenerateReleaseResponse() =>
+        GenerateReleaseResponseFake()
+        .Generate();
 
     public static ReleaseGroupResponse GenerateReleaseGroupResponse() =>
         new Faker<ReleaseGroupResponse>()
@@ -47,4 +47,12 @@ internal static partial class TestModels
         .RuleFor(recording => recording.Title, fake => fake.Lorem.Sentence(RandomCount))
         .RuleFor(recording => recording.ReleaseDate, fake => fake.Date.Past().Year.ToString())
         .Generate();
+
+    public static Faker<ReleaseResponse> GenerateReleaseResponseFake() =>
+        new Faker<ReleaseResponse>()
+        .RuleFor(release => release.Id, _ => RandomIdentifier)
+        .RuleFor(release => release.Country, fake => fake.Address.Country())
+        .RuleFor(release => release.Date, fake => fake.Date.Past().Year.ToString())
+        .RuleFor(release => release.Media, _ => GenerateMediaResponses())
+        .RuleFor(release => release.ReleaseGroup, _ => GenerateReleaseGroupResponse());
 }

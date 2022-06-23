@@ -30,6 +30,15 @@ public class MusicDataProvider : IMusicDataProvider
         return restClient.GetAsync<ArtistReleaseResponse>(url);
     }
 
+    public Task<ArtistReleaseResponse> GetArtistReleasesByIdAsync(string artistId, int offset)
+    {
+        logger.LogDebug("Get Releases - Artist: {Id} starting at index {Offset}", artistId, offset);
+
+        var url = string.Format(musicDataOptions.MaxArtistReleaseUrl, artistId, offset);
+
+        return restClient.GetAsync<ArtistReleaseResponse>(url);
+    }
+
     public Task<ArtistSearchResponse> GetArtistsByKeywordAsync(string keyword, int limit, int offset)
     {
         logger.LogDebug("Get Artist - keyword: {Keyword}; limit:{limit}; offset: {Offset}", keyword, limit, offset);
@@ -37,5 +46,14 @@ public class MusicDataProvider : IMusicDataProvider
         var url = string.Format(musicDataOptions.SearchArtistUrl, keyword, limit, offset);
 
         return restClient.GetAsync<ArtistSearchResponse>(url);
+    }
+
+    public Task<ReleaseResponse> GetReleaseByIdAsync(string releaseId)
+    {
+        logger.LogDebug("Get Release {Id} information", releaseId);
+
+        var url = string.Format(musicDataOptions.ReleaseDetailUrl, releaseId);
+
+        return restClient.GetAsync<ReleaseResponse>(url);
     }
 }

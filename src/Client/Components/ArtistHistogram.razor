@@ -13,10 +13,14 @@
 {
     if (!string.IsNullOrEmpty(csvContent))
     {
-        <div class="download-link"><a class="file-download" href="#" @onclick="DownloadFile">[Download File]</a></div>
+        <div class="download-link"><a class="file-download" href="#" @onclick="DownloadFile">[Download Histogram]</a></div>
     }
 
     <HistogramChart Id="artistMusicHistogram" Years="@years" ReleaseCount="@releases" />
+}
+else
+{
+    <h5>An error occurred. No releases present at this time.</h5>
 }
 
 @code {
@@ -28,7 +32,7 @@
 
     protected override void OnInitialized()
     {
-        store.Reduce<HistogramDataReducer, HistorgramData>(reduced =>
+        store.Reduce<ArtistHistogramReducer, ArtistHistorgramViewModel>(reduced =>
         {
             years = reduced.Years ?? new int[] { };
             releases = reduced.Releases ?? new int[] { };

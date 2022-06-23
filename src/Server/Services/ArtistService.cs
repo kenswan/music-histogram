@@ -23,13 +23,40 @@ public class ArtistService : IArtistService
         this.logger = logger;
     }
 
-    public async Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId)
+    public async Task<IEnumerable<ArtistRelease>> RetrieveAllAristReleasesAsync(string artistId, bool includeTracks = false)
+    {
+        var artistReleaseResponse = await musicDataProvider.GetArtistReleasesByIdAsync(artistId, 0);
+
+        var totalReleaseCount = artistReleaseResponse.RelseaseCount;
+        var currentReleaseCount = artistReleaseResponse.Releases.Count();
+
+        while (currentReleaseCount < totalReleaseCount && currentReleaseCount < musicDataOptions.MaxReleaseResults)
+        {
+            // Only make one request per second to avoid getting throttle by source api.
+            // Will receive 'ServiceUnavailable' when exceeding more than one request per second
+            Thread.Sleep(1000);
+            var nextReleaseSet = await musicDataProvider.GetArtistReleasesByIdAsync(artistId, currentReleaseCount + 1);
+
+            if (!nextReleaseSet.Releases.Any())
+                break;
+
+            artistReleaseResponse.Releases = artistReleaseResponse.Releases.Concat(nextReleaseSet.Releases);
+
+            currentReleaseCount = artistReleaseResponse.Releases.Count();
+        }
+
+        // For perfomance and size reasons, not including all tracks when pull all releases
+        // Allowing "includeTracks" for future tuning, but it will have no affect as of now
+        return artistReleaseResponse.ToReleases(false);
+    }
+
+    public async Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId, bool includeTracks = true)
     {
         logger.LogDebug("Retrieving releases for artist {Id}", artistId);
 
         var artistReleaseResponse = await musicDataProvider.GetArtistReleasesByIdAsync(artistId);
 
-        return artistReleaseResponse.ToReleases();
+        return artistReleaseResponse.ToReleases(includeTracks);
     }
 
     public async Task<ArtistCollection> SearchArtistsAsync(string keyword, int page)

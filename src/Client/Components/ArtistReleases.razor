@@ -1,38 +1,54 @@
 ﻿@using BlazorFocused
 @using BlazorMusic.Client.Actions
 @using BlazorMusic.Client.Models
+@using BlazorMusic.Client.Reducers
 @using BlazorMusic.Shared
+@using Microsoft.Extensions.Options
 
 @inject IStore<ArtistStore> store
+@inject IOptions<ApiOptions> apiOptions
 
 @if (artistReleases is not null)
 {
+    <i>(Only album releases in the U.S. showing)</i>
     <div class="accordion accordion-flush" id="artistReleases">
         @foreach(var release in artistReleases)
         {
             <div class="accordion-item">
                 <h2 class="accordion-header" id="heading-@release.Id">
-                    <button class="accordion-button @(IsCurrent(release.Id) ? string.Empty : "collapsed")" type="button" @onclick="@(() => Toggle(release.Id))" data-bs-toggle="collapse" data-bs-target="#collapse-@release.Id" aria-expanded="@(IsCurrent(release.Id) ? "true" : "false")" aria-controls="collapse-@release.Id">
-                        @release.Title (@release.TrackCount Tracks @release.MediaType @release.Format) @release.Country
+                    <button id="select-release-@release.Id" class="accordion-button @(IsCurrent(release.Id) ? string.Empty : "collapsed")" type="button" @onclick="@(() => Toggle(release.Id))" data-bs-toggle="collapse" data-bs-target="#collapse-@release.Id" aria-expanded="@(IsCurrent(release.Id) ? "true" : "false")" aria-controls="collapse-@release.Id">
+                        @release.Title (@release.Year)
                     </button>
                 </h2>
                 <div id="collapse-@release.Id" class="accordion-collapse collapse @(IsCurrent(release.Id) ? "show" : string.Empty)" aria-labelledby="heading-@release.Id" data-bs-parent="#artistReleases">
-                    <div class="accordion-body">
-                        <table cellpadding="5">
-                            <thead>
-                                <tr>
-                                    <th>Track</th>
-                                    <th>Duration (minutes)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                               @foreach (var track in release.Tracks)
-                               {
-                                <tr><td>@track.Title</td><td>@(MusicDuration(track.Duration))</td></tr>
-                               }
-                            </tbody>
-                        </table>
-                    </div>
+                    @if (release.Tracks.Any())
+                    {
+                        <div class="accordion-body">
+                            <table cellpadding="5">
+                                <thead>
+                                    <tr>
+                                        <th>Track</th>
+                                        <th>Duration (minutes)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var track in release.Tracks)
+                                    {
+                                        <tr><td>@track.Title</td><td>@(MusicDuration(track.Duration))</td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="tracks-loading track">
+                            <strong>Loading Tracks...</strong>
+                            <div class="spinner-border" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    }
                 </div>
             </div>
         }
@@ -40,30 +56,49 @@
 }
 else
 {
-    <h5>No releases present</h5>
+    if (releaseError)
+    {
+        <div class="tracks-loading error">
+            <h5>An error occurred. No releases present at this time.</h5>
+        </div>
+    }
+    else
+    {
+        <div class="tracks-loading release">
+            <strong class="text-primary">Loading Releases...</strong>
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    }
 }
 
 
 @code {
     private string currentToggleId = string.Empty;
+    private bool releaseError = false;
 
     IEnumerable<ArtistRelease> artistReleases;
 
     protected override void OnInitialized()
     {
-        store.Subscribe(store =>
+        store.Reduce<ArtistReleasesReducer, ArtistReleasesViewModel>(viewModel =>
         {
-            artistReleases = store.Releases;
+            // Album releases in the U.S.
+            artistReleases = viewModel.FilteredReleases;
+
+            releaseError = viewModel.ArtistReleaseHasErrors;
 
             StateHasChanged();
         });
     }
 
-    protected void Toggle(string id)
+    protected async Task Toggle(string id)
     {
         currentToggleId = currentToggleId == id ? string.Empty : id;
 
-        StateHasChanged();
+        // This action will trigger a state change
+        await store.DispatchAsync<AttachTracksAction, string>(id);
     }
 
     protected bool IsCurrent(string id) => currentToggleId == id;

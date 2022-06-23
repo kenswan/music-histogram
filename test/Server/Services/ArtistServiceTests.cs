@@ -1,4 +1,5 @@
-﻿using BlazorMusic.Server.Models;
+﻿using BlazorMusic.Server.Extensions;
+using BlazorMusic.Server.Models;
 using BlazorMusic.Server.Providers;
 using BlazorMusic.Shared;
 using FluentAssertions;
@@ -103,6 +104,45 @@ public class ArtistServiceTests
         var actualReleases = actualArtistReleases.Select(release => GetReleaseComparison(release));
 
         actualReleases.Should().BeEquivalentTo(expectedReleases);
+    }
+
+    [Fact]
+    public async Task ShouldRetrieveAllArtistReleases()
+    {
+        var artistId = TestModels.RandomIdentifier;
+        var firstReleaseSet = TestModels.GenerateArtistReleaseResponse(2);
+        var secondReleaseSet = TestModels.GenerateArtistReleaseResponse(3);
+        var thirdReleaseSet = TestModels.GenerateArtistReleaseResponse(4);
+
+        var totalReleaseSetCount = 9;
+        firstReleaseSet.RelseaseCount = totalReleaseSetCount;
+        secondReleaseSet.RelseaseCount = totalReleaseSetCount;
+        thirdReleaseSet.RelseaseCount = totalReleaseSetCount;
+
+        var expectedFirstReleaseSet = firstReleaseSet.ToReleases(false);
+        var expectedSecondReleaseSet = secondReleaseSet.ToReleases(false);
+        var expectedThirdReleaseSet = thirdReleaseSet.ToReleases(false);
+
+        var expectedOverall =
+            expectedFirstReleaseSet.Concat(expectedSecondReleaseSet).Concat(expectedThirdReleaseSet);
+
+        musicDataProviderMock.Setup(provider =>
+            provider.GetArtistReleasesByIdAsync(artistId, 0))
+                .ReturnsAsync(firstReleaseSet);
+
+        musicDataProviderMock.Setup(provider =>
+            provider.GetArtistReleasesByIdAsync(artistId, 3))
+                .ReturnsAsync(secondReleaseSet);
+
+        musicDataProviderMock.Setup(provider =>
+            provider.GetArtistReleasesByIdAsync(artistId, 6))
+                .ReturnsAsync(thirdReleaseSet);
+
+        var actualArtistReleases = await artistService.RetrieveAllAristReleasesAsync(artistId, false);
+
+        Assert.Equal(totalReleaseSetCount, actualArtistReleases.Count());
+
+        actualArtistReleases.Should().BeEquivalentTo(expectedOverall);
     }
 
     private static ReleaseComparison GetReleaseComparison(ReleaseResponse releaseResponse) =>

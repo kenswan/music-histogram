@@ -15,7 +15,7 @@ function resetCanvas() {
 function downloadFileToBrowser(fileName, fileContent) {
     var link = document.createElement('a');
     link.download = fileName;
-    link.href = "data:text/plain;charset=utf-8," + encodeURIComponent(fileContent)
+    link.href = "data:text/csv;charset=utf-8," + encodeURIComponent(fileContent)
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

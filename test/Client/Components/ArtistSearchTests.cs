@@ -1,4 +1,5 @@
 ﻿using BlazorFocused;
+using BlazorMusic.Client.Actions;
 using BlazorMusic.Client.Models;
 using BlazorMusic.Shared;
 using Bunit;
@@ -24,10 +25,10 @@ public class ArtistSearchTests
         var expectedArtistNames = artists.Select(artist => artist.Name);
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { Artists = artists };
+        var artistStore = new ArtistStore { Artists = artists };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistSearch>();
 
@@ -45,15 +46,38 @@ public class ArtistSearchTests
     {
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { Artists = Enumerable.Empty<Artist>() };
+        var artistStore = new ArtistStore { Artists = Enumerable.Empty<Artist>() };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistSearch>();
 
         var artistElements = component.FindAll(".artist-search-result");
 
         artistElements.Should().BeEmpty();
+    }
+
+    [Fact]
+    public void ShouldSelectArtist()
+    {
+        var artists = TestModels.GenerateArtists();
+        var expectedArtist = artists.First();
+        var expectedArtistId = expectedArtist.Id;
+        using var context = new TestContext();
+        context.Services.AddScoped(_ => artistStoreMock.Object);
+        var artistStore = new ArtistStore { Artists = artists };
+
+        artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
+            .Callback((Action<ArtistStore> action) => action(artistStore));
+
+        var component = context.RenderComponent<ArtistSearch>();
+
+        var artistAnchor = component.Find($"#artist-select-{expectedArtistId}");
+
+        artistAnchor.Click();
+
+        artistStoreMock.Verify(store => store.Dispatch<SelectArtistAction, string>(expectedArtistId), Times.Once());
+        artistStoreMock.Verify(store => store.DispatchAsync<RetrieveReleasesAction, string>(expectedArtistId), Times.Once());
     }
 }

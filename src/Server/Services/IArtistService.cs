@@ -8,11 +8,20 @@ namespace BlazorMusic.Server.Services;
 public interface IArtistService
 {
     /// <summary>
+    /// Retrieves all artist releases by unique ID (may require sending multiple requests to source)
+    /// </summary>
+    /// <param name="artistId">Artist ID</param>
+    /// <param name="includeTracks">Determine whether to include song tracks in list of releases</param>
+    /// <returns>List of artist releases over time</returns>
+    Task<IEnumerable<ArtistRelease>> RetrieveAllAristReleasesAsync(string artistId, bool includeTracks = false);
+
+    /// <summary>
     /// Retrieves artist releases by unique ID
     /// </summary>
     /// <param name="artistId">Artist ID</param>
+    /// <param name="includeTracks">Determine whether to include song tracks in list of releases</param>
     /// <returns>List of artist releases over time</returns>
-    Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId);
+    Task<IEnumerable<ArtistRelease>> RetrieveAristReleasesAsync(string artistId, bool includeTracks = true);
 
     /// <summary>
     /// Search artist by keyword

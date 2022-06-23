@@ -22,10 +22,10 @@ public class ArtistOverviewTests
         var expectedArtist = TestModels.GenerateArtist();
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { CurrentArtist = expectedArtist };
+        var artistStore = new ArtistStore { CurrentArtist = expectedArtist };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistOverview>();
 
@@ -39,10 +39,10 @@ public class ArtistOverviewTests
     {
         using var context = new TestContext();
         context.Services.AddScoped(_ => artistStoreMock.Object);
-        var store = new ArtistStore { Artists = Enumerable.Empty<Artist>() };
+        var artistStore = new ArtistStore { Artists = Enumerable.Empty<Artist>() };
 
         artistStoreMock.Setup(store => store.Subscribe(It.IsAny<Action<ArtistStore>>()))
-            .Callback((Action<ArtistStore> action) => action(store));
+            .Callback((Action<ArtistStore> action) => action(artistStore));
 
         var component = context.RenderComponent<ArtistOverview>();
 

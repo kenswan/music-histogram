@@ -62,4 +62,41 @@ public class MusicDataProviderTests
 
         actualActistReleaseResponse.Should().BeEquivalentTo(expectedArtistReleaseResponse);
     }
+
+    [Fact]
+    public async Task ShouldGetArtistsReleasesWithOffsetValue()
+    {
+        var artistId = TestModels.RandomString;
+        var offset = TestModels.RandomInteger;
+        var relativeUrl = musicDataOptions.MaxArtistReleaseUrl;
+        var expectedUrl = string.Format(relativeUrl, artistId, offset);
+        var expectedArtistReleaseResponse = TestModels.GenerateArtistReleaseResponse();
+
+        restClientMock.Setup(client =>
+            client.GetAsync<ArtistReleaseResponse>(expectedUrl))
+                .ReturnsAsync(expectedArtistReleaseResponse);
+
+        var actualActistReleaseResponse =
+            await musicDataProvider.GetArtistReleasesByIdAsync(artistId, offset);
+
+        actualActistReleaseResponse.Should().BeEquivalentTo(expectedArtistReleaseResponse);
+    }
+
+    [Fact]
+    public async Task ShouldGetReleaseById()
+    {
+        var releaseId = TestModels.RandomString;
+        var relativeUrl = musicDataOptions.ReleaseDetailUrl;
+        var expectedUrl = string.Format(relativeUrl, releaseId);
+        var expectedReleaseResponse = TestModels.GenerateReleaseResponse();
+
+        restClientMock.Setup(client =>
+            client.GetAsync<ReleaseResponse>(expectedUrl))
+                .ReturnsAsync(expectedReleaseResponse);
+
+        var actualReleaseResponse =
+            await musicDataProvider.GetReleaseByIdAsync(releaseId);
+
+        actualReleaseResponse.Should().BeEquivalentTo(expectedReleaseResponse);
+    }
 }

@@ -1,0 +1,33 @@
+﻿@using BlazorFocused
+@using BlazorMusic.Client.Actions
+@using BlazorMusic.Client.Models
+@using Microsoft.Extensions.Options
+
+@inject IStore<ArtistStore> store
+@inject IOptions<ApiOptions> options;
+
+@if(options.Value is not null && options.Value.MaxReleaseEnabled)
+{
+   <div id="advanced-release-toggle">
+        @(previewMode ? "Preview" : "Standard")
+        <label class="switch">
+            <input id="togglePreview" type="checkbox" @onclick="ChangeReleaseRetrieval" />
+            <span class="slider round"></span>
+        </label>
+    </div> 
+}
+
+
+@code
+{
+    bool previewMode = false;
+
+    public void ChangeReleaseRetrieval()
+    {
+        previewMode = !previewMode;
+
+        StateHasChanged();
+
+        store.Dispatch<TogglePreviewAction, bool>(previewMode);
+    }
+}
